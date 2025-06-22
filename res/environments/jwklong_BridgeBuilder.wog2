@@ -1,0 +1,246 @@
+{
+	"name":	"BridgeBuilder",
+	"id":	"f23d9330-780b-4400-96fe-b954c16c1898",
+	"clearColor":	0,
+	"layers":	[{
+			"imageName":	"ENV_BG_CHAINREACTION3LAYER1",
+			"scale":	80,
+			"depth":	-10000,
+			"depthYOverride":	0,
+			"fill":	false,
+			"foreground":	false,
+			"repeatX":	false,
+			"repeatY":	false,
+			"mirrorX":	false,
+			"mirrorY":	false,
+			"flipX":	false,
+			"flipY":	false,
+			"anchors":	{
+				"x":	0,
+				"y":	-1
+			},
+			"anchorsTakeDepthIntoAccount":	false,
+			"bloom":	0,
+			"color":	4294967295,
+			"blendingType":	2,
+			"flashAnimationName":	"",
+			"isFlashAnimation":	false,
+			"animScroll":	{
+				"x":	0,
+				"y":	0
+			},
+			"gradient":	{
+				"enabled":	false,
+				"pointA":	{
+					"x":	0,
+					"y":	0.5
+				},
+				"pointADepth":	{
+					"x":	0,
+					"y":	0
+				},
+				"pointB":	{
+					"x":	1,
+					"y":	0.5
+				},
+				"pointBDepth":	{
+					"x":	0,
+					"y":	0
+				},
+				"distance":	1,
+				"power":	1,
+				"startColor":	4278255360,
+				"midColor":	4294967040,
+				"endColor":	4278255615
+			}
+		}, {
+			"imageName":	"ENV_BG_CHAINREACTION_ADD",
+			"scale":	1,
+			"depth":	9180,
+			"depthYOverride":	0,
+			"fill":	true,
+			"foreground":	false,
+			"repeatX":	false,
+			"repeatY":	false,
+			"mirrorX":	false,
+			"mirrorY":	false,
+			"flipX":	false,
+			"flipY":	false,
+			"anchors":	{
+				"x":	0,
+				"y":	0
+			},
+			"anchorsTakeDepthIntoAccount":	false,
+			"bloom":	0.47099998593330383,
+			"color":	4294950144,
+			"blendingType":	3,
+			"flashAnimationName":	"",
+			"isFlashAnimation":	false,
+			"animScroll":	{
+				"x":	0,
+				"y":	0
+			},
+			"gradient":	{
+				"enabled":	false,
+				"pointA":	{
+					"x":	0,
+					"y":	0.5
+				},
+				"pointADepth":	{
+					"x":	0,
+					"y":	0
+				},
+				"pointB":	{
+					"x":	1,
+					"y":	0.5
+				},
+				"pointBDepth":	{
+					"x":	0,
+					"y":	0
+				},
+				"distance":	1,
+				"power":	1,
+				"startColor":	4278255360,
+				"midColor":	4294967040,
+				"endColor":	4278255615
+			}
+		}],
+	"bloomPosition":	{
+		"x":	0.5,
+		"y":	0.5
+	},
+	"bloomRange":	4.84000015258789,
+	"lightingColor":	4278190080,
+	"dynamicLighting":	false,
+	"downloadLighting":	false,
+	"dynamicLightingColor":	0,
+	"dynamicLightingDecayFactor":	1,
+	"lightingTopLeftColor":	4278190080,
+	"lightingTopRightColor":	4278190080,
+	"lightingBottomLeftColor":	4278190080,
+	"lightingBottomRightColor":	4278190080,
+	"lightingBackgroundTopLeftColor":	0,
+	"lightingBackgroundTopRightColor":	0,
+	"lightingBackgroundBottomLeftColor":	0,
+	"lightingBackgroundBottomRightColor":	0,
+	"waterTopColor":	2281701376,
+	"waterBottomColor":	3137339392,
+	"waterFoamColor":	0,
+	"waterFoamEndColor":	0,
+	"waterColorBlend":	0.9,
+	"waterBloomFactor":	0,
+	"waterRandomRippleTimeout":	{
+		"x":	3,
+		"y":	10
+	},
+	"waterRandomRippleSize":	{
+		"x":	4,
+		"y":	7
+	},
+	"waterRandomRippleTime":	{
+		"x":	6,
+		"y":	10
+	},
+	"liquidOverrides":	[{
+			"startColor":	4278190080,
+			"endColor":	4278190080,
+			"insideParticleStartColor":	0,
+			"insideParticleEndColor":	0,
+			"bloomFactor":	-1,
+			"dynamicLightingFactor":	-1,
+			"burnOverride":	-1,
+			"canBurnOverride":	-1
+		}, {
+			"startColor":	4278190080,
+			"endColor":	4278190080,
+			"insideParticleStartColor":	0,
+			"insideParticleEndColor":	0,
+			"bloomFactor":	-1,
+			"dynamicLightingFactor":	-1,
+			"burnOverride":	-1,
+			"canBurnOverride":	-1
+		}, {
+			"startColor":	4278190080,
+			"endColor":	4278190080,
+			"insideParticleStartColor":	0,
+			"insideParticleEndColor":	0,
+			"bloomFactor":	-1,
+			"dynamicLightingFactor":	-1,
+			"burnOverride":	-1,
+			"canBurnOverride":	-1
+		}, {
+			"startColor":	0,
+			"endColor":	0,
+			"insideParticleStartColor":	0,
+			"insideParticleEndColor":	0,
+			"bloomFactor":	-1,
+			"dynamicLightingFactor":	-1,
+			"burnOverride":	-1,
+			"canBurnOverride":	-1
+		}, {
+			"startColor":	4278190080,
+			"endColor":	4278190080,
+			"insideParticleStartColor":	0,
+			"insideParticleEndColor":	0,
+			"bloomFactor":	-1,
+			"dynamicLightingFactor":	-1,
+			"burnOverride":	-1,
+			"canBurnOverride":	-1
+		}, {
+			"startColor":	4278190080,
+			"endColor":	4278190080,
+			"insideParticleStartColor":	0,
+			"insideParticleEndColor":	0,
+			"bloomFactor":	-1,
+			"dynamicLightingFactor":	-1,
+			"burnOverride":	-1,
+			"canBurnOverride":	-1
+		}],
+	"backgroundBloomFactor":	18.899999618530273,
+	"stableFluidsBloomFactor":	{
+		"x":	1,
+		"y":	0,
+		"z":	0,
+		"w":	0
+	},
+	"windForce":	{
+		"x":	0.5,
+		"y":	0.5
+	},
+	"windFactor":	0.5,
+	"windAddFactor":	0.20000000298023224,
+	"windDecorationFactor":	0.75,
+	"shadowOffset":	-0.05000000074505806,
+	"shadowColor":	0,
+	"inactiveStrandOverlayFactor":	1,
+	"trajectoryOverlayFactor":	1,
+	"finalFx":	{
+		"layerRed":	1,
+		"layerGreen":	1,
+		"layerBlue":	1,
+		"layerOp":	0,
+		"layerEnabled":	false,
+		"layerK":	0,
+		"brightness":	0,
+		"contrast":	0,
+		"exposure":	0,
+		"saturation":	0,
+		"levelBlack":	0,
+		"levelWhite":	0,
+		"mode":	0
+	},
+	"sound":	{
+		"reverbWet":	0,
+		"lowPassWet":	0
+	},
+	"fireBlendingType":	2,
+	"fireLut":	"ENV_LUT_NORMAL",
+	"filmGrainBlend":	0,
+	"vignetteBlendStart":	0,
+	"vignetteBlendEnd":	0,
+	"vignetteShape":	{
+		"x":	1,
+		"y":	1
+	},
+	"postProcessBlendingType":	2
+}
