@@ -5,12 +5,12 @@
 			"type":	42,
 			"category":	"",
 			"layer":	5,
-			"minDepth":	-5,
-			"maxDepth":	5,
+			"minDepth":	-1000,
+			"maxDepth":	1000,
 			"sortOffset":	0,
 			"radiusOverride":	0,
 			"canRotate":	true,
-			"uniformScale":	true,
+			"uniformScale":	false,
 			"canBeCopied":	true,
 			"variations":	false,
 			"useLighting":	false,
@@ -121,8 +121,8 @@
 				}],
 			"snapPoints":	[],
 			"limits":	{
-				"minScale":	0.10000000149011612,
-				"maxScale":	3
+				"minScale":	0.01,
+				"maxScale":	1000
 			}
 		}]
 }

@@ -1,0 +1,153 @@
+{
+	"items":	[{
+			"name":	"3GuB/Thruster Exhaust",
+			"uuid":	"3GuB_thruster_exhaust",
+			"type":	1,
+			"category":	"misc",
+			"layer":	1,
+			"minDepth":	-1000,
+			"maxDepth":	1000,
+			"sortOffset":	0,
+			"radiusOverride":	0,
+			"canRotate":	true,
+			"uniformScale":	false,
+			"canBeCopied":	true,
+			"variations":	false,
+			"useLighting":	true,
+			"castShadow":	false,
+			"color":	4294967295,
+			"animationName":	"",
+			"animationAlias":	"",
+			"animationSpeed":	1,
+			"animationInNormalizedTime":	0.5,
+			"animationPlayNormalizedTimeRange":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalPosition":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalScale":	{
+				"x":	1,
+				"y":	1
+			},
+			"animationRotation":	0,
+			"userValue1":	0,
+			"userValue2":	0,
+			"snapObjectIndex":	0,
+			"destroyForce":	-1,
+			"objects":	[{
+					"name":	"IMAGE_ITEM_PARTICLESYSTEM",
+					"randomizationGroup":	0,
+					"position":	{
+						"x":	0,
+						"y":	0
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	1,
+						"y":	1
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	true,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0,
+						"y":	0
+					},
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[{
+							"name":	"IslandMap2_thrusterBackSmoke",
+							"position":	{
+								"x":	48.668643951416016,
+								"y":	-0.01678466796875
+							},
+							"rotation":	0,
+							"scale":	0.33000001311302185,
+							"depth":	0,
+							"sortOffset":	0,
+							"relativeDepthAndSort":	true,
+							"enabled":	true
+						}, {
+							"name":	"IslandMap2_thruster",
+							"position":	{
+								"x":	15.783979415893555,
+								"y":	-10.05744934082031
+							},
+							"rotation":	0,
+							"scale":	0.800000011920929,
+							"depth":	0,
+							"sortOffset":	0,
+							"relativeDepthAndSort":	true,
+							"enabled":	true
+						}, {
+							"name":	"IslandMap2_thrusterGlow",
+							"position":	{
+								"x":	20.484792709350586,
+								"y":	-16.43695068359375
+							},
+							"rotation":	0,
+							"scale":	0.5,
+							"depth":	0,
+							"sortOffset":	0,
+							"relativeDepthAndSort":	true,
+							"enabled":	true
+						}],
+					"points":	[]
+				}],
+			"alternates":	[],
+			"userVariables":	[],
+			"snapPoints":	[],
+			"limits":	{
+				"minScale":	0.01,
+				"maxScale":	1000
+			},
+			"sound":	{
+				"collisionSounds":	[],
+				"minCollisionCosine":	0.699999988079071,
+				"collisionTimeout":	0.5,
+				"collisionLoopSound":	{
+					"soundId":	""
+				},
+				"minCollisionLoopAngularVelocity":	0.10000000149011612,
+				"maxCollisionLoopAngularVelocity":	0.5,
+				"collisionLoopBlendSpeed":	0.10000000149011612
+			}
+		}]
+}
