@@ -1,7 +1,7 @@
 {
 	"items":	[{
-			"name":	"3GuB/Wheel Lever",
-			"uuid":	"3GuB_lever",
+			"name":	"3GuB/Wheel Lever blur",
+			"uuid":	"3GuB_lever_blur",
 			"type":	1,
 			"category":	"misc",
 			"layer":	3,
@@ -38,7 +38,7 @@
 			"snapObjectIndex":	0,
 			"destroyForce":	-1,
 			"objects":	[{
-					"name":	"IMAGE_ITEM_LEVER",
+					"name":	"IMAGE_ITEM_LEVER_BLUR",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -90,7 +90,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_LEVER_2",
+					"name":	"IMAGE_ITEM_LEVER_2_BLUR",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -142,7 +142,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_LEVER_3",
+					"name":	"IMAGE_ITEM_LEVER_3_BLUR",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -194,7 +194,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_LEVER_4",
+					"name":	"IMAGE_ITEM_LEVER_4_BLUR",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -246,7 +246,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_LEVER_5",
+					"name":	"IMAGE_ITEM_LEVER_5_BLUR",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -298,7 +298,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_LEVER_6",
+					"name":	"IMAGE_ITEM_LEVER_6_BLUR",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -350,7 +350,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_LEVER_7",
+					"name":	"IMAGE_ITEM_LEVER_7_BLUR",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,

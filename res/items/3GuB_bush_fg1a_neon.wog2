@@ -1,10 +1,10 @@
 {
 	"items":	[{
-			"name":	"3GuB/Wheel Lever",
-			"uuid":	"3GuB_lever",
+			"name":	"3GuB/Bush bush_fg1a - neon",
+			"uuid":	"3GuB_bush_fg1a_neon",
 			"type":	1,
 			"category":	"misc",
-			"layer":	3,
+			"layer":	1,
 			"minDepth":	-1000,
 			"maxDepth":	1000,
 			"sortOffset":	0,
@@ -38,7 +38,7 @@
 			"snapObjectIndex":	0,
 			"destroyForce":	-1,
 			"objects":	[{
-					"name":	"IMAGE_ITEM_LEVER",
+					"name":	"IMAGE_ITEM_BUSH_FG1A_NEON",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -90,7 +90,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_LEVER_2",
+					"name":	"IMAGE_ITEM_BUSH_FG1A_NEON2",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -142,7 +142,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_LEVER_3",
+					"name":	"IMAGE_ITEM_BUSH_FG1A_NEON_RED",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -194,7 +194,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_LEVER_4",
+					"name":	"IMAGE_ITEM_BUSH_FG1A_NEON_RED2",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -246,7 +246,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_LEVER_5",
+					"name":	"IMAGE_ITEM_BUSH_FG1A_NEON_MAGENTA",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -298,7 +298,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_LEVER_6",
+					"name":	"IMAGE_ITEM_BUSH_FG1A_NEON_MAGENTA2",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -350,7 +350,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_LEVER_7",
+					"name":	"IMAGE_ITEM_BUSH_FG1A_NEON_CYAN",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -396,6 +396,110 @@
 						"enabled":	false,
 						"brightness":	-0.05000000074505806,
 						"contrast":	-0.20000000298023224,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}, {
+					"name":	"IMAGE_ITEM_BUSH_FG1A_NEON_CYAN2",
+					"randomizationGroup":	1,
+					"position":	{
+						"x":	0,
+						"y":	0
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.6,
+						"y":	0.6
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	-0.05000000074505806,
+						"contrast":	-0.20000000298023224,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}, {
+					"name":	"IMAGE_ITEM_BUSH_FG1A_NEON",
+					"randomizationGroup":	1,
+					"position":	{
+						"x":	0,
+						"y":	0
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.6,
+						"y":	0.6
+					},
+					"color":	4278190080,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
 						"exposure":	0,
 						"saturation":	0
 					},
@@ -406,8 +510,8 @@
 			"userVariables":	[],
 			"snapPoints":	[],
 			"limits":	{
-				"minScale":	0.10000000149011612,
-				"maxScale":	100
+				"minScale":	0.01,
+				"maxScale":	1000
 			}
 		}]
 }

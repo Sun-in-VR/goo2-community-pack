@@ -1,0 +1,106 @@
+{
+	"items":	[{
+			"name":	"3GuB/Grass Black",
+			"uuid":	"3GuB_grass_black",
+			"type":	1,
+			"category":	"misc",
+			"layer":	1,
+			"minDepth":	-1000,
+			"maxDepth":	1000,
+			"sortOffset":	0,
+			"radiusOverride":	0,
+			"canRotate":	true,
+			"uniformScale":	false,
+			"canBeCopied":	true,
+			"variations":	true,
+			"useLighting":	true,
+			"castShadow":	true,
+			"color":	4294967295,
+			"animationName":	"",
+			"animationAlias":	"",
+			"animationSpeed":	1,
+			"animationInNormalizedTime":	0.5,
+			"animationPlayNormalizedTimeRange":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalPosition":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalScale":	{
+				"x":	1,
+				"y":	1
+			},
+			"animationRotation":	0,
+			"userValue1":	0,
+			"userValue2":	0,
+			"snapObjectIndex":	0,
+			"destroyForce":	-1,
+			"objects":	[{
+					"name":	"IMAGE_ITEM_GRASS_BLACK",
+					"randomizationGroup":	1,
+					"position":	{
+						"x":	0,
+						"y":	0
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.6,
+						"y":	0.6
+					},
+					"color":	4278190080,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	true,
+					"windFactor":	{
+						"x":	0.300000011920929,
+						"y":	0.05000000074505806
+					},
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}],
+			"alternates":	[],
+			"userVariables":	[],
+			"snapPoints":	[],
+			"limits":	{
+				"minScale":	0.01,
+				"maxScale":	1000
+			}
+		}]
+}
