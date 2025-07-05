@@ -1,16 +1,16 @@
 {
 	"items":	[{
-			"name":	"3GuB/Gears Uni",
-			"uuid":	"3GuB_gears_uni",
+			"name":	"3GuB/Cloudballs1 - rev400",
+			"uuid":	"3GuB_cloudballs1_rev400",
 			"type":	1,
 			"category":	"misc",
-			"layer":	1,
+			"layer":	3,
 			"minDepth":	-1000,
 			"maxDepth":	1000,
 			"sortOffset":	0,
 			"radiusOverride":	0,
 			"canRotate":	true,
-			"uniformScale":	true,
+			"uniformScale":	false,
 			"canBeCopied":	true,
 			"variations":	true,
 			"useLighting":	true,
@@ -38,7 +38,7 @@
 			"snapObjectIndex":	0,
 			"destroyForce":	-1,
 			"objects":	[{
-					"name":	"IMAGE_ITEM_GEAR_1",
+					"name":	"IMAGE_ITEM_CLOUDBALLS1_REV400",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -46,8 +46,8 @@
 					},
 					"rotation":	0,
 					"scale":	{
-						"x":	1,
-						"y":	1
+						"x":	0.6,
+						"y":	0.6
 					},
 					"color":	4294967295,
 					"depthOffset":	0,
@@ -57,7 +57,7 @@
 						"x":	0.5,
 						"y":	0.5
 					},
-					"rotationSpeed":	3,
+					"rotationSpeed":	0,
 					"invisible":	false,
 					"clickable":	false,
 					"stableFluidsDensityFactor":	0,
@@ -68,7 +68,7 @@
 					"shaderFactor":	1,
 					"body":	{
 						"id":	"",
-						"type":	2,
+						"type":	0,
 						"pos":	{
 							"x":	0,
 							"y":	0
@@ -77,26 +77,7 @@
 						"collisionEnabled":	false,
 						"materialName":	"generic",
 						"tags":	"",
-						"geoms":	[{
-								"type":	1,
-								"width":	0,
-								"height":	0,
-								"radius":	100,
-								"density":	1,
-								"offset":	{
-									"x":	0,
-									"y":	0
-								},
-								"rotation":	0,
-								"normal":	{
-									"x":	0,
-									"y":	1
-								},
-								"isSensor":	false,
-								"friction":	-1,
-								"bounciness":	-1,
-								"points":	[]
-							}],
+						"geoms":	[],
 						"categoryBits":	0
 					},
 					"colorFx":	{
@@ -109,7 +90,7 @@
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_GEAR_1BLACK",
+					"name":	"IMAGE_ITEM_CLOUDBALLS1_REV400",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -117,10 +98,10 @@
 					},
 					"rotation":	0,
 					"scale":	{
-						"x":	1,
-						"y":	1
+						"x":	0.6,
+						"y":	0.6
 					},
-					"color":	4294967295,
+					"color":	3875536895,
 					"depthOffset":	0,
 					"sortOffset":	0,
 					"imageBlendingType":	2,
@@ -128,7 +109,7 @@
 						"x":	0.5,
 						"y":	0.5
 					},
-					"rotationSpeed":	3,
+					"rotationSpeed":	0,
 					"invisible":	false,
 					"clickable":	false,
 					"stableFluidsDensityFactor":	0,
@@ -139,7 +120,7 @@
 					"shaderFactor":	1,
 					"body":	{
 						"id":	"",
-						"type":	2,
+						"type":	0,
 						"pos":	{
 							"x":	0,
 							"y":	0
@@ -148,39 +129,20 @@
 						"collisionEnabled":	false,
 						"materialName":	"generic",
 						"tags":	"",
-						"geoms":	[{
-								"type":	1,
-								"width":	0,
-								"height":	0,
-								"radius":	100,
-								"density":	1,
-								"offset":	{
-									"x":	0,
-									"y":	0
-								},
-								"rotation":	0,
-								"normal":	{
-									"x":	0,
-									"y":	1
-								},
-								"isSensor":	false,
-								"friction":	-1,
-								"bounciness":	-1,
-								"points":	[]
-							}],
+						"geoms":	[],
 						"categoryBits":	0
 					},
 					"colorFx":	{
 						"enabled":	false,
-						"brightness":	0,
-						"contrast":	0,
+						"brightness":	-0.05000000074505806,
+						"contrast":	-0.20000000298023224,
 						"exposure":	0,
 						"saturation":	0
 					},
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_GEAR_1WHITE",
+					"name":	"IMAGE_ITEM_CLOUDBALLS1_REV400",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -188,10 +150,10 @@
 					},
 					"rotation":	0,
 					"scale":	{
-						"x":	1,
-						"y":	1
+						"x":	0.6,
+						"y":	0.6
 					},
-					"color":	4294967295,
+					"color":	3456106495,
 					"depthOffset":	0,
 					"sortOffset":	0,
 					"imageBlendingType":	2,
@@ -199,7 +161,7 @@
 						"x":	0.5,
 						"y":	0.5
 					},
-					"rotationSpeed":	3,
+					"rotationSpeed":	0,
 					"invisible":	false,
 					"clickable":	false,
 					"stableFluidsDensityFactor":	0,
@@ -210,7 +172,7 @@
 					"shaderFactor":	1,
 					"body":	{
 						"id":	"",
-						"type":	2,
+						"type":	0,
 						"pos":	{
 							"x":	0,
 							"y":	0
@@ -219,39 +181,20 @@
 						"collisionEnabled":	false,
 						"materialName":	"generic",
 						"tags":	"",
-						"geoms":	[{
-								"type":	1,
-								"width":	0,
-								"height":	0,
-								"radius":	100,
-								"density":	1,
-								"offset":	{
-									"x":	0,
-									"y":	0
-								},
-								"rotation":	0,
-								"normal":	{
-									"x":	0,
-									"y":	1
-								},
-								"isSensor":	false,
-								"friction":	-1,
-								"bounciness":	-1,
-								"points":	[]
-							}],
+						"geoms":	[],
 						"categoryBits":	0
 					},
 					"colorFx":	{
 						"enabled":	false,
-						"brightness":	0,
-						"contrast":	0,
+						"brightness":	-0.05000000074505806,
+						"contrast":	-0.20000000298023224,
 						"exposure":	0,
 						"saturation":	0
 					},
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_GEAR_1BLUR",
+					"name":	"IMAGE_ITEM_CLOUDBALLS1_REV400",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -259,10 +202,10 @@
 					},
 					"rotation":	0,
 					"scale":	{
-						"x":	1,
-						"y":	1
+						"x":	0.6,
+						"y":	0.6
 					},
-					"color":	4294967295,
+					"color":	3036676095,
 					"depthOffset":	0,
 					"sortOffset":	0,
 					"imageBlendingType":	2,
@@ -270,7 +213,7 @@
 						"x":	0.5,
 						"y":	0.5
 					},
-					"rotationSpeed":	3,
+					"rotationSpeed":	0,
 					"invisible":	false,
 					"clickable":	false,
 					"stableFluidsDensityFactor":	0,
@@ -281,7 +224,7 @@
 					"shaderFactor":	1,
 					"body":	{
 						"id":	"",
-						"type":	2,
+						"type":	0,
 						"pos":	{
 							"x":	0,
 							"y":	0
@@ -290,39 +233,20 @@
 						"collisionEnabled":	false,
 						"materialName":	"generic",
 						"tags":	"",
-						"geoms":	[{
-								"type":	1,
-								"width":	0,
-								"height":	0,
-								"radius":	100,
-								"density":	1,
-								"offset":	{
-									"x":	0,
-									"y":	0
-								},
-								"rotation":	0,
-								"normal":	{
-									"x":	0,
-									"y":	1
-								},
-								"isSensor":	false,
-								"friction":	-1,
-								"bounciness":	-1,
-								"points":	[]
-							}],
+						"geoms":	[],
 						"categoryBits":	0
 					},
 					"colorFx":	{
 						"enabled":	false,
-						"brightness":	0,
-						"contrast":	0,
+						"brightness":	-0.05000000074505806,
+						"contrast":	-0.20000000298023224,
 						"exposure":	0,
 						"saturation":	0
 					},
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_GEAR_1BLURBLACK",
+					"name":	"IMAGE_ITEM_CLOUDBALLS1_REV400",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -330,10 +254,10 @@
 					},
 					"rotation":	0,
 					"scale":	{
-						"x":	1,
-						"y":	1
+						"x":	0.6,
+						"y":	0.6
 					},
-					"color":	4294967295,
+					"color":	2617245695,
 					"depthOffset":	0,
 					"sortOffset":	0,
 					"imageBlendingType":	2,
@@ -341,7 +265,7 @@
 						"x":	0.5,
 						"y":	0.5
 					},
-					"rotationSpeed":	3,
+					"rotationSpeed":	0,
 					"invisible":	false,
 					"clickable":	false,
 					"stableFluidsDensityFactor":	0,
@@ -352,7 +276,7 @@
 					"shaderFactor":	1,
 					"body":	{
 						"id":	"",
-						"type":	2,
+						"type":	0,
 						"pos":	{
 							"x":	0,
 							"y":	0
@@ -361,39 +285,20 @@
 						"collisionEnabled":	false,
 						"materialName":	"generic",
 						"tags":	"",
-						"geoms":	[{
-								"type":	1,
-								"width":	0,
-								"height":	0,
-								"radius":	100,
-								"density":	1,
-								"offset":	{
-									"x":	0,
-									"y":	0
-								},
-								"rotation":	0,
-								"normal":	{
-									"x":	0,
-									"y":	1
-								},
-								"isSensor":	false,
-								"friction":	-1,
-								"bounciness":	-1,
-								"points":	[]
-							}],
+						"geoms":	[],
 						"categoryBits":	0
 					},
 					"colorFx":	{
 						"enabled":	false,
-						"brightness":	0,
-						"contrast":	0,
+						"brightness":	-0.05000000074505806,
+						"contrast":	-0.20000000298023224,
 						"exposure":	0,
 						"saturation":	0
 					},
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_GEAR_1BLURGRAY",
+					"name":	"IMAGE_ITEM_CLOUDBALLS1_REV400",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -401,10 +306,10 @@
 					},
 					"rotation":	0,
 					"scale":	{
-						"x":	1,
-						"y":	1
+						"x":	0.6,
+						"y":	0.6
 					},
-					"color":	4294967295,
+					"color":	2197815295,
 					"depthOffset":	0,
 					"sortOffset":	0,
 					"imageBlendingType":	2,
@@ -412,7 +317,7 @@
 						"x":	0.5,
 						"y":	0.5
 					},
-					"rotationSpeed":	3,
+					"rotationSpeed":	0,
 					"invisible":	false,
 					"clickable":	false,
 					"stableFluidsDensityFactor":	0,
@@ -423,7 +328,7 @@
 					"shaderFactor":	1,
 					"body":	{
 						"id":	"",
-						"type":	2,
+						"type":	0,
 						"pos":	{
 							"x":	0,
 							"y":	0
@@ -432,39 +337,20 @@
 						"collisionEnabled":	false,
 						"materialName":	"generic",
 						"tags":	"",
-						"geoms":	[{
-								"type":	1,
-								"width":	0,
-								"height":	0,
-								"radius":	100,
-								"density":	1,
-								"offset":	{
-									"x":	0,
-									"y":	0
-								},
-								"rotation":	0,
-								"normal":	{
-									"x":	0,
-									"y":	1
-								},
-								"isSensor":	false,
-								"friction":	-1,
-								"bounciness":	-1,
-								"points":	[]
-							}],
+						"geoms":	[],
 						"categoryBits":	0
 					},
 					"colorFx":	{
 						"enabled":	false,
-						"brightness":	0,
-						"contrast":	0,
+						"brightness":	-0.05000000074505806,
+						"contrast":	-0.20000000298023224,
 						"exposure":	0,
 						"saturation":	0
 					},
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_GEAR_2_256",
+					"name":	"IMAGE_ITEM_CLOUDBALLS1_REV400",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -472,10 +358,10 @@
 					},
 					"rotation":	0,
 					"scale":	{
-						"x":	1,
-						"y":	1
+						"x":	0.6,
+						"y":	0.6
 					},
-					"color":	4294967295,
+					"color":	1778384895,
 					"depthOffset":	0,
 					"sortOffset":	0,
 					"imageBlendingType":	2,
@@ -483,7 +369,7 @@
 						"x":	0.5,
 						"y":	0.5
 					},
-					"rotationSpeed":	3,
+					"rotationSpeed":	0,
 					"invisible":	false,
 					"clickable":	false,
 					"stableFluidsDensityFactor":	0,
@@ -494,7 +380,7 @@
 					"shaderFactor":	1,
 					"body":	{
 						"id":	"",
-						"type":	2,
+						"type":	0,
 						"pos":	{
 							"x":	0,
 							"y":	0
@@ -503,39 +389,20 @@
 						"collisionEnabled":	false,
 						"materialName":	"generic",
 						"tags":	"",
-						"geoms":	[{
-								"type":	1,
-								"width":	0,
-								"height":	0,
-								"radius":	100,
-								"density":	1,
-								"offset":	{
-									"x":	0,
-									"y":	0
-								},
-								"rotation":	0,
-								"normal":	{
-									"x":	0,
-									"y":	1
-								},
-								"isSensor":	false,
-								"friction":	-1,
-								"bounciness":	-1,
-								"points":	[]
-							}],
+						"geoms":	[],
 						"categoryBits":	0
 					},
 					"colorFx":	{
 						"enabled":	false,
-						"brightness":	0,
-						"contrast":	0,
+						"brightness":	-0.05000000074505806,
+						"contrast":	-0.20000000298023224,
 						"exposure":	0,
 						"saturation":	0
 					},
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_GEAR_DISTANT",
+					"name":	"IMAGE_ITEM_CLOUDBALLS1_REV400",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -543,10 +410,10 @@
 					},
 					"rotation":	0,
 					"scale":	{
-						"x":	1,
-						"y":	1
+						"x":	0.6,
+						"y":	0.6
 					},
-					"color":	4294967295,
+					"color":	1358954495,
 					"depthOffset":	0,
 					"sortOffset":	0,
 					"imageBlendingType":	2,
@@ -554,7 +421,7 @@
 						"x":	0.5,
 						"y":	0.5
 					},
-					"rotationSpeed":	3,
+					"rotationSpeed":	0,
 					"invisible":	false,
 					"clickable":	false,
 					"stableFluidsDensityFactor":	0,
@@ -565,7 +432,7 @@
 					"shaderFactor":	1,
 					"body":	{
 						"id":	"",
-						"type":	2,
+						"type":	0,
 						"pos":	{
 							"x":	0,
 							"y":	0
@@ -574,39 +441,20 @@
 						"collisionEnabled":	false,
 						"materialName":	"generic",
 						"tags":	"",
-						"geoms":	[{
-								"type":	1,
-								"width":	0,
-								"height":	0,
-								"radius":	100,
-								"density":	1,
-								"offset":	{
-									"x":	0,
-									"y":	0
-								},
-								"rotation":	0,
-								"normal":	{
-									"x":	0,
-									"y":	1
-								},
-								"isSensor":	false,
-								"friction":	-1,
-								"bounciness":	-1,
-								"points":	[]
-							}],
+						"geoms":	[],
 						"categoryBits":	0
 					},
 					"colorFx":	{
 						"enabled":	false,
-						"brightness":	0,
-						"contrast":	0,
+						"brightness":	-0.05000000074505806,
+						"contrast":	-0.20000000298023224,
 						"exposure":	0,
 						"saturation":	0
 					},
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_GEAR_ISH_BLUR",
+					"name":	"IMAGE_ITEM_CLOUDBALLS1_REV400",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -614,10 +462,10 @@
 					},
 					"rotation":	0,
 					"scale":	{
-						"x":	1,
-						"y":	1
+						"x":	0.6,
+						"y":	0.6
 					},
-					"color":	4294967295,
+					"color":	939523071,
 					"depthOffset":	0,
 					"sortOffset":	0,
 					"imageBlendingType":	2,
@@ -625,7 +473,7 @@
 						"x":	0.5,
 						"y":	0.5
 					},
-					"rotationSpeed":	3,
+					"rotationSpeed":	0,
 					"invisible":	false,
 					"clickable":	false,
 					"stableFluidsDensityFactor":	0,
@@ -636,7 +484,7 @@
 					"shaderFactor":	1,
 					"body":	{
 						"id":	"",
-						"type":	2,
+						"type":	0,
 						"pos":	{
 							"x":	0,
 							"y":	0
@@ -645,39 +493,20 @@
 						"collisionEnabled":	false,
 						"materialName":	"generic",
 						"tags":	"",
-						"geoms":	[{
-								"type":	1,
-								"width":	0,
-								"height":	0,
-								"radius":	100,
-								"density":	1,
-								"offset":	{
-									"x":	0,
-									"y":	0
-								},
-								"rotation":	0,
-								"normal":	{
-									"x":	0,
-									"y":	1
-								},
-								"isSensor":	false,
-								"friction":	-1,
-								"bounciness":	-1,
-								"points":	[]
-							}],
+						"geoms":	[],
 						"categoryBits":	0
 					},
 					"colorFx":	{
 						"enabled":	false,
-						"brightness":	0,
-						"contrast":	0,
+						"brightness":	-0.05000000074505806,
+						"contrast":	-0.20000000298023224,
 						"exposure":	0,
 						"saturation":	0
 					},
 					"particleEffects":	[],
 					"points":	[]
 				}, {
-					"name":	"IMAGE_ITEM_GEAR_ISHR_BLUR",
+					"name":	"IMAGE_ITEM_CLOUDBALLS1_REV400",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,
@@ -685,10 +514,10 @@
 					},
 					"rotation":	0,
 					"scale":	{
-						"x":	1,
-						"y":	1
+						"x":	0.6,
+						"y":	0.6
 					},
-					"color":	4294967295,
+					"color":	512091135,
 					"depthOffset":	0,
 					"sortOffset":	0,
 					"imageBlendingType":	2,
@@ -696,7 +525,7 @@
 						"x":	0.5,
 						"y":	0.5
 					},
-					"rotationSpeed":	3,
+					"rotationSpeed":	0,
 					"invisible":	false,
 					"clickable":	false,
 					"stableFluidsDensityFactor":	0,
@@ -707,7 +536,7 @@
 					"shaderFactor":	1,
 					"body":	{
 						"id":	"",
-						"type":	2,
+						"type":	0,
 						"pos":	{
 							"x":	0,
 							"y":	0
@@ -716,32 +545,13 @@
 						"collisionEnabled":	false,
 						"materialName":	"generic",
 						"tags":	"",
-						"geoms":	[{
-								"type":	1,
-								"width":	0,
-								"height":	0,
-								"radius":	100,
-								"density":	1,
-								"offset":	{
-									"x":	0,
-									"y":	0
-								},
-								"rotation":	0,
-								"normal":	{
-									"x":	0,
-									"y":	1
-								},
-								"isSensor":	false,
-								"friction":	-1,
-								"bounciness":	-1,
-								"points":	[]
-							}],
+						"geoms":	[],
 						"categoryBits":	0
 					},
 					"colorFx":	{
 						"enabled":	false,
-						"brightness":	0,
-						"contrast":	0,
+						"brightness":	-0.05000000074505806,
+						"contrast":	-0.20000000298023224,
 						"exposure":	0,
 						"saturation":	0
 					},
