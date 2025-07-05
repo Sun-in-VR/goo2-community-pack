@@ -93,7 +93,8 @@
 		<Image id="HESJUSTTHISGUY_REDCARPETTOWERS3BLUR" path="HesJustThisGuy/RedCarpetTowers3Blur"  />
 		<Image id="HESJUSTTHISGUY_REDCARPETTOWERS4BLUR" path="HesJustThisGuy/RedCarpetTowers4Blur"  />
 		<!-- Assets by Xowerr -->
-
 		<Image id="FIREWORKS" path="Fireworks/Fireworks_bg"  />
+		<!-- Assets by 3GuB -->
+		<Image id="ISLANDMAP1_BG_BLACKWHITE" path="3GuB/IslandMap1_BG_blackwhite"  />
 	</Resources>
 </ResourceManifest>
