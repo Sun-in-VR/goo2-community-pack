@@ -785,6 +785,44 @@
 		<Image id="SUPPORT5" path="3GuB/support5"/>
 		<Image id="SUPPORT6" path="3GuB/support6"/>
 		<Image id="SUPPORT7" path="3GuB/support7"/>
+		<Image id="SPIKEBALL" path="3GuB/spikeball"/>
+		<Image id="SPIKEBALL_EYES" path="3GuB/spikeball_eyes"/>
+		<Image id="SPIKEBALL_NO_EYES" path="3GuB/spikeball_no_eyes"/>
+		<Image id="DISHCONNECTORWEIGHT_EMPTY" path="3GuB/dishConnectorWeight_empty"/>
+		<Image id="DISHCONNECTORWEIGHT_LEFT" path="3GuB/dishConnectorWeight_left"/>
+		<Image id="DISHCONNECTORWEIGHT_RIGHT" path="3GuB/dishConnectorWeight_right"/>
+		<Image id="DISHCONNECTORWEIGHT_UP" path="3GuB/dishConnectorWeight_up"/>
+		<Image id="DISHCONNECTORWEIGHT_RIGHTLEFT" path="3GuB/dishConnectorWeight_rightleft"/>
+		<Image id="DISHCONNECTORWEIGHT_UPDOWN" path="3GuB/dishConnectorWeight_updown"/>
+		<Image id="HILL_GOOHILL1_REV400_REVAMPED" path="3GuB/hill_goohill1_rev400_revamped"/>
+		<Image id="HILL_GOOHILL1_REV400_RUINED" path="3GuB/hill_goohill1_rev400_ruined"/>
+		<Image id="HILL_GOOHILL1_REV400_CLASSIC" path="3GuB/hill_goohill1_rev400_classic"/>
+		<Image id="HILL_GOOHILL1_REV400_REVAMPED_BLUR" path="3GuB/hill_goohill1_rev400_revamped_blur"/>
+		<Image id="HILL_GOOHILL1_REV400_RUINED_BLUR" path="3GuB/hill_goohill1_rev400_ruined_blur"/>
+		<Image id="HILL_GOOHILL1_REV400_CLASSIC_BLUR" path="3GuB/hill_goohill1_rev400_classic_blur"/>
+		<Image id="TREE_SIL_1" path="3GuB/tree_sil_1"/>
+		<Image id="TREE_SIL_1_YELLOW" path="3GuB/tree_sil_1_yellow"/>
+		<Image id="TREE_SIL_1_ORANGE" path="3GuB/tree_sil_1_orange"/>
+		<Image id="TREE_SIL_1_RED" path="3GuB/tree_sil_1_red"/>
+		<Image id="TREE_SIL_1_PINK" path="3GuB/tree_sil_1_pink"/>
+		<Image id="TREE_SIL_1_PURPLE" path="3GuB/tree_sil_1_purple"/>
+		<Image id="TREE_SIL_1_BLUE" path="3GuB/tree_sil_1_blue"/>
+		<Image id="TREE_SIL_1_SKY" path="3GuB/tree_sil_1_sky"/>
+		<Image id="TREE_SIL_1_CYAN" path="3GuB/tree_sil_1_cyan"/>
+		<Image id="TREE_SIL_1_REV601" path="3GuB/tree_sil_1_rev601"/>
+		<Image id="TREE_SIL_1_REV601_YELLOW" path="3GuB/tree_sil_1_rev601_yellow"/>
+		<Image id="TREE_SIL_1_REV601_ORANGE" path="3GuB/tree_sil_1_rev601_orange"/>
+		<Image id="TREE_SIL_1_REV601_RED" path="3GuB/tree_sil_1_rev601_red"/>
+		<Image id="TREE_SIL_1_REV601_PINK" path="3GuB/tree_sil_1_rev601_pink"/>
+		<Image id="TREE_SIL_1_REV601_PURPLE" path="3GuB/tree_sil_1_rev601_purple"/>
+		<Image id="TREE_SIL_1_REV601_BLUE" path="3GuB/tree_sil_1_rev601_blue"/>
+		<Image id="TREE_SIL_1_REV601_SKY" path="3GuB/tree_sil_1_rev601_sky"/>
+		<Image id="TREE_SIL_1_REV601_CYAN" path="3GuB/tree_sil_1_rev601_cyan"/>
+		<Image id="CARROW" path="3GuB/cArrow"/>
+		<Image id="CHEAD" path="3GuB/cHead"/>
+		<Image id="CLEG1" path="3GuB/cLeg1"/>
+		<Image id="CLEG2" path="3GuB/cLeg2"/>
+		<Image id="CLOUDBALLS1_REV400" path="3GuB/cloudballs1_rev400"/>
 		<!-- Assets provided by Special_Paint -->
 		<Image id="SPECIAL_PAINT_SMOKESTACK" path="Special_Paint/SmokeStack"  />
 		<Image id="SPECIAL_PAINT_SMOKESTACKBLUR" path="Special_Paint/SmokeStackBlur"  />
