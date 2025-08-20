@@ -870,6 +870,20 @@
 		<Image id="FW_SPIRE2_RIGHT" path="Fireworks/spire2_right"  />
 		<Image id="FW_SPIRE3" path="Fireworks/spire3"  />
 		<Image id="FW_SPIRE3_RIGHT" path="Fireworks/spire3_right"  />
+				<!-- Assets provided by FreakZillA8 -->
+		<Image id="LIGHTSOURCE_WHITE" path="LightSource/WHITE"/>
+		<Image id="LIGHTSOURCE_RED" path="LightSource/RED"/>
+		<Image id="LIGHTSOURCE_ORANGE" path="LightSource/ORANGE"/>
+		<Image id="LIGHTSOURCE_YELLOW" path="LightSource/YELLOW"/>
+		<Image id="LIGHTSOURCE_GREEN" path="LightSource/GREEN"/>
+		<Image id="LIGHTSOURCE_BLUE" path="LightSource/BLUE"/>
+		<Image id="LIGHTSOURCE_INDIGO" path="LightSource/INDIGO"/>
+		<Image id="LIGHTSOURCE_PURPLE" path="LightSource/PURPLE"/>
+		<Image id="LIGHTSOURCE_SEAGREEN" path="LightSource/SEAGREEN"/>
+		<Image id="LIGHTSOURCE_AQUA" path="LightSource/AQUA"/>
+		<Image id="LIGHTSOURCE_WARMYELLOW" path="LightSource/WARMYELLOW"/>
+		<Image id="LIGHTSOURCE_PINK" path="LightSource/PINK"/>
+		<Image id="LIGHTSOURCE_HOTPINK" path="LightSource/HOTPINK"/>
 
 	</Resources>
 </ResourceManifest>
