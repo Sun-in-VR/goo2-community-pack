@@ -823,6 +823,22 @@
 		<Image id="CLEG1" path="3GuB/cLeg1"/>
 		<Image id="CLEG2" path="3GuB/cLeg2"/>
 		<Image id="CLOUDBALLS1_REV400" path="3GuB/cloudballs1_rev400"/>
+		<Image id="OOTP_TREEFG_REV821" path="3GuB/ootp_treefg_rev821"/>
+		<Image id="OOTP_TREEBG_REV821" path="3GuB/ootp_treebg_rev821"/>
+		<Image id="OOTP_GROUND_REV821" path="3GuB/ootp_ground_rev821"/>
+		<Image id="OOTP_PLATFORM_REV821" path="3GuB/ootp_platform_rev821"/>
+		<Image id="OOTP_PLATFORM_SHADOW_REV821" path="3GuB/ootp_platform_shadow_rev821"/>
+		<Image id="HL_ICEBRIDGE1" path="3GuB/hl_icebridge1"/>
+		<Image id="HL_ICEBRIDGE1_REV821" path="3GuB/hl_icebridge1_rev821"/>
+		<Image id="HL_ICEPLATFORM1" path="3GuB/hl_iceplatform1"/>
+		<Image id="HL_ICEPLATFORM1_REV821" path="3GuB/hl_iceplatform1_rev821"/>
+		<Image id="HL_ICEPLATFORM2" path="3GuB/hl_iceplatform2"/>
+		<Image id="HL_ICEPLATFORM2_REV821" path="3GuB/hl_iceplatform2_rev821"/>
+		<Image id="HL_HILL_DARKBG_REV821" path="3GuB/hl_hill_darkbg_rev821"/>
+		<Image id="HL_BG" path="3GuB/hl_bg"/>
+		<Image id="HL_BG_DARKGLOBS_REV821" path="3GuB/hl_bg_darkglobs_rev821"/>
+		<Image id="DRILL" path="3GuB/drill"/>
+		<Image id="DRILL_BLUR" path="3GuB/drill_blur"/>
 		<!-- Assets provided by Special_Paint -->
 		<Image id="SPECIAL_PAINT_SMOKESTACK" path="Special_Paint/SmokeStack"  />
 		<Image id="SPECIAL_PAINT_SMOKESTACKBLUR" path="Special_Paint/SmokeStackBlur"  />
