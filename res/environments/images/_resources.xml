@@ -94,6 +94,11 @@
 		<Image id="HESJUSTTHISGUY_REDCARPETTOWERS4BLUR" path="HesJustThisGuy/RedCarpetTowers4Blur"  />
 		<!-- Assets by Xowerr -->
 		<Image id="FIREWORKS" path="Fireworks/Fireworks_bg"  />
+		<Image id="CORP_OVERLAY" path="Corporation/overlay"  />
+		<Image id="CORP_BG" path="Corporation/bg"  />
+		<Image id="YELLOWSKY_OVERLAY" path="YellowSky/YellowSky_Overlay"  />
+		<Image id="YELLOWSKY_GRAD_OVERLAY" path="YellowSky/YellowSky_grad_overlay"  />
+		<Image id="YELLOWSKY" path="YellowSky/YellowSky"  />
 		<!-- Assets by 3GuB -->
 		<Image id="ISLANDMAP1_BG_BLACKWHITE" path="3GuB/IslandMap1_BG_blackwhite"  />
 	</Resources>
