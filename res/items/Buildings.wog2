@@ -1,0 +1,145 @@
+{
+	"items":	[{
+			"name":	"Buildings",
+			"uuid":	"buildings",
+			"type":	1,
+			"category":	"Misc",
+			"layer":	2,
+			"minDepth":	-2000,
+			"maxDepth":	500,
+			"sortOffset":	0,
+			"radiusOverride":	0,
+			"canRotate":	false,
+			"uniformScale":	false,
+			"canBeCopied":	true,
+			"canTriggerEndOfLevel":	false,
+			"variations":	false,
+			"useLighting":	true,
+			"castShadow":	true,
+			"checkVisibility":	true,
+			"color":	4294967295,
+			"animationName":	"",
+			"animationAlias":	"",
+			"animationSpeed":	1,
+			"animationInNormalizedTime":	0.5,
+			"animationPlayNormalizedTimeRange":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalPosition":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalScale":	{
+				"x":	1,
+				"y":	1
+			},
+			"animationRotation":	0,
+			"userValue1":	0,
+			"userValue2":	0,
+			"snapObjectIndex":	0,
+			"destroyForce":	-1,
+			"buoyant":	false,
+			"objects":	[{
+					"name":	"IMAGE_ITEM_BUILDINGS",
+					"randomizationGroup":	0,
+					"position":	{
+						"x":	0,
+						"y":	0
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.4,
+						"y":	0.4
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0.300000011920929,
+						"y":	0.05000000074505806
+					},
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}],
+			"alternates":	[],
+			"userVariables":	[],
+			"snapPoints":	[],
+			"limits":	{
+				"minScale":	0.1,
+				"maxScale":	200
+			},
+			"sound":	{
+				"collisionSounds":	[],
+				"minCollisionCosine":	0.699999988079071,
+				"collisionTimeout":	0.5,
+				"collisionLoopSound":	{
+					"soundId":	""
+				},
+				"minCollisionLoopAngularVelocity":	0.10000000149011612,
+				"maxCollisionLoopAngularVelocity":	0.5,
+				"collisionLoopBlendSpeed":	0.10000000149011612
+			},
+			"laserSettings":	{
+				"enabled":	false,
+				"count":	30,
+				"timeScale":	1,
+				"waveScale":	0.5,
+				"moveTimeScale":	4,
+				"gravityScale":	0.0010000000474974513,
+				"rotationStep":	0.00999999977648258,
+				"scaleStep":	0.00499999988824129,
+				"positionStep":	0.00999999977648258,
+				"centerFactor":	0.5,
+				"gradientStart":	{
+					"color":	4294967295
+				},
+				"gradientEnd":	{
+					"color":	4294967295
+				},
+				"image":	{
+					"imageId":	""
+				}
+			},
+			"destructionSound":	{
+				"soundId":	""
+			},
+			"destructionEffect":	""
+		}]
+}
