@@ -886,6 +886,7 @@
 		<Image id="FW_SPIRE2_RIGHT" path="Fireworks/spire2_right"  />
 		<Image id="FW_SPIRE3" path="Fireworks/spire3"  />
 		<Image id="FW_SPIRE3_RIGHT" path="Fireworks/spire3_right"  />
+		<Image id="BUILDINGS" path="Corporation/buildings"  />
 				<!-- Assets provided by FreakZillA8 -->
 		<Image id="LIGHTSOURCE_WHITE" path="LightSource/WHITE"/>
 		<Image id="LIGHTSOURCE_RED" path="LightSource/RED"/>
