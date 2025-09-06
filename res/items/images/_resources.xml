@@ -393,7 +393,6 @@
 		<Image id="DJM_SPINTOWINWHEEL" path="djm334/SpinToWinWheel"  />
 		<Image id="DJM_SPINTOWINWHEELOPEN" path="djm334/SpinToWinWheelOpen"  />
 				<!-- Assets provided by 3GuB -->
-		<Image id="MORALITY_WHEEL" path="3GuB/morality_wheel"/>
 		<Image id="LEVER" path="3GuB/lever"/>
 		<Image id="LEVER_2" path="3GuB/lever_2"/>
 		<Image id="LEVER_3" path="3GuB/lever_3"/>
@@ -887,6 +886,7 @@
 		<Image id="FW_SPIRE3" path="Fireworks/spire3"  />
 		<Image id="FW_SPIRE3_RIGHT" path="Fireworks/spire3_right"  />
 		<Image id="BUILDINGS" path="Corporation/buildings"  />
+		<Image id="BROKENGEAR" path="Xowerr/BrokenGear"  />
 				<!-- Assets provided by FreakZillA8 -->
 		<Image id="LIGHTSOURCE_WHITE" path="LightSource/WHITE"/>
 		<Image id="LIGHTSOURCE_RED" path="LightSource/RED"/>
