@@ -24,6 +24,18 @@
 		<Sound id="WINDY_FARM" path="windy_farm" streaming="true" bus="Music" />
 		<Sound id="WIND_HEAVY" path="wind_heavy" streaming="true" bus="Music" />
 		<Sound id="WIND_LIGHT" path="wind_light" streaming="true" bus="Music" />
+		<Sound id="CELEBRITYCROWD" path="loop_celebrityCrowd" streaming="true" bus="Music" />
+		<Sound id="BEFOREITRAINS" path="loop_beforeItRains" streaming="true" bus="Music" />
+		<Sound id="BUBBLES" path="loop_bubbles" streaming="true" bus="Music" />
+		<Sound id="EVENINGWATER" path="loop_eveningWater" streaming="true" bus="Music" />
+		<Sound id="FACTORY" path="loop_profileScreen" streaming="true" bus="Music" />
+		<Sound id="RAINLITE" path="loop_rainLite" streaming="true" bus="Music" />
+		<Sound id="SHORE" path="loop_shore" streaming="true" bus="Music" />
+		<Sound id="SQUEAKSINTHEWIND" path="loop_squeaksInTheWind" streaming="true" bus="Music" />
+		<Sound id="SUPERBIRDS" path="loop_superbirds" streaming="true" bus="Music" />
+		<Sound id="STRONGWIND" path="loop_strongwind" streaming="true" bus="Music" />
+		<Sound id="WATERPOND" path="loop_waterPond" streaming="true" bus="Music" />
+		<Sound id="WORLDMAP" path="loop_worldMap" streaming="true" bus="Music" />
 		<!-- Assets by MiseryMouse -->
 		<Sound id="MISERYMOUSE_CELEBRITYLOOP" path="MiseryMouse/loop_celebrityCrowd" streaming="true" bus="Music" />
 	</Resources>
