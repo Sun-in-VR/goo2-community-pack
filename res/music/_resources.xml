@@ -53,6 +53,9 @@
 		<!-- Assets extracted from switch release verison -->
 		<Sound id="BLACKSTAIN_BESTOFTIMES" path="blackstain_BestOfTimes" streaming="true" bus="Music" />
 		<Sound id="THREADCUTTER_SYNTH" path="Threadcutter_Synth" streaming="true" bus="Music" />
+		<!-- Tracks from earlier revisions -->
+		<Sound id="GRAVITYPROCESSINGUNIT_PROTO" path="GravityProcessingUnitOld" streaming="true" bus="Music" />
+		<Sound id="YEARSOFWORK_PROTO" path="YearsOfWork_Early" streaming="true" bus="Music" />
 		<!-- Assets by vEra -->
 		<Sound id="YEARSOFWORK_VERA_COVER" path="vEra/YearsOfWorkCover" streaming="true" bus="Music" />
 		<!-- Assets by MiseryMouse -->
