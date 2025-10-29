@@ -1,0 +1,288 @@
+{
+	"items":	[{
+			"name":	"TreeGreen",
+			"uuid":	"b1c39cf8-4d65-4db7-b083-69ab6f85d5ca",
+			"type":	1,
+			"category":	"",
+			"layer":	5,
+			"minDepth":	-300,
+			"maxDepth":	100,
+			"sortOffset":	0,
+			"radiusOverride":	0,
+			"canRotate":	true,
+			"uniformScale":	true,
+			"canBeCopied":	true,
+			"variations":	true,
+			"useLighting":	true,
+			"castShadow":	true,
+			"color":	4294967295,
+			"animationName":	"",
+			"animationAlias":	"",
+			"animationSpeed":	1,
+			"animationInNormalizedTime":	0.5,
+			"animationPlayNormalizedTimeRange":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalPosition":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalScale":	{
+				"x":	1,
+				"y":	1
+			},
+			"animationRotation":	0,
+			"userValue1":	0,
+			"userValue2":	0,
+			"snapObjectIndex":	0,
+			"destroyForce":	-1,
+			"objects":	[{
+					"name":	"IMAGE_ITEM_TERRAIN_TREEGREENVER1",
+					"randomizationGroup":	1,
+					"position":	{
+						"x":	0.21561411023139954,
+						"y":	1.4137696027755737
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0.300000011920929,
+						"y":	0.05000000074505806
+					},
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}, {
+					"name":	"IMAGE_ITEM_TERRAIN_TREEGREENVER2",
+					"randomizationGroup":	1,
+					"position":	{
+						"x":	-1.2608850002288818,
+						"y":	0.41004654765129089
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0.300000011920929,
+						"y":	0.05000000074505806
+					},
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}, {
+					"name":	"IMAGE_ITEM_TERRAIN_TREELONGTRUNKVER1",
+					"randomizationGroup":	1,
+					"position":	{
+						"x":	-1.2608850002288818,
+						"y":	0.41004654765129089
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	1,
+						"y":	1
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0.300000011920929,
+						"y":	0.05000000074505806
+					},
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+			}, {
+					"name":	"IMAGE_ITEM_TERRAIN_TREELONGTRUNKVER2",
+					"randomizationGroup":	1,
+					"position":	{
+						"x":	-1.2608850002288818,
+						"y":	0.41004654765129089
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	1,
+						"y":	1
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0.300000011920929,
+						"y":	0.05000000074505806
+					},
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}],
+			"alternates":	[],
+			"userVariables":	[],
+			"snapPoints":	[],
+			"limits":	{
+				"minScale":	0.20000000298023224,
+				"maxScale":	10
+			},
+			"sound":	{
+				"collisionSounds":	[],
+				"minCollisionCosine":	0.699999988079071,
+				"collisionTimeout":	0.5,
+				"collisionLoopSound":	{
+					"soundId":	""
+				},
+				"minCollisionLoopAngularVelocity":	0.10000000149011612,
+				"maxCollisionLoopAngularVelocity":	0.5,
+				"collisionLoopBlendSpeed":	0.10000000149011612
+			}
+		}]
+}
