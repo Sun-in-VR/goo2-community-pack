@@ -1,0 +1,1992 @@
+<effects>
+  
+<particleeffect name="unlockfuse" maxparticles="30" rate="0.5">
+  <particle image="IMAGE_FX_GOOGLOB"
+            rotspeed="0.2" 
+            directed="false"
+            scale="0.005,0.01" 
+            finalscale="0.0" 
+            fade="false" 
+            additive="false"
+            lifespan="3,4"
+            speed="0.002,0.004" 
+            movedir="0" 
+            movedirvar="180" 
+            acceleration="0.0,0.0"/>
+</particleeffect>
+
+<particleeffect name="unlockburst" maxparticles="40">
+  <particle image="IMAGE_FX_GOODRIP1"
+            directed="true"
+            scale="0.0035,0.0075"
+            finalscale="0.0" 
+            fade="false" 
+            additive="false"
+            lifespan="1.4,2"
+            dampening="0.98"
+            speed="0.03,0.12" 
+            movedir="90" 
+            movedirvar="20" 
+            acceleration="0.0,0.0" />
+  <particle image="IMAGE_FX_GOOGLOB"
+          directed="true"
+          scale="0.0025,0.008"
+          finalscale="0.0" 
+          fade="false" 
+          additive="false"
+          lifespan="1.4,2"
+          dampening="0.98"
+          speed="0.02,0.07" 
+          movedir="90" 
+          movedirvar="30" 
+          acceleration="0.0,-0.001" />
+</particleeffect>
+
+<ambientparticleeffect name="bigleaves1" maxparticles="6">
+  <particle image="IMAGE_FX_LEAF6,IMAGE_FX_LEAF7,IMAGE_FX_LEAF8"
+            rotspeed="-6,-1"
+            rotation="-6,-1"
+            scale="0.005,0.006"
+            directed="false"
+            additive="false"
+            speed="0.01,0.04"
+            movedir="-80"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.0005,0.0025" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="smallleaves1" maxparticles="6">
+  <particle image="IMAGE_FX_LEAF6,IMAGE_FX_LEAF7,IMAGE_FX_LEAF8"
+            rotspeed="-6,-1"
+            rotation="-6,-1"
+            scale="0.001,0.002"
+            directed="false"
+            additive="false"
+            speed="0.01,0.04"
+            movedir="-80"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.0005,0.0025" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+
+<ambientparticleeffect name="rainingleaves" maxparticles="90">
+  <particle image="IMAGE_FX_LEAF1,IMAGE_FX_LEAF2,IMAGE_FX_LEAF3,IMAGE_FX_LEAF4,IMAGE_FX_LEAF5"
+            rotspeed="-6,-1"
+            rotation="-6,-1"
+            scale="0.002,0.005"
+            directed="false"
+            additive="false"
+            speed="0.01,0.04"
+            movedir="-80"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+  <ambientparticleeffect name="rainingleavesRight" maxparticles="90">
+    <particle image="IMAGE_FX_LEAF1,IMAGE_FX_LEAF2,IMAGE_FX_LEAF3,IMAGE_FX_LEAF4,IMAGE_FX_LEAF5"
+              rotspeed="-6,-1"
+              rotation="-6,-1"
+              scale="0.002,0.005"
+              directed="false"
+              additive="false"
+              speed="0.01,0.04"
+              movedir="-30"
+              movedirvar="10"
+              acceleration="0.0,0.0">
+      <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+    </particle>
+  </ambientparticleeffect>
+
+<ambientparticleeffect name="leavesRight" maxparticles="30">
+    <particle image="IMAGE_FX_LEAF1,IMAGE_FX_LEAF2,IMAGE_FX_LEAF3,IMAGE_FX_LEAF4,IMAGE_FX_LEAF5"
+              rotspeed="-6,-1"
+              rotation="-6,-1"
+              scale="0.002,0.005"
+              directed="false"
+              additive="false"
+              speed="0.01,0.04"
+              movedir="-30"
+              movedirvar="10"
+              acceleration="0.0,0.0">
+      <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+    </particle>
+</ambientparticleeffect>
+
+
+<ambientparticleeffect name="snowSparse" maxparticles="10">
+  <particle image="IMAGE_FX_SNOWFLAKE1,IMAGE_FX_SNOWFLAKE2"
+            rotspeed="-2,2"
+            rotation="-180,180"
+            scale="0.0075,0.0125"
+            directed="false"
+            additive="false"
+            speed="0.01,0.04"
+            movedir="-90"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="snowDense" maxparticles="30">
+  <particle image="IMAGE_FX_SNOWFLAKE1,IMAGE_FX_SNOWFLAKE2"
+            rotspeed="-2,2"
+            rotation="-180,180"
+            scale="0.0075,0.0125"
+            directed="false"
+            additive="false"
+            speed="0.01,0.04"
+            movedir="-90"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="snowStorm" maxparticles="50">
+  <particle image="IMAGE_FX_SNOWFLAKE1,IMAGE_FX_SNOWFLAKE2"
+            rotspeed="-2,2"
+            rotation="-180,180"
+            scale="0.01,0.02"
+            directed="false"
+            additive="false"
+            speed="0.04,0.08"
+            movedir="-10"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="snowStormC3" maxparticles="90">
+  <particle image="IMAGE_FX_SNOWFLAKE1,IMAGE_FX_SNOWFLAKE2"
+            rotspeed="-2,2"
+            rotation="-180,180"
+            scale="0.01,0.02"
+            directed="false"
+            additive="false"
+            speed="0.03,0.06"
+            movedir="-80"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+
+  <particleeffect name="snowStormFromPoint" maxparticles="60" rate="0.22">
+    <particle image="IMAGE_FX_SNOWFLAKE1,IMAGE_FX_SNOWFLAKE2"
+            rotspeed="-2,2"
+            rotation="-180,180"
+            scale="0.01,0.015"
+			lifespan="6"
+            directed="false"
+            additive="false"
+            speed="0.09,0.12"
+            movedir="-10"
+            movedirvar="20"
+            acceleration="0.0,0.0"
+			fade="true">
+		<axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+    </particle>
+  </particleeffect>
+
+<ambientparticleeffect name="blackBallsRising" maxparticles="12">
+  <particle image="IMAGE_FX_SNOWFLAKE_BLACK"
+            rotspeed="-1,1"
+            rotation="-180,180"
+            scale="0.0025,0.01"
+            directed="false"
+            additive="false"
+            speed="0.01,0.03"
+            movedir="90"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="blackBallsRight" maxparticles="20">
+  <particle image="IMAGE_FX_SNOWFLAKE_BLACK"
+            rotspeed="-1,1"
+            rotation="-180,180"
+            scale="0.0025,0.01"
+            directed="false"
+            additive="false"
+            speed="0.03,0.05"
+            movedir="0"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="blackBallsRightSparse" maxparticles="12">
+  <particle image="IMAGE_FX_SNOWFLAKE_BLACK"
+            rotspeed="-1,1"
+            rotation="-180,180"
+            scale="0.002,0.005"
+            directed="false"
+            additive="false"
+            speed="0.03,0.05"
+            movedir="0"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+
+
+<ambientparticleeffect name="blackLeaves" maxparticles="10">
+  <particle image="IMAGE_FX_SNOWFLAKE_BLACK"
+            rotspeed="-2,2"
+            rotation="-180,180"
+            scale="0.0025,0.01"
+            directed="false"
+            additive="false"
+            speed="0.03,0.05"
+            movedir="-20"
+            movedirvar="10"
+            acceleration="0.0,-0.0003">
+    <axialsinoffset amp="0.05,0.15" freq="0.5,3" phaseshift="0.2,0.4" axis="x"/>
+    <axialsinoffset amp="0.3,0.6" freq="0.5,3" phaseshift="0.2,0.4" axis="y"/>
+  </particle>
+</ambientparticleeffect>
+
+
+<ambientparticleeffect name="blackLeavesHeavy" maxparticles="80">
+  <particle image="IMAGE_FX_SNOWFLAKE_BLACK"
+            rotspeed="-2,2"
+            rotation="-180,180"
+            scale="0.0025,0.01"
+            directed="false"
+            additive="false"
+            speed="0.03,0.05"
+            movedir="-20"
+            movedirvar="10"
+            acceleration="0.0,-0.0003">
+    <axialsinoffset amp="0.05,0.15" freq="0.5,3" phaseshift="0.2,0.4" axis="x"/>
+    <axialsinoffset amp="0.3,0.6" freq="0.5,3" phaseshift="0.2,0.4" axis="y"/>
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="rainStreaksHeavy" maxparticles="40" margin="384">
+  <particle image="IMAGE_FX_RAINSTREAK"
+            rotation="0,0"
+            scale="0.005,0.03"
+            directed="true"
+            additive="false"
+            speed="0.4,0.8"
+            movedir="-5"
+            movedirvar="5"
+            acceleration="0.0,-0.001">
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="rainStreaksHeavyDistant" maxparticles="20">
+  <particle image="IMAGE_FX_RAINSTREAK"
+            rotation="0,0"
+            scale="0.0005,0.01"
+            directed="true"
+            additive="false"
+            speed="0.1,0.2"
+            movedir="-5"
+            movedirvar="5"
+            acceleration="0.0,0.0">
+  </particle>
+</ambientparticleeffect>
+
+  <ambientparticleeffect name="rainStreaksDown" maxparticles="90" margin="384">
+    <particle image="IMAGE_FX_RAINSTREAK"
+              rotation="0,0"
+              scale="0.01,0.025"
+              directed="true"
+              additive="false"
+              speed="0.2,0.4"
+              movedir="-70"
+              movedirvar="5"
+              acceleration="0.0,-0.003">
+    </particle>
+  </ambientparticleeffect>
+
+<ambientparticleeffect name="mistRight" maxparticles="6" margin="600">
+  <particle image="IMAGE_FX_WINDWHITE"
+            rotation="-180,180"
+            scale="0.04,0.06"
+            directed="true"
+            additive="true"
+            speed="0.3,0.5"
+            movedir="0"
+            movedirvar="5"
+            acceleration="0.0,0.0">
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="breezeRight" maxparticles="4" margin="600">
+  <particle image="IMAGE_FX_WINDWHITE"
+            scale="0.04,0.06"
+            directed="true"
+            additive="true"
+            speed="0.08,0.12"
+            movedir="0"
+            movedirvar="5"
+            acceleration="0.0,0.0">
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="breezeUpSlow" maxparticles="9" margin="600">
+  <particle image="IMAGE_FX_WINDWHITE"
+            scale="0.04,0.06"
+            directed="false"
+            additive="true"
+            speed="0.04,0.05"
+            movedir="90"
+            movedirvar="5"
+            acceleration="0.0,0.0">
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="breezeDownSlow" maxparticles="9" margin="600">
+  <particle image="IMAGE_FX_WINDWHITE"
+            scale="0.04,0.06"
+            directed="false"
+            additive="true"
+            speed="0.04,0.05"
+            movedir="270"
+            movedirvar="5"
+            acceleration="0.0,0.0">
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="breezeUp" maxparticles="9" margin="600">
+  <particle image="IMAGE_FX_WINDWHITE"
+            scale="0.04,0.06"
+            directed="false"
+            additive="true"
+            speed="0.12,0.16"
+            movedir="90"
+            movedirvar="5"
+            acceleration="0.0,0.0">
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="mistUpSepia" maxparticles="8" margin="600">
+  <particle image="IMAGE_FX_WINDSEPIA"
+            rotation="0,0"
+            scale="0.04,0.06"
+            directed="false"
+            additive="true"
+            speed="0.01,0.04"
+            movedir="90"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+<particleeffect name="splash" maxparticles="20">
+  <particle image="IMAGE_FX_WATERDROP1"
+            directed="true" 
+            scale="0.0025,0.01"
+            finalscale="0.0" 
+            fade="true" 
+            lifespan="1,1.6"
+            dampening="0.98"
+            speed="0.06,0.16" 
+            movedir="90" 
+            movedirvar="60" 
+            acceleration="0.0,-0.002" />
+</particleeffect>
+
+
+<particleeffect name="gooFallWide2" maxparticles="24" rate="0.025">
+  <particle image="IMAGE_FX_GOOFALL_GOBSWIDE2"
+            directed="false" 
+            scale="0.04,0.04"
+		 finalscale="0.03"
+            fade="false" 
+            additive="false"
+            lifespan="11"
+            speed="0.003,0.005" 
+            movedir="90" 
+            movedirvar="0" 
+            acceleration="0.0,0.0002"/>
+</particleeffect>
+
+<particleeffect name="gooSplatter" maxparticles="10" rate="0.15">
+  <particle image="IMAGE_FX_GOODROP1"
+            directed="true" 
+            scale="0.006"
+            finalscale="0.0" 
+            fade="true" 
+            additive="false"
+            lifespan="1.2"
+            speed="0.03,0.06" 
+            movedir="270" 
+            movedirvar="180" 
+            acceleration="0.0,-0.006"/>
+</particleeffect>
+
+<particleeffect name="gooSplatterSubtle" maxparticles="10" rate="0.15">
+    <particle image="IMAGE_FX_GOODROP1"
+              directed="true" 
+              scale="0.0"
+              finalscale="0.006" 
+              fade="true" 
+              additive="false"
+              lifespan="1.2"
+              speed="0.03,0.06" 
+              movedir="270" 
+              movedirvar="180" 
+              acceleration="0.0,-0.006"/>
+  </particleeffect>
+
+<particleeffect name="mistUp" maxparticles="10" rate="0.08" margin="500">
+  <particle image="IMAGE_FX_MIST1"
+            rotspeed="-4,4"
+            rotation="-180,180"
+            scale="0.005,0.01"
+            finalscale="0.14"
+            fade="true"
+            lifespan="0.8,1.5"
+            directed="false"
+            additive="false"
+            speed="0.005,0.03"
+            movedir="90"
+            movedirvar="60"
+            acceleration="0.0,0.001">
+  </particle>
+</particleeffect>
+
+<particleeffect name="fireStack1" maxparticles="30" rate="0.3">
+  <particle image="IMAGE_FX_FIREPARTICLEMAIN1"
+            directed="false" 
+            rotspeed="-4,-2"
+            rotation="-180,180"
+            scale="0.0205,0.0305"
+            finalscale="0.0035" 
+            fade="true" 
+            additive="true"
+            lifespan="1.7,1.7"
+            speed="0.095" 
+            movedir="90" 
+            movedirvar="12" 
+            acceleration="0.0,0.0012"/>
+  <particle image="IMAGE_FX_FIREPARTICLEMAIN2"
+            directed="false" 
+            rotspeed="-4,-2"
+            rotation="-180,180"
+            scale="0.0305,0.0405"
+            finalscale="0.001" 
+            fade="true" 
+            additive="true"
+            lifespan="1.7,1.7"
+            speed="0.095" 
+            movedir="90" 
+            movedirvar="5" 
+            acceleration="0.0,0.0012"/>
+</particleeffect>
+
+ <particleeffect name="fireStackSmaller1" maxparticles="20" rate="0.3">
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.0135,0.0195"
+              finalscale="0.0035" 
+              fade="true" 
+              additive="true"
+              lifespan="1,1"
+              speed="0.075" 
+              movedir="90" 
+              movedirvar="12" 
+              acceleration="0.0,0.0012"/>
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN2"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.0205,0.0285"
+              finalscale="0.001" 
+              fade="true" 
+              additive="true"
+              lifespan="1,1"
+              speed="0.075" 
+              movedir="90" 
+              movedirvar="5" 
+              acceleration="0.0,0.0012"/>
+  </particleeffect>
+
+
+
+  <particleeffect name="fireStackSmaller2" maxparticles="20" rate="0.3">
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.004,0.009"
+              finalscale="0.001" 
+              fade="true" 
+              additive="true"
+              lifespan="0.6,0.8"
+              speed="0.035" 
+              movedir="90" 
+              movedirvar="12" 
+              acceleration="0.0,0.0012"/>
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN2"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.004,0.009"
+              finalscale="0.0002" 
+              fade="true" 
+              additive="true"
+              lifespan="0.6,0.8"
+              speed="0.035" 
+              movedir="90" 
+              movedirvar="5" 
+              acceleration="0.0,0.0012"/>
+  </particleeffect>
+  
+  
+   <particleeffect name="fireRobotHead" maxparticles="20" rate="0.3">
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.009,0.0125"
+              finalscale="0.0035" 
+              fade="true" 
+              additive="true"
+              lifespan="1,1"
+              speed="0.065" 
+              movedir="90" 
+              movedirvar="12" 
+              acceleration="0.0,0.0012"/>
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN2"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.015,0.02"
+              finalscale="0.001" 
+              fade="true" 
+              additive="true"
+              lifespan="1,1"
+              speed="0.065" 
+              movedir="90" 
+              movedirvar="5" 
+              acceleration="0.0,0.0012"/>
+  </particleeffect>
+  
+  
+   <particleeffect name="fireStackSquat" maxparticles="20" rate="0.3">
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1"
+              directed="false"
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.0135,0.0195"
+              finalscale="0.0035"
+              fade="true" 
+              additive="true"
+              lifespan="1,1"
+              speed="0.04" 
+              movedir="90" 
+              movedirvar="12" 
+              acceleration="0.0,0.0012"/>
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN2"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.0205,0.0285"
+              finalscale="0.001" 
+              fade="true" 
+              additive="true"
+              lifespan="1,1"
+              speed="0.04" 
+              movedir="90" 
+              movedirvar="5" 
+              acceleration="0.0,0.0012"/>
+  </particleeffect>
+  
+  
+   <particleeffect name="fireStackLanternBw" maxparticles="16" rate="0.3">
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1_BW"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.002,0.003"
+              finalscale="0.001" 
+              fade="true" 
+              additive="true"
+              lifespan="1,1"
+              speed="0.01" 
+              movedir="90" 
+              movedirvar="12" 
+              acceleration="0.0,0.0001"/>
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN2_BW"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.002,0.004"
+              finalscale="0.0005" 
+              fade="true" 
+              additive="true"
+              lifespan="1,1"
+              speed="0.01" 
+              movedir="90" 
+              movedirvar="5" 
+              acceleration="0.0,0.0001"/>
+  </particleeffect>
+
+
+  <particleeffect name="fireBallBurn" maxparticles="12" rate="0.2">
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.003,0.006"
+              finalscale="0.001" 
+              fade="true" 
+              additive="true"
+              lifespan="0.5,0.8"
+              speed="0.015" 
+              movedir="90" 
+              movedirvar="12" 
+              acceleration="0.0,0.0012"/>
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN2"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.003,0.006"
+              finalscale="0.0002" 
+              fade="true" 
+              additive="true"
+              lifespan="0.5,0.8"
+              speed="0.015" 
+              movedir="90" 
+              movedirvar="5" 
+              acceleration="0.0,0.0012"/>
+  </particleeffect>
+  
+  <particleeffect name="zBombBurn" maxparticles="3" rate="0.2">
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.003,0.006"
+              finalscale="0.001" 
+              fade="true" 
+              additive="true"
+              lifespan="0.5,0.8"
+              speed="0.015" 
+              movedir="90" 
+              movedirvar="12" 
+              acceleration="0.0,0.0012"/>
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN2"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.003,0.006"
+              finalscale="0.0002" 
+              fade="true" 
+              additive="true"
+              lifespan="0.5,0.8"
+              speed="0.015" 
+              movedir="90" 
+              movedirvar="5" 
+              acceleration="0.0,0.0012"/>
+  </particleeffect>
+
+  <particleeffect name="thruster" maxparticles="30" rate="1.5" >
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.0008,0.0014"
+              finalscale="0.003" 
+              fade="true" 
+              additive="true"
+              lifespan="0.25,0.45"
+              speed="0.1" 
+              movedir="90" 
+              movedirvar="4" 
+              acceleration="0.0,0.0"/>
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN2"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.001,0.001"
+              finalscale="0.004" 
+              fade="true" 
+              additive="true"
+              lifespan="0.38,0.40"
+              speed="0.1" 
+              movedir="90" 
+              movedirvar="2" 
+              acceleration="0.0,0.0"/>
+  </particleeffect>
+
+  <particleeffect name="fireArmBurn" maxparticles="16" rate="0.3">
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.001,0.002"
+              finalscale="0.005" 
+              fade="true" 
+              additive="true"
+              lifespan="0.2,0.3"
+              speed="0.005" 
+              movedir="0" 
+              movedirvar="180" 
+              acceleration="0.0,0.0"/>
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN2"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.001,0.002"
+              finalscale="0.006" 
+              fade="true" 
+              additive="true"
+              lifespan="0.2,0.3"
+              speed="0.005" 
+              movedir="0" 
+              movedirvar="180" 
+              acceleration="0.0,0.0"/>
+  </particleeffect>
+  
+  
+  <particleeffect name="poisonBallBurn" maxparticles="12" rate="0.2">
+    <particle image="IMAGE_FX_GOOGLOB"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.003,0.006"
+              finalscale="0.0" 
+              fade="true" 
+              additive="false"
+              lifespan="0.25,0.8"
+              speed="0.001,0.065" 
+              movedir="0" 
+              movedirvar="180" 
+              acceleration="0.0,0.0012"/>
+  </particleeffect>
+  
+  <particleeffect name="poisonArmBurn" maxparticles="30" rate="0.5">
+  <particle image="IMAGE_FX_GOOGLOB"
+            rotspeed="0.2" 
+            directed="false"
+            scale="0.005,0.01" 
+            finalscale="0.0" 
+            fade="false" 
+            additive="false"
+            lifespan="3,4"
+            speed="0.002,0.004" 
+            movedir="0" 
+            movedirvar="180" 
+            acceleration="0.0,0.0"/>
+</particleeffect>
+
+
+<particleeffect name="blackSmokeRising" maxparticles="40" rate="0.3">
+  <particle image="IMAGE_FX_SMOKEBLACK"
+            rotspeed="-4,4"
+            rotation="-180,180"
+            scale="0.0"
+            finalscale="0.06"
+            directed="false"
+            additive="false"
+            speed="0.06,0.09"
+            fade="true" 
+            lifespan="1.6,2"
+            movedir="90"
+            movedirvar="15"
+            acceleration="0.0,0.001">
+  </particle>
+</particleeffect>
+
+
+
+  <particleeffect name="bubblesRisingFromPoint" maxparticles="20" rate="0.1">
+    <particle image="IMAGE_FX_BUBBLE32"
+              rotspeed="-4,4"
+              rotation="-180,180"
+              scale="0.0"
+              finalscale="0.011"
+              directed="false"
+              additive="false"
+              speed="0.01,0.08"
+              fade="true" 
+              lifespan="1.8,2.0"
+              movedir="90"
+              movedirvar="30"
+              acceleration="0.0,0.001">
+      <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+    </particle>
+  </particleeffect>
+  
+    <particleeffect name="bubblesRisingFromPointSlow" maxparticles="20" rate="0.1">
+    <particle image="IMAGE_FX_BUBBLE1"
+              rotspeed="-4,4"
+              rotation="-180,180"
+              scale="0.0"
+              finalscale="0.015"
+              directed="false"
+              additive="false"
+              speed="0.001,0.0125"
+              fade="true" 
+              lifespan="1.8,2.0"
+              movedir="90"
+              movedirvar="60"
+              acceleration="0.0,0.001">
+      <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+    </particle>
+  </particleeffect>
+
+  <particleeffect name="wogcSmoke" maxparticles="15" rate="0.05">
+  <particle image="IMAGE_FX_SMOKEBLACK"
+            rotspeed="-1,1"
+            rotation="-180,180"
+            scale="0.04"
+            finalscale="0.06"
+            directed="false"
+            additive="false"
+            speed="0.02,0.04"
+            fade="true" 
+            lifespan="4,5"
+            movedir="90"
+            movedirvar="15"
+            acceleration="0.0,0.0001">
+  </particle>
+</particleeffect>
+
+  <particleeffect name="wogcSmokeIsh" maxparticles="30" rate="0.1">
+  <particle image="IMAGE_FX_SMOKEGREEN"
+            rotspeed="-1,1"
+            rotation="-180,180"
+            scale="0.04"
+            finalscale="0.06"
+            directed="false"
+            additive="false"
+            speed="0.02,0.04"
+            fade="true" 
+            lifespan="4,5"
+            movedir="90"
+            movedirvar="15"
+            acceleration="0.0,0.0001">
+  </particle>
+</particleeffect>
+
+<particleeffect name="whiteSmokeRising" maxparticles="30" rate="0.3">
+  <particle image="IMAGE_FX_SMOKEWHITE"
+            rotspeed="-4,4"
+            rotation="-180,180"
+            scale="0.04,0.05"
+            finalscale="0.06"
+            directed="false"
+            additive="false"
+            speed="0.06,0.09"
+            fade="true" 
+            lifespan="1.6,2"
+            movedir="90"
+            movedirvar="15"
+            acceleration="0.0,0.001">
+  </particle>
+</particleeffect>
+
+<particleeffect name="sleepyZzz" maxparticles="7" rate="0.06">
+  <particle image="IMAGE_FX_SLEEPY_Z1"
+            rotspeed="0.0001"
+            rotation="-0.26179,0.26179"
+            directed="false"
+            scale="0.000534"
+            finalscale="0.002134"
+            fade="true"
+            additive="false"
+            lifespan="0.8"
+            speed="0.005,0.009"
+            movedir="90"
+            movedirvar="90"
+            acceleration="0.0,0.0001">
+    <axialsinoffset amp="0.0005,0.001" freq="2,3" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</particleeffect>
+
+<particleeffect name="ish_sleepyZzz" maxparticles="7" rate="0.06">
+  <particle image="IMAGE_FX_ISH_SLEEPY_Z1"
+            rotspeed="0"
+            directed="false"
+            scale="0.002"
+            finalscale="0.008"
+            fade="true"
+            additive="false"
+            lifespan="0.8"
+            speed="0.005,0.009"
+            movedir="90"
+            movedirvar="90"
+            acceleration="0.0,0.0001">
+    <axialsinoffset amp="0.05,0.1" freq="2,3" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</particleeffect>
+
+<particleeffect name="ishr_sleepyZzz" maxparticles="7" rate="0.06">
+  <particle image="IMAGE_FX_ISHR_SLEEPY_Z1"
+            rotspeed="0"
+            directed="false"
+            scale="0.002"
+            finalscale="0.008"
+            fade="true"
+            additive="false"
+            lifespan="0.8"
+            speed="0.005,0.009"
+            movedir="90"
+            movedirvar="90"
+            acceleration="0.0,0.0001">
+    <axialsinoffset amp="0.05,0.1" freq="2,3" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</particleeffect>
+
+  <particleeffect name="signpostAlert" maxparticles="4" rate="0.05">
+    <particle image="IMAGE_FX_SIGNPOSTEXCLAIMATION"
+              rotspeed="0"
+              rotation="-20,20"
+              directed="false"
+              scale="0.005,0.008"
+              finalscale="0.01"
+              fade="true"
+              additive="false"
+              lifespan="0.6"
+              speed="0.01,0.03"
+              movedir="90"
+              movedirvar="45"
+              acceleration="0.0,0.0001">
+      <axialsinoffset amp="0.05,0.1" freq="5,8" phaseshift="0.2,0.4" axis="x"/>
+    </particle>
+  </particleeffect>
+  
+  <particleeffect name="signpostAlertMom" maxparticles="4" rate="0.05">
+    <particle image="IMAGE_FX_SNOWFLAKE_BLACK"
+              rotspeed="0"
+              rotation="-20,20"
+              directed="false"
+              scale="0.005,0.008"
+              finalscale="0.01"
+              fade="true"
+              additive="false"
+              lifespan="0.6"
+              speed="0.01,0.03"
+              movedir="90"
+              movedirvar="45"
+              acceleration="0.0,0.0001">
+      <axialsinoffset amp="0.05,0.1" freq="5,8" phaseshift="0.2,0.4" axis="x"/>
+    </particle>
+  </particleeffect>
+
+  <particleeffect name="whistle" maxparticles="10" rate="0.2">
+    <particle image="IMAGE_FX_NOTE1,IMAGE_FX_NOTE2,IMAGE_FX_NOTE3"
+              rotspeed="0"
+              rotation="-20,20"
+              directed="false"
+              scale="0.005,0.008"
+              finalscale="0.01"
+              fade="true"
+              additive="false"
+              lifespan="0.8"
+              speed="0.01,0.03"
+              movedir="90"
+              movedirvar="45"
+              acceleration="0.0001,0.0002">
+      <axialsinoffset amp="0.05,0.1" freq="5,8" phaseshift="0.2,0.4" axis="x"/>
+    </particle>
+  </particleeffect>
+
+  <particleeffect name="worldMap_FactorySmoke" maxparticles="19" rate="0.3">
+  <particle image="IMAGE_FX_SMOKEBLACK"
+            rotspeed="-2,2"
+            rotation="-180,180"
+            scale="0.005,0.012"
+            finalscale="0.05"
+            directed="false"
+            additive="false"
+            speed="0.004,0.02"
+            fade="true" 
+            lifespan="1.6,2"
+            movedir="120"
+            movedirvar="15"
+            acceleration="0.001,0.001">
+  </particle>
+</particleeffect>
+
+<particleeffect name="BurningManSmoke" maxparticles="36" rate="0.4">
+  <particle image="IMAGE_FX_SMOKEBLACK"
+            rotspeed="-4,4"
+            rotation="-180,180"
+            scale="0.005,0.012"
+            finalscale="0.06"
+            directed="false"
+            additive="false"
+            speed="0.01,0.03"
+            fade="true" 
+            lifespan="1.2,2.0"
+            movedir="120"
+            movedirvar="15"
+            acceleration="0.0015,0.0005">
+  </particle>
+</particleeffect>
+
+
+<particleeffect name="RobotHeadSmoke" maxparticles="48" rate="0.15">
+  <particle image="IMAGE_FX_SMOKEBLACK"
+            rotspeed="0,1"
+            rotation="-180,180"
+            scale="0.005,0.012"
+            finalscale="0.06"
+            directed="false"
+            additive="false"
+            speed="0.001,0.01"
+            fade="true" 
+            lifespan="2.0,2.2"
+            movedir="90"
+            movedirvar="15"
+            acceleration="0.0,0.0005">
+  </particle>
+</particleeffect>
+
+  <particleeffect name="distantSmokestack" maxparticles="18" rate="0.2">
+    <particle image="IMAGE_FX_SMOKEBLACK"
+              rotspeed="-4,4"
+              rotation="-180,180"
+              scale="0.0025,0.005"
+              finalscale="0.03"
+              directed="false"
+              additive="false"
+              speed="0.002,0.02"
+              fade="true" 
+              lifespan="1,1.4"
+              movedir="90"
+              movedirvar="5"
+              acceleration="0.0,0.001">
+    </particle>
+    <particle image="IMAGE_FX_SMOKEBLACK"
+              rotspeed="-4,4"
+              rotation="-180,180"
+              scale="0.0025,0.006"
+              finalscale="0.03"
+              directed="false"
+              additive="false"
+              speed="0.001,0.02"
+              fade="true" 
+              lifespan="0.6,1.0"
+              movedir="90"
+              movedirvar="15"
+              acceleration="0.0,0.001">
+    </particle>
+  </particleeffect>
+
+  <particleeffect name="worldMap_FactorySmokeWhite" maxparticles="38" rate="0.6">
+    <particle image="IMAGE_FX_SMOKEWHITE"
+              rotspeed="-4,4"
+              rotation="-180,180"
+              scale="0.005,0.012"
+              finalscale="0.03"
+              directed="false"
+              additive="false"
+              speed="0.01,0.03"
+              fade="true" 
+              lifespan="1.6,2"
+              movedir="120"
+              movedirvar="15"
+              acceleration="0.002,0.0">
+    </particle>
+  </particleeffect>
+
+<particleeffect name="cigSmoke" maxparticles="30" rate="0.3">
+  <particle image="IMAGE_FX_WINDWHITE"
+            scale="0.0005,0.001"
+            finalscale="0.008"
+            directed="true"
+            additive="false"
+            speed="0.02,0.04"
+            fade="true" 
+            lifespan="1.6,2"
+            movedir="90"
+            movedirvar="3"
+            acceleration="0.0001,0.0">
+  </particle>
+</particleeffect>
+
+<particleeffect name="gentleFactorySmoke" maxparticles="45" rate="0.125">
+  <particle image="IMAGE_FX_WINDBLACK"
+            scale="0.001,0.002"
+            finalscale="0.021"
+            directed="true"
+            additive="false"
+            speed="0.03,0.04"
+            fade="true"
+            lifespan="6.8,6.8"
+            movedir="90"
+            movedirvar="0.08"
+            acceleration="0.0001,0.0">
+  </particle>
+</particleeffect>
+
+<particleeffect name="puffyFactorySmoke" maxparticles="32" rate="0.2">
+  <particle image="IMAGE_FX_SMOKEBLACK"
+            rotspeed="-4,4"
+            rotation="-180,180"
+            scale="0.005,0.007"
+            finalscale="0.03"
+            directed="false"
+            additive="false"
+            speed="0.005,0.01"
+            fade="true" 
+            lifespan="2,2.2"
+            movedir="0"
+            movedirvar="180"
+            acceleration="0.0,0.0">
+  </particle>
+</particleeffect>
+
+<particleeffect name="gentleFactorySmokeSepia" maxparticles="15" rate="0.042">
+  <particle image="IMAGE_FX_WINDSEPIA"
+            scale="0.001,0.002"
+            finalscale="0.021"
+            directed="true"
+            additive="false"
+            speed="0.03,0.04"
+            fade="true"
+            lifespan="6.8,6.8"
+            movedir="90"
+            movedirvar="0.08"
+            acceleration="0.0001,0.0">
+  </particle>
+</particleeffect>
+
+  <particleeffect name="matchSmoke" maxparticles="10" rate="0.08">
+    <particle image="IMAGE_FX_SMOKEBLACK"
+              scale="0.001,0.0025"
+              finalscale="0.04"
+              directed="false"
+              rotspeed="-4,4"
+              additive="false"
+              speed="0.01,0.03"
+              fade="true" 
+              lifespan="1.6,2"
+              movedir="90"
+              movedirvar="3"
+              acceleration="0.0001,0.0">
+    </particle>
+  </particleeffect>
+
+  <particleeffect name="gooTankStream" maxparticles="40" rate="0.4">
+    <particle image="IMAGE_FX_GOODROP1"
+              directed="true" 
+              scale="0.01,0.01"
+              fade="false" 
+              additive="false"
+              lifespan="0.6,0.6"
+              speed="0.2,0.3" 
+              movedir="270" 
+              movedirvar="1" 
+              acceleration="0.0,0.0"/>
+  </particleeffect>
+
+  <particleeffect name="gooDrips" maxparticles="8" rate="0.06">
+    <particle image="IMAGE_FX_GOODROP"
+              directed="true" 
+              scale="0.002,0.005"
+              fade="false" 
+              additive="false"
+              lifespan="1.9,1.9"
+              speed="0.04,0.06" 
+              movedir="270" 
+              movedirvar="0" 
+              acceleration="0.0,-0.0001"/>
+  </particleeffect>
+
+  <particleeffect name="polFountain1" maxparticles="20" rate="0.25">
+    <particle image="IMAGE_FX_GOODROP1"
+              directed="true" 
+              scale="0.0,0.0"
+              finalscale="0.012"
+              fade="true" 
+              additive="false"
+              lifespan="0.8,0.8"
+              speed="0.17,0.18" 
+              movedir="115" 
+              movedirvar="0.1" 
+              acceleration="0.0,-0.005"/>
+  </particleeffect>
+
+  <particleeffect name="polFountain2" maxparticles="30" rate="0.25">
+    <particle image="IMAGE_FX_GOODROP1"
+              directed="true" 
+              scale="0.0,0.0"
+              finalscale="0.016"
+              fade="true" 
+              additive="false"
+              lifespan="0.8,0.8"
+              speed="0.12,0.13" 
+              movedir="150" 
+              movedirvar="0.1"
+              acceleration="0.0,-0.0065"/>
+  </particleeffect>
+
+  <particleeffect name="gooMist" maxparticles="10" rate="0.6">
+    <particle image="IMAGE_FX_SMOKEBLACK"
+              scale="0.001,0.0025"
+              finalscale="0.024"
+              directed="false"
+              rotspeed="-4,4"
+              additive="false"
+              speed="0.0,0.01"
+              fade="true" 
+              lifespan="0.3,0.6"
+              movedir="0"
+              movedirvar="180"
+              acceleration="0.0,0.0">
+    </particle>
+  </particleeffect>
+
+  <particleeffect name="timebugFizz" maxparticles="8" rate="0.1">
+    <particle image="IMAGE_FX_SMOKEWHITE"
+              rotspeed="2,4"
+              directed="false"
+              scale="0.004"
+              finalscale="0.007"
+              fade="true"
+              additive="false"
+              lifespan="0.8"
+              speed="0.001,0.002"
+              movedir="0"
+              movedirvar="180"
+              acceleration="0.0,-0.0001">
+    </particle>
+  </particleeffect>
+
+  <particleeffect name="flashes" maxparticles="3" rate="0.1">
+    <particle image="IMAGE_FX_FLASH"
+              rotspeed="0"
+              rotation="-180,180"
+              directed="false"
+              scale="0.04,0.08"
+              finalscale="0.0"
+              fade="true"
+              additive="true"
+              lifespan="0.06"
+              speed="0.25,4.0"
+              movedir="0"
+              movedirvar="180"
+              acceleration="0.0,0.0">
+    </particle>
+  </particleeffect>
+
+
+  <particleeffect name="tubeAirFlowUp" maxparticles="8" rate="0.1">
+    <particle image="IMAGE_FX_WINDWHITE"
+              scale="0.005,0.0075"
+              finalscale="0.05"
+              directed="true"
+              additive="true"
+              speed="0.15,0.2"
+              fade="true" 
+              lifespan="1.2,1.4"
+              movedir="90"
+              movedirvar="3"
+              acceleration="0.0,0.0">
+    </particle>
+  </particleeffect>
+
+  <particleeffect name="tubeAirFlowLeft" maxparticles="8" rate="0.1">
+    <particle image="IMAGE_FX_WINDWHITE"
+              scale="0.005,0.0075"
+              finalscale="0.05"
+              directed="true"
+              additive="true"
+              speed="0.15,0.2"
+              fade="true" 
+              lifespan="1.2,1.4"
+              movedir="180"
+              movedirvar="3"
+              acceleration="0.0,0.0">
+    </particle>
+  </particleeffect>
+  
+    <particleeffect name="geomExplosionDust" maxparticles="100">
+    <particle image="IMAGE_FX_SMOKEBLACK"
+			 scale="0.01,0.03"
+	            directed="false"
+	            additive="false"
+	            dampening="0.95"
+	            speed="0.03,0.04"
+	            fade="true"
+	            lifespan="1,3"
+	            movedir="90"
+	            movedirvar="90"
+	            acceleration="0.0,0.0">
+    </particle>
+  </particleeffect>
+  
+  
+  
+  
+  
+  
+  
+  
+  <ambientparticleeffect name="ish_BigLeaves" maxparticles="16">
+  <particle image="IMAGE_FX_ISH_CHAR_0,IMAGE_FX_ISH_CHAR_1"
+            rotspeed="-6,-1"
+            rotation="-6,-1"
+            scale="0.01,0.015"
+            directed="false"
+            additive="true"
+            speed="0.01,0.04"
+            movedir="-30"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="ish_SmallLeaves" maxparticles="16">
+  <particle image="IMAGE_FX_ISH_CHAR_0,IMAGE_FX_ISH_CHAR_1"
+            rotspeed="-6,-1"
+            rotation="-6,-1"
+            scale="0.0075,0.01"
+            directed="false"
+            additive="true"
+            speed="0.01,0.04"
+            movedir="-30"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="ish_RainLeavesLeft" maxparticles="20">
+  <particle image="IMAGE_FX_ISH_CHAR_0,IMAGE_FX_ISH_CHAR_1"
+            rotspeed="-6,-1"
+            rotation="-6,-1"
+            scale="0.01,0.025"
+            directed="false"
+            additive="false"
+            speed="0.1,0.3"
+            movedir="180"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="ish_RainLeavesUp" maxparticles="20">
+  <particle image="IMAGE_FX_ISH_CHAR_0,IMAGE_FX_ISH_CHAR_1"
+            rotspeed="-6,-1"
+            rotation="-6,-1"
+            scale="0.01,0.025"
+            directed="false"
+            additive="false"
+            speed="0.03,0.08"
+            movedir="90"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="ish_RainLeavesUpRed" maxparticles="80">
+  <particle image="IMAGE_FX_ISHR_CHAR_0,IMAGE_FX_ISHR_CHAR_1"
+            rotspeed="-6,-1"
+            rotation="-6,-1"
+            scale="0.01,0.025"
+            directed="false"
+            additive="false"
+            speed="0.03,0.08"
+            movedir="90"
+            movedirvar="10"
+            acceleration="0.0,0.0">
+    <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="ish_BreezeRight" maxparticles="6" margin="500">
+  <particle image="IMAGE_FX_WINDISH"
+            scale="0.04,0.06"
+            directed="true"
+            additive="true"
+            speed="0.08,0.12"
+            movedir="0"
+            movedirvar="5"
+            acceleration="0.0,0.0">
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="ish_HeavyBreezeLeft" maxparticles="12" margin="500">
+  <particle image="IMAGE_FX_WINDISH"
+            scale="0.04,0.06"
+            directed="true"
+            additive="true"
+            speed="0.08,0.12"
+            movedir="180"
+            movedirvar="5"
+            acceleration="0.0,0.0">
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="ish_HeavyBreezeUp" maxparticles="24" margin="500">
+  <particle image="IMAGE_FX_WINDISH"
+            scale="0.04,0.06"
+            directed="true"
+            additive="true"
+            speed="0.08,0.12"
+            movedir="90"
+            movedirvar="5"
+            acceleration="0.0,0.0">
+  </particle>
+</ambientparticleeffect>
+
+   <particleeffect name="ish_smallfire" maxparticles="16" rate="0.3">
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1_ISH"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.02,0.025"
+              finalscale="0.003" 
+              fade="true" 
+              additive="true"
+              lifespan="1,1"
+              speed="0.01" 
+              movedir="90" 
+              movedirvar="12" 
+              acceleration="0.0,0.0009"/>
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1_ISH"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.02,0.025"
+              finalscale="0.0005" 
+              fade="true" 
+              additive="true"
+              lifespan="1,1"
+              speed="0.01" 
+              movedir="90" 
+              movedirvar="5" 
+              acceleration="0.0,0.0009"/>
+  </particleeffect>
+  
+  <particleeffect name="ish_FlingTrail" maxparticles="60" rate="0.5">
+  <particle image="IMAGE_FX_ISH_CHAR_0,IMAGE_FX_ISH_CHAR_1"
+            rotspeed="-2,-0.2" 
+            directed="false"
+            scale="0.01,0.015" 
+            finalscale="0.0" 
+            fade="false" 
+            additive="true"
+            lifespan="3,4"
+            speed="0.002,0.004" 
+            movedir="0" 
+            movedirvar="180" 
+            acceleration="0.0,0.0"/>
+</particleeffect>
+
+  <particleeffect name="ishr_FlingTrail" maxparticles="60" rate="0.5">
+  <particle image="IMAGE_FX_ISHR_CHAR_0,IMAGE_FX_ISHR_CHAR_1"
+            rotspeed="-2,-0.2" 
+            directed="false"
+            scale="0.01,0.015" 
+            finalscale="0.0" 
+            fade="false" 
+            additive="true"
+            lifespan="3,4"
+            speed="0.002,0.004" 
+            movedir="0" 
+            movedirvar="180" 
+            acceleration="0.0,0.0"/>
+</particleeffect>
+
+  <particleeffect name="ish_gpu_bitspew" maxparticles="30" rate="0.07">
+  <particle image="IMAGE_FX_ISH_CHAR_0"
+            rotspeed="-9,-3" 
+            directed="false"
+            scale="0.01,0.015" 
+            finalscale="0.04" 
+            fade="true" 
+            additive="true"
+            lifespan="2,4"
+            speed="0.01,0.03" 
+            movedir="0" 
+            movedirvar="180" 
+            acceleration="0.0,0.0"/>
+</particleeffect>
+
+<particleeffect name="ish_bitPop" maxparticles="80">
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1_ISH"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.02,0.025"
+              finalscale="0.003" 
+              fade="true" 
+              additive="true"
+              lifespan="1,1"
+              speed="0.01" 
+              movedir="90" 
+              movedirvar="12" 
+              acceleration="0.0,0.0009"/>
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1_ISH"
+              directed="false" 
+              rotspeed="-4,-2"
+              rotation="-180,180"
+              scale="0.02,0.025"
+              finalscale="0.0005" 
+              fade="true" 
+              additive="true"
+              lifespan="1,1"
+              speed="0.01" 
+              movedir="90" 
+              movedirvar="5" 
+              acceleration="0.0,0.0009"/>
+  </particleeffect>
+
+  <particleeffect name="beautypop" maxparticles="80">
+    <particle image="IMAGE_FX_GOODROP1"
+              directed="true"
+              scale="0.0035,0.0075"
+              finalscale="0.0" 
+              fade="false" 
+              additive="false"
+              lifespan="1.4,2"
+              dampening="0.98"
+              speed="0.03,0.12" 
+              movedir="90" 
+              movedirvar="180" 
+              acceleration="0.0,0.0" />
+    <particle image="IMAGE_FX_GOOGLOB"
+            directed="true"
+            scale="0.0125,0.018"
+            finalscale="0.0" 
+            fade="false" 
+            additive="false"
+            lifespan="1.4,2"
+            dampening="0.98"
+            speed="0.02,0.07" 
+            movedir="90" 
+            movedirvar="180" 
+            acceleration="0.0,-0.001" />
+  </particleeffect>
+
+
+  <particleeffect name="leafypop" maxparticles="80">
+    <particle image="IMAGE_FX_LEAF1"
+              directed="true"
+              scale="0.0035,0.0075"
+              finalscale="0.0" 
+              fade="false" 
+              additive="false"
+              lifespan="1.4,2"
+              dampening="0.98"
+              speed="0.03,0.12" 
+              movedir="90" 
+              movedirvar="180" 
+              acceleration="0.0,0.0" />
+    <particle image="IMAGE_FX_LEAF2"
+            directed="true"
+            scale="0.0125,0.018"
+            finalscale="0.0" 
+            fade="false" 
+            additive="false"
+            lifespan="1.4,2"
+            dampening="0.98"
+            speed="0.02,0.07" 
+            movedir="90" 
+            movedirvar="180" 
+            acceleration="0.0,-0.001" />
+  </particleeffect>
+  
+  
+  
+  <particleeffect name="flowerDust" maxparticles="30" rate="0.25">
+	<particle image="IMAGE_FX_GOOGLOB"
+            rotspeed="0.2" 
+            directed="false"
+            scale="0.005,0.01" 
+            finalscale="0.0" 
+            fade="false" 
+            additive="false"
+            lifespan="2,3"
+            speed="0.002,0.004" 
+            movedir="0" 
+            movedirvar="180" 
+            acceleration="0.0,0.0"/>
+ </particleeffect>
+ 
+ 
+ 
+ <particleeffect name="OOS_gooDrips" maxparticles="16" rate="0.035">
+  <particle image="IMAGE_FX_GOODRIP1"
+            directed="true" 
+            scale="0.002,0.007"
+            finalscale="0.0" 
+            fade="true" 
+            additive="false"
+			lifespan="4, 8"
+            speed="0.002,0.012" 
+            movedir="270" 
+            movedirvar="30" 
+            acceleration="0.0,-0.0002"/>
+</particleeffect>
+
+  <particleeffect name="OOS_gooGlobs" maxparticles="30" rate="0.25">
+	<particle image="IMAGE_FX_GOOGLOB"
+            rotspeed="0.2" 
+            directed="false"
+            scale="0.005,0.01" 
+            finalscale="0.0" 
+            fade="false" 
+            additive="false"
+            lifespan="2,3"
+            speed="0.006,0.008" 
+            movedir="0" 
+            movedirvar="180" 
+            acceleration="0.0,0.0001"/>
+ </particleeffect>
+
+<ambientparticleeffect name="OOS_breezeRight" maxparticles="9" margin="1000">
+  <particle image="IMAGE_FX_WINDSEPIA"
+            scale="0.08,0.1"
+            directed="true"
+            additive="true"
+            speed="0.08,0.12"
+            movedir="0"
+            movedirvar="5"
+            acceleration="0.0,0.0">
+  </particle>
+</ambientparticleeffect>
+
+
+
+
+
+
+<particleeffect name="BallExplode_Fuse" maxparticles="80">
+    <particle image="IMAGE_FX_EXPLODESTREAK1"
+              directed="true"
+              scale="0.0001,0.001"
+              finalscale="0.03" 
+              fade="true" 
+              additive="true"
+              lifespan="0.15,0.55"
+              speed="0.03,0.12" 
+              movedir="0" 
+              movedirvar="180" 
+              acceleration="0.0,0.0"
+			  dampening="0.1" />
+	<particle image="IMAGE_FX_RAINSTREAK"
+              directed="true"
+              scale="0.0001,0.001"
+              finalscale="0.04" 
+              fade="true" 
+              additive="false"
+              lifespan="0.25,0.75"
+              speed="0.03,0.12" 
+              movedir="0" 
+              movedirvar="180" 
+              acceleration="0.0,0.0"
+			  dampening="0.1" />
+	<particle image="IMAGE_FX_FIREPARTICLEMAIN1,IMAGE_FX_FIREPARTICLEMAIN2"
+			  rotspeed="-1,-0.1"
+              rotation="-180,180"
+	          directed="false"
+	          scale="0.0025,0.008"
+	          finalscale="0.0" 
+	          fade="true" 
+	          additive="true"
+	          lifespan="1.4,2"
+	          dampening="0.98"
+	          speed="0.02,0.07" 
+	          movedir="90" 
+	          movedirvar="30" 
+	          acceleration="0.0,-0.001" />
+</particleeffect>
+
+<particleeffect name="BallExplode_Bomb" maxparticles="80">
+    <particle image="IMAGE_FX_EXPLODESTREAK1"
+              directed="true"
+              scale="0.0001,0.001"
+              finalscale="0.04" 
+              fade="true" 
+              additive="true"
+              lifespan="0.5,1.0"
+              speed="0.1,0.3" 
+              movedir="0" 
+              movedirvar="180" 
+              acceleration="0.0,0.0"
+			  dampening="0.1" />
+	<particle image="IMAGE_FX_RAINSTREAK"
+              directed="true"
+              scale="0.0001,0.001"
+              finalscale="0.05" 
+              fade="true" 
+              additive="false"
+              lifespan="0.5,1.0"
+              speed="0.1,0.3" 
+              movedir="0" 
+              movedirvar="180" 
+              acceleration="0.0,0.0"
+			  dampening="0.1" />
+	<particle image="IMAGE_FX_FIREPARTICLEMAIN1,IMAGE_FX_FIREPARTICLEMAIN2"
+			  rotspeed="-1,-0.1"
+              rotation="-180,180"
+	          directed="false"
+	          scale="0.01,0.02"
+	          finalscale="0.0" 
+	          fade="false" 
+	          additive="true"
+	          lifespan="1.4,2"
+	          dampening="0.98"
+	          speed="0.02,0.07" 
+	          movedir="90" 
+	          movedirvar="30" 
+	          acceleration="0.0,-0.0005" />
+</particleeffect>
+
+<particleeffect name="BallExplode_ISH" maxparticles="80">
+    <particle image="IMAGE_FX_EXPLODESTREAK1_ISH"
+              directed="true"
+              scale="0.0001,0.001"
+              finalscale="0.03" 
+              fade="true" 
+              additive="true"
+              lifespan="0.15,0.75"
+              speed="0.1,0.32" 
+              movedir="0" 
+              movedirvar="180" 
+              acceleration="0.0,0.0"
+			  dampening="0.05" />
+	<particle image="IMAGE_FX_EXPLODESTREAK1_ISH"
+              directed="true"
+              scale="0.0001,0.001"
+              finalscale="0.04" 
+              fade="true" 
+              additive="false"
+              lifespan="0.15,0.55"
+              speed="0.1,0.22" 
+              movedir="0" 
+              movedirvar="180" 
+              acceleration="0.0,0.0" />
+	<particle image="IMAGE_FX_FIREPARTICLEMAIN1_ISH"
+			  rotspeed="-1,-0.1"
+              rotation="-180,180"
+	          directed="false"
+	          scale="0.0025,0.008"
+	          finalscale="0.0" 
+	          fade="false" 
+	          additive="true"
+	          lifespan="1.4,2"
+	          dampening="0.98"
+	          speed="0.02,0.07" 
+	          movedir="90" 
+	          movedirvar="30" 
+	          acceleration="0.0,-0.001" />
+</particleeffect>
+
+<particleeffect name="BallExplode_Protector" maxparticles="80">
+    <particle image="IMAGE_FX_EXPLODESTREAK1"
+              directed="true"
+              scale="0.0001,0.001"
+              finalscale="0.03" 
+              fade="true" 
+              additive="false"
+              lifespan="0.15,0.55"
+              speed="0.03,0.12" 
+              movedir="0" 
+              movedirvar="180" 
+              acceleration="0.0,0.0"
+			  dampening="0.1" />
+	<particle image="IMAGE_FX_RAINSTREAK"
+              directed="true"
+              scale="0.0001,0.001"
+              finalscale="0.04" 
+              fade="true" 
+              additive="false"
+              lifespan="0.25,0.75"
+              speed="0.03,0.12" 
+              movedir="0" 
+              movedirvar="180" 
+              acceleration="0.0,0.0"
+			  dampening="0.1" />
+	<particle image="IMAGE_FX_FIREPARTICLEMAIN1,IMAGE_FX_FIREPARTICLEMAIN2"
+			  rotspeed="-1,-0.1"
+              rotation="-180,180"
+	          directed="false"
+	          scale="0.0025,0.008"
+	          finalscale="0.0" 
+	          fade="true" 
+	          additive="false"
+	          lifespan="1.4,2"
+	          dampening="0.98"
+	          speed="0.02,0.07" 
+	          movedir="90" 
+	          movedirvar="30" 
+	          acceleration="0.0,-0.001" />
+</particleeffect>
+
+
+<particleeffect name="ISH_undeleteFizz" maxparticles="1" rate="0.02">
+	<particle image="IMAGE_FX_FIREPARTICLEMAIN1ISH,IMAGE_FX_FIREPARTICLEMAIN2"
+            rotspeed="1,2" 
+            directed="false"
+            scale="0.01,0.02" 
+            finalscale="0.0" 
+            fade="true" 
+            additive="true"
+            lifespan="1,1.5"
+            speed="0.006,0.013" 
+            movedir="0" 
+            movedirvar="180" 
+            acceleration="0.0,0.0005"/>
+ </particleeffect>
+ 
+ 
+   <particleeffect name="ish_bubbles" maxparticles="30" rate="0.25">
+	<particle image="IMAGE_FX_FIREPARTICLEMAIN1_ISH"
+            rotspeed="0.2" 
+            directed="false"
+            scale="0.005,0.01" 
+            finalscale="0.0" 
+            fade="false" 
+            additive="false"
+            lifespan="2,3"
+            speed="0.006,0.008" 
+            movedir="0" 
+            movedirvar="180" 
+            acceleration="0.0,0.0001"/>
+ </particleeffect>
+ 
+
+<particleeffect name="peddler_dust" maxparticles="20" rate="0.1">
+	<particle image="IMAGE_FX_JUNK1"
+			directed="false"
+			rotspeed="-6,6"
+			rotation="-180,180"
+		 scale="0.005,0.0175"
+		 finalscale="0.0" 
+			fade="false" 
+			additive="false"
+			lifespan="1.0,1.5"
+			dampening="0.98"
+		 speed="0.1,0.18" 
+			movedir="90" 
+			movedirvar="90" 
+		 acceleration="0.0,-0.005" />
+	<particle image="IMAGE_FX_JUNK2"
+			directed="false"
+			rotspeed="-6,6"
+			rotation="-180,180"
+		 scale="0.005,0.0175"
+		 finalscale="0.0" 
+			fade="false" 
+			additive="false"
+			lifespan="1.0,1.5"
+			dampening="0.98"
+		 speed="0.1,0.18" 
+			movedir="90" 
+			movedirvar="90" 
+		 acceleration="0.0,-0.005" />
+</particleeffect>
+
+
+<ambientparticleeffect name="mistLeft" maxparticles="6" margin="600">
+  <particle image="IMAGE_FX_WINDWHITE"
+            rotation="-180,180"
+            scale="0.04,0.06"
+            directed="true"
+            additive="true"
+            speed="0.5,0.8"
+            movedir="180"
+            movedirvar="5"
+            acceleration="0.0,0.0">
+  </particle>
+</ambientparticleeffect>
+
+<ambientparticleeffect name="leavesLeft" maxparticles="3">
+    <particle image="IMAGE_FX_LEAF1,IMAGE_FX_LEAF2,IMAGE_FX_LEAF3,IMAGE_FX_LEAF4,IMAGE_FX_LEAF5"
+              rotspeed="-6,-1"
+              rotation="-6,-1"
+              scale="0.002,0.005"
+              directed="false"
+              additive="false"
+              speed="0.25,0.5"
+              movedir="180"
+              movedirvar="10"
+              acceleration="0.0,0.0">
+      <axialsinoffset amp="0.05,0.25" freq="0.5,4" phaseshift="0.2,0.4" axis="x"/>
+    </particle>
+</ambientparticleeffect>
+
+<liquidfireparticleeffect name="liquidFire" maxparticles="2000">
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1"
+    scale="0.005,0.005"
+    />
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1"
+    scale="0.0002,0.0004"
+    />
+    <particle image="IMAGE_FX_FIREPARTICLEMAIN1"
+    scale="0.005,0.005"
+    />
+</liquidfireparticleeffect>
+
+<particleeffect name="terrainExplosion" maxparticles="100">
+   <particle image="IMAGE_FX_SMOKEBLACK"
+   scale="0.02,0.025"
+   finalscale="0.0"
+   directed="false"
+   additive="false"
+   dampening="0.95"
+   speed="0.03,0.04"
+   fade="true"
+   lifespan="1,3"
+   movedir="90"
+   movedirvar="90"
+   acceleration="0.0,0.0">
+    </particle>
+</particleeffect>
+
+<traileffect name="fireworks"
+   image="IMAGE_FIREWORKS_TRAIL"
+   size="1.0"
+   color="255 255 255 255"
+   fadetime="1.5"
+   fadealphapower="0.5"
+   fadescalepower="5.0"
+   tesselation="8"
+/>
+
+<traileffect name="goolftrail"
+   image="IMAGE_GOOLF_TRAIL"
+   size="1.0"
+   color="255 255 255 255"
+   fadetime="3"
+   fadealphapower="2.0"
+   fadescalepower="1.0"
+   tesselation="8"
+/>
+
+<traileffect name="bouncytrail"
+   image="IMAGE_FX_FIREPARTICLEMAIN1,IMAGE_FX_FIREPARTICLEMAIN2"
+   size="1.0"
+   color="255 255 255 255"
+   fadetime="3"
+   fadealphapower="2.0"
+   fadescalepower="1.0"
+   tesselation="8"
+/>
+
+</effects>
+
