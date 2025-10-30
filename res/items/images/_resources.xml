@@ -411,9 +411,11 @@
 		<Image id="INVISIBLE_ROTATING_WHEEL" path="3GuB/invisible_rotating_sphere"/>
 		<Image id="INVISIBLE_ROTATING_WHEEL_DEADLY" path="3GuB/invisible_rotating_sphere_deadly"/>
 		<Image id="INVISIBLE_ROTATING_WHEEL_STICKY" path="3GuB/invisible_rotating_sphere_sticky"/>
+		<Image id="INVISIBLE_ROTATING_WHEEL_BALLBUSTER" path="3GuB/invisible_rotating_sphere_ballbuster"/>
 		<Image id="INVISIBLE_ROTATING_GEAR" path="3GuB/invisible_rotating_gear"/>
 		<Image id="INVISIBLE_ROTATING_GEAR_DEADLY" path="3GuB/invisible_rotating_gear_deadly"/>
 		<Image id="INVISIBLE_ROTATING_GEAR_STICKY" path="3GuB/invisible_rotating_gear_sticky"/>
+		<Image id="INVISIBLE_ROTATING_GEAR_BALLBUSTER" path="3GuB/invisible_rotating_gear_ballbuster"/>
 		<Image id="GEAR_1" path="3GuB/gear1"/>
 		<Image id="GEAR_1BLACK" path="3GuB/gear1black"/>
 		<Image id="GEAR_1WHITE" path="3GuB/gear1white"/>
