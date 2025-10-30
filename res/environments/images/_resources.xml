@@ -99,6 +99,8 @@
 		<Image id="YELLOWSKY_OVERLAY" path="YellowSky/YellowSky_Overlay"  />
 		<Image id="YELLOWSKY_GRAD_OVERLAY" path="YellowSky/YellowSky_grad_overlay"  />
 		<Image id="YELLOWSKY" path="YellowSky/YellowSky"  />
+		<Image id="LEAPBOG3LAYER1" path="Leapbog3layer1"  />
+		<Image id="NEWSKIES" path="NewSkies"  />
 		<!-- Assets by 3GuB -->
 		<Image id="ISLANDMAP1_BG_BLACKWHITE" path="3GuB/IslandMap1_BG_blackwhite"  />
 	</Resources>
