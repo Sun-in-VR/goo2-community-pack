@@ -638,6 +638,206 @@
 					},
 					"particleEffects":	[],
 					"points":	[]
+				}, {
+					"name":	"IMAGE_ITEM_INVISIBLE_ROTATING_GEAR_BALLBUSTER",
+					"randomizationGroup":	1,
+					"position":	{
+						"x":	0,
+						"y":	0
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	1,
+						"y":	1
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	3,
+					"invisible":	true,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0,
+						"y":	0
+					},
+					"body":	{
+						"id":	"",
+						"type":	2,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	true,
+						"materialName":	"terrain_ballbuster",
+						"tags":	"",
+						"geoms":	[{
+								"type":	1,
+								"width":	0,
+								"height":	0,
+								"radius":	169,
+								"density":	3,
+								"offset":	{
+									"x":	-2.00000,
+									"y":	0
+								},
+								"rotation":	0,
+								"normal":	{
+									"x":	0,
+									"y":	1
+								},
+								"isSensor":	false,
+								"friction":	-1,
+								"bounciness":	-1,
+								"points":	[]
+							}, {
+								"type":	4,
+								"width":	0,
+								"height":	0,
+								"radius":	0,
+								"density":	3,
+								"offset":	{
+									"x":	0,
+									"y":	0
+								},
+								"rotation":	0,
+								"normal":	{
+									"x":	0,
+									"y":	1
+								},
+								"isSensor":	false,
+								"friction":	-1,
+								"bounciness":	-1,
+								"points":	[{
+										"x":	-217.92972,
+										"y":	-37.19774
+									}, {
+										"x":	217.94654,
+										"y":	-37.19774
+									}, {
+										"x":	217.94654,
+										"y":	37.20425
+									}, {
+										"x":	-217.92972,
+										"y":	37.20425
+									}]
+							}, {
+								"type":	4,
+								"width":	0,
+								"height":	0,
+								"radius":	0,
+								"density":	3,
+								"offset":	{
+									"x":	0,
+									"y":	0
+								},
+								"rotation":	0,
+								"normal":	{
+									"x":	0,
+									"y":	1
+								},
+								"isSensor":	false,
+								"friction":	-1,
+								"bounciness":	-1,
+								"points":	[{
+										"x":	-127.80410,
+										"y":	-180.41885
+									}, {
+										"x":	180.40696,
+										"y":	127.79220
+									}, {
+										"x":	127.79681,
+										"y":	180.40236
+									}, {
+										"x":	-180.41425,
+										"y":	-127.80870
+									}]
+							}, {
+								"type":	4,
+								"width":	0,
+								"height":	0,
+								"radius":	0,
+								"density":	3,
+								"offset":	{
+									"x":	0,
+									"y":	0
+								},
+								"rotation":	0,
+								"normal":	{
+									"x":	0,
+									"y":	1
+								},
+								"isSensor":	false,
+								"friction":	-1,
+								"bounciness":	-1,
+								"points":	[{
+										"x":	37.19774,
+										"y":	-217.92972
+									}, {
+										"x":	37.19774,
+										"y":	217.94654
+									}, {
+										"x":	-37.20425,
+										"y":	217.94654
+									}, {
+										"x":	-37.20425,
+										"y":	-217.92972
+									}]
+							}, {
+								"type":	4,
+								"width":	0,
+								"height":	0,
+								"radius":	0,
+								"density":	3,
+								"offset":	{
+									"x":	0,
+									"y":	0
+								},
+								"rotation":	0,
+								"normal":	{
+									"x":	0,
+									"y":	1
+								},
+								"isSensor":	false,
+								"friction":	-1,
+								"bounciness":	-1,
+								"points":	[{
+										"x":	180.41885,
+										"y":	-127.80410
+									}, {
+										"x":	-127.79220,
+										"y":	180.40696
+									}, {
+										"x":	-180.40236,
+										"y":	127.79681
+									}, {
+										"x":	127.80870,
+										"y":	-180.41425
+									}]
+							}],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
 				}],
 			"alternates":	[],
 			"userVariables":	[],
