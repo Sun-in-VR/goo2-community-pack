@@ -862,6 +862,15 @@
 		<Image id="P0B_GEARTINYBLUR" path="p0b/gear_Tiny1blur"  />
 		<Image id="P0B_GEARTINYBLACK" path="p0b/gear_Tiny1Black"  />
 		<Image id="P0B_GEARTINYBLACKBLUR" path="p0b/gear_Tiny1blurblur"  />
+		<Image id="P0B_COGARM" path="p0b/CogArm"  />
+		<Image id="P0B_MATCHSTICK" path="p0b/MatchStick"  />
+		<Image id="P0B_STONEHEAD" path="p0b/StoneHead"  />
+		<Image id="P0B_WOODENARROW" path="p0b/WoodenArrow"  />
+		<Image id="P0B_PIPE_STRAIGHT" path="p0b/Pipe_Straight"  />
+		<Image id="P0B_PIPE_BEND" path="p0b/Pipe_Bend"  />
+		<Image id="P0B_PIPE_FUNNEL" path="p0b/Pipe_Funnel"  />
+		<Image id="P0B_PIPE_TANK" path="p0b/Pipe_Tank"  />
+		<Image id="P0B_PIPE_TANK_BG" path="p0b/Pipe_Tank_BG"  />
 		<!-- Assets provided by spikeygoo -->
 		<Image id="SPIKEYGOO_TRAFFICSIGN1" path="spikeygoo/signWarning4"  />
 		<Image id="SPIKEYGOO_TRAFFICSIGN2" path="spikeygoo/signWarning5"  />
