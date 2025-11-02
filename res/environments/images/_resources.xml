@@ -80,6 +80,12 @@
 		<Image id="VIRTUALSUN_DARKPINKMOUNTAINS" path="VirtualSun/DarkPinkMountains"  />
 		<Image id="VIRTUALSUN_PINKSKYGRADIENT" path="VirtualSun/PinkSkyGradient"  />
 		<Image id="VIRTUALSUN_REDCARPETGRADIENT" path="VirtualSun/RedCarpetGradient"  />
+		<Image id="VIRTUALSUN_DARKBLUESPACE" path="VirtualSun/DarkBlueSpace"  />
+		<Image id="VIRTUALSUN_BLUEGALAXY" path="VirtualSun/BlueGalaxy"  />
+		<Image id="VIRTUALSUN_SUNNOATMOSPHERE" path="VirtualSun/SunNoAtmosphere"  />
+		<Image id="VIRTUALSUN_PURPLESKY" path="VirtualSun/PurpleSky"  />
+		<Image id="VIRTUALSUN_DARKREDSPACE" path="VirtualSun/DarkRedSpace"  />
+		<Image id="VIRTUALSUN_ORANGEGALAXY" path="VirtualSun/OrangeGalaxy"  />
 		<!-- Assets by vEra -->
 		<Image id="VERA_INFOSUPERHIGHWAY" path="vEra/InfoSuperHighway"  />
 		<!-- Assets by HesJustThisGuy -->

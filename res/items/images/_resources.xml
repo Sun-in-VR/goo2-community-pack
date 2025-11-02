@@ -898,7 +898,7 @@
 		<Image id="FW_SPIRE3_RIGHT" path="Fireworks/spire3_right"  />
 		<Image id="BUILDINGS" path="Corporation/buildings"  />
 		<Image id="BROKENGEAR" path="Xowerr/BrokenGear"  />
-				<!-- Assets provided by FreakZillA8 -->
+		<!-- Assets provided by FreakZillA8 -->
 		<Image id="LIGHTSOURCE_WHITE" path="LightSource/WHITE"/>
 		<Image id="LIGHTSOURCE_RED" path="LightSource/RED"/>
 		<Image id="LIGHTSOURCE_ORANGE" path="LightSource/ORANGE"/>
@@ -912,6 +912,12 @@
 		<Image id="LIGHTSOURCE_WARMYELLOW" path="LightSource/WARMYELLOW"/>
 		<Image id="LIGHTSOURCE_PINK" path="LightSource/PINK"/>
 		<Image id="LIGHTSOURCE_HOTPINK" path="LightSource/HOTPINK"/>
+		<!-- Assets provided by VirtualSun -->
+		<Image id="VIRTUALSUN_PLANETBACKGROUNDORANGE" path="VirtualSun/PlanetBackgroundOrange"/>
+		<Image id="VIRTUALSUN_PLANETBACKGROUNDPURPLE" path="VirtualSun/PlanetBackgroundPurple"/>
+		<Image id="VIRTUALSUN_PLANETBACKGROUNDWHITE" path="VirtualSun/PlanetBackgroundWhite"/>
+		<Image id="VIRTUALSUN_SPACEBLENDERGLASS" path="VirtualSun/SpaceBlenderGlass"/>
+
 
 	</Resources>
 </ResourceManifest>
