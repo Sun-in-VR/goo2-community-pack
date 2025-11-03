@@ -1,0 +1,193 @@
+{
+	"items":	[{
+			"name":	"Fireball",
+			"uuid":	"7c5ae5b0-6a0d-4f03-a8dc-995aae9e9e24",
+			"type":	15,
+			"category":	"Misc",
+			"layer":	3,
+			"minDepth":	0,
+			"maxDepth":	0,
+			"sortOffset":	0,
+			"radiusOverride":	0,
+			"canRotate":	true,
+			"uniformScale":	true,
+			"canBeCopied":	true,
+			"variations":	false,
+			"useLighting":	true,
+			"castShadow":	false,
+			"color":	4294967295,
+			"animationName":	"",
+			"animationAlias":	"",
+			"animationSpeed":	1,
+			"animationInNormalizedTime":	0.5,
+			"animationPlayNormalizedTimeRange":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalPosition":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalScale":	{
+				"x":	1,
+				"y":	1
+			},
+			"animationRotation":	0,
+			"userValue1":	0,
+			"userValue2":	0,
+			"snapObjectIndex":	0,
+			"destroyForce":	-1,
+			"objects":	[{
+					"name":	"IMAGE_ITEM_FIREBALL",
+					"randomizationGroup":	0,
+					"position":	{
+						"x":	0,
+						"y":	0
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.32,
+						"y":	0.32
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0,
+						"y":	0
+					},
+					"body":	{
+						"id":	"",
+						"type":	1,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	true,
+						"materialName":	"fireball",
+						"tags":	"",
+						"geoms":	[{
+								"type":	1,
+								"width":	0,
+								"height":	0,
+								"radius":	160,
+								"density":	4.5,
+								"offset":	{
+									"x":	0,
+									"y":	0
+								},
+								"rotation":	0,
+								"normal":	{
+									"x":	0,
+									"y":	1
+								},
+								"isSensor":	false,
+								"friction":	-1,
+								"bounciness":	-1,
+								"points":	[]
+							}],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}],
+			"alternates":	[],
+			"userVariables":	[{
+					"name":	"Undefined",
+					"defaultValue":	0,
+					"minValue":	0,
+					"maxValue":	1,
+					"orderIndex":	0,
+					"enabled":	false,
+					"type":	2,
+					"stringValue":	""
+				}, {
+					"name":	"Undefined2",
+					"defaultValue":	0,
+					"minValue":	0,
+					"maxValue":	1,
+					"orderIndex":	1,
+					"enabled":	false,
+					"type":	2,
+					"stringValue":	""
+				}, {
+					"name":	"Visible",
+					"defaultValue":	1,
+					"minValue":	0,
+					"maxValue":	1,
+					"orderIndex":	2,
+					"enabled":	true,
+					"type":	2,
+					"stringValue":	""
+				}, {
+					"name":	"Explosion Range",
+					"defaultValue":	40,
+					"minValue":	0,
+					"maxValue":	100,
+					"orderIndex":	3,
+					"enabled":	true,
+					"type":	0,
+					"stringValue":	""
+				}, {
+					"name":	"Strength",
+					"defaultValue":	18,
+					"minValue":	0.5,
+					"maxValue":	100,
+					"orderIndex":	4,
+					"enabled":	true,
+					"type":	0,
+					"stringValue":	""
+				}, {
+					"name":	"Explosion Strength",
+					"defaultValue":	2.5,
+					"minValue":	0,
+					"maxValue":	50,
+					"orderIndex":	5,
+					"enabled":	true,
+					"type":	0,
+					"stringValue":	""
+				}],
+			"snapPoints":	[],
+			"limits":	{
+				"minScale":	0.10000000149011612,
+				"maxScale":	50
+			},
+			"sound":	{
+				"collisionSounds":	[],
+				"minCollisionCosine":	0.699999988079071,
+				"collisionTimeout":	0.5,
+				"collisionLoopSound":	{
+					"soundId":	""
+				},
+				"minCollisionLoopAngularVelocity":	0.10000000149011612,
+				"maxCollisionLoopAngularVelocity":	0.5,
+				"collisionLoopBlendSpeed":	0.10000000149011612
+			},
+			"destructionSound":	{
+				"soundId":	"SOUND_GLOBAL_EXPLODELARGE.01"
+			}
+		}]
+}

@@ -898,6 +898,7 @@
 		<Image id="FW_SPIRE3_RIGHT" path="Fireworks/spire3_right"  />
 		<Image id="BUILDINGS" path="Corporation/buildings"  />
 		<Image id="BROKENGEAR" path="Xowerr/BrokenGear"  />
+		<Image id="FIREBALL" path="Xowerr/Fireball"  />
 		<!-- Assets provided by FreakZillA8 -->
 		<Image id="LIGHTSOURCE_WHITE" path="LightSource/WHITE"/>
 		<Image id="LIGHTSOURCE_RED" path="LightSource/RED"/>
