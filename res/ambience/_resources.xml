@@ -24,7 +24,6 @@
 		<Sound id="WINDY_FARM" path="windy_farm" streaming="true" bus="Music" />
 		<Sound id="WIND_HEAVY" path="wind_heavy" streaming="true" bus="Music" />
 		<Sound id="WIND_LIGHT" path="wind_light" streaming="true" bus="Music" />
-		<Sound id="CELEBRITYCROWD" path="loop_celebrityCrowd" streaming="true" bus="Music" />
 		<Sound id="BEFOREITRAINS" path="loop_beforeItRains" streaming="true" bus="Music" />
 		<Sound id="BUBBLES" path="loop_bubbles" streaming="true" bus="Music" />
 		<Sound id="EVENINGWATER" path="loop_eveningWater" streaming="true" bus="Music" />
