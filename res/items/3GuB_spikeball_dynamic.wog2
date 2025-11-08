@@ -83,7 +83,7 @@
 								"width":	0,
 								"height":	0,
 								"radius":	265,
-								"density":	3,
+								"density":	1,
 								"offset":	{
 									"x":	0,
 									"y":	0
@@ -154,7 +154,7 @@
 								"width":	0,
 								"height":	0,
 								"radius":	265,
-								"density":	3,
+								"density":	1,
 								"offset":	{
 									"x":	0,
 									"y":	0
@@ -225,7 +225,7 @@
 								"width":	0,
 								"height":	0,
 								"radius":	265,
-								"density":	3,
+								"density":	1,
 								"offset":	{
 									"x":	0,
 									"y":	0
