@@ -840,6 +840,31 @@
 		<Image id="HL_BG_DARKGLOBS_REV821" path="3GuB/hl_bg_darkglobs_rev821"/>
 		<Image id="DRILL" path="3GuB/drill"/>
 		<Image id="DRILL_BLUR" path="3GuB/drill_blur"/>
+		<Image id="SPLAT1" path="3GuB/splat1"/>
+		<Image id="SPLAT2" path="3GuB/splat2"/>
+		<Image id="SPLAT3" path="3GuB/splat3"/>
+		<Image id="ROCKETDIST_REV601" path="3GuB/rocketDist_rev601"/>
+		<Image id="DISTBUILDINGS1_REV601" path="3GuB/distBuildings1_rev601"/>
+		<Image id="ROCKETDIST_BLUR_REV601" path="3GuB/rocketDist_blur_rev601"/>
+		<Image id="DISTBUILDINGS1_BLUR_REV601" path="3GuB/distBuildings1_blur_rev601"/>
+		<Image id="ANTENNA_1" path="3GuB/antenna_1"/>
+		<Image id="ANTENNA_2" path="3GuB/antenna_2"/>
+		<Image id="ANTENNA_3" path="3GuB/antenna_3"/>
+		<Image id="MATCH_1" path="3GuB/match_1"/>
+		<Image id="MATCH_2" path="3GuB/match_2"/>
+		<Image id="MATCH_3" path="3GuB/match_3"/>
+		<Image id="BURST" path="3GuB/burst"/>
+		<Image id="BURSTFADED" path="3GuB/burstFaded"/>
+		<Image id="SCAFFOLDCORNER_B" path="3GuB/scaffoldCorner_B"/>
+		<Image id="SCAFFOLDCORNER_C" path="3GuB/scaffoldCorner_C"/>
+		<Image id="SCAFFOLDCORNER_D" path="3GuB/scaffoldCorner_D"/>
+		<Image id="SCAFFOLDCORNER_E" path="3GuB/scaffoldCorner_E"/>
+		<Image id="SCAFFOLDCORNERTYPE3_B" path="3GuB/scaffoldCornerType3_B"/>
+		<Image id="SCAFFOLDCORNERTYPE3_C" path="3GuB/scaffoldCornerType3_C"/>
+		<Image id="SCAFFOLDCORNERTYPE3_D" path="3GuB/scaffoldCornerType3_D"/>
+		<Image id="SCAFFOLDCORNERTYPE3_E" path="3GuB/scaffoldCornerType3_E"/>
+		<Image id="SCAFFOLDCORNERTYPE4" path="3GuB/scaffoldCornerType4"/>
+		<Image id="SCAFFOLDCORNERTYPE5" path="3GuB/scaffoldCornerType5"/>
 		<!-- Assets provided by Special_Paint -->
 		<Image id="SPECIAL_PAINT_SMOKESTACK" path="Special_Paint/SmokeStack"  />
 		<Image id="SPECIAL_PAINT_SMOKESTACKBLUR" path="Special_Paint/SmokeStackBlur"  />
