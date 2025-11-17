@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<ResourceManifest>
+
+  <Resources id="ball_Sponge">
+      <SetDefaults path="res/balls/Sponge/" idprefix="BALL_SPONGE_" />
+	<Image id="BODY" path="body"/>
+	<Image id="STRAND" path="strand"/>
+	<Image id="STRAND_BG" path="strand_bg"/>
+	<Image id="SPLAT1" path="splat1"/>
+	<Image id="SPLAT2" path="splat2"/>
+  </Resources>
+
+</ResourceManifest>
