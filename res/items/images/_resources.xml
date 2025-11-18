@@ -392,6 +392,13 @@
 		<Image id="DJM_SATELLITEDISH" path="djm334/SatelliteDish"  />
 		<Image id="DJM_SPINTOWINWHEEL" path="djm334/SpinToWinWheel"  />
 		<Image id="DJM_SPINTOWINWHEELOPEN" path="djm334/SpinToWinWheelOpen"  />
+		<Image id="DJM_STACKEDROCKS" path="djm334/StackedRocks"  />
+		<Image id="DJM_STONEARCHES" path="djm334/StoneArches"  />
+		<Image id="DJM_STONEARCHES2" path="djm334/StoneArches2"  />
+		<Image id="DJM_STONEARCHES3" path="djm334/StoneArches3"  />
+		<Image id="DJM_STONEARCHES4" path="djm334/StoneArches4"  />
+		<Image id="DJM_ANUBIS" path="djm334/Anubis"  />
+		<Image id="DJM_COGRUINS" path="djm334/CogRuins"  />
 				<!-- Assets provided by 3GuB -->
 		<Image id="LEVER" path="3GuB/lever"/>
 		<Image id="LEVER_2" path="3GuB/lever_2"/>
