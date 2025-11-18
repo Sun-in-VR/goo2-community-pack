@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<ResourceManifest>
+
+  <Resources id="ball_IvyGiant">
+
+    <SetDefaults path="res/balls/IvyGiant/" idprefix="IMAGE_BALL_IVY_GIANT_" />
+
+    <Image id="BODY" path="body" />
+    <Image id="BODYATTACHED" path="bodyA" />
+    <Image id="STRAND" path="strand" />
+
+  </Resources>
+
+</ResourceManifest>

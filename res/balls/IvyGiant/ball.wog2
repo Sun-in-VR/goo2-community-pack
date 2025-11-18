@@ -1,57 +1,55 @@
 {
-	"name":	"Sponge",
-	"width":	0.300000011920929,
-	"height":	0.300000011920929,
+	"name":	"IvyGiant",
+	"width":	0.78,
+	"height":	0.78,
 	"shape":	{
 		"ballShape":	0
 	},
-	"sizeVariance":	0.01,
-	"mass":	1.1,
-	"towerMass":	0.11000000149011612,
-	"dragMass":	0.8,
-	"destroyForce":	-1,
+	"sizeVariance":	0.20999999344348907,
+	"mass":	1.5,
+	"towerMass":	0.425,
+	"dragMass":	0.25000000149011612,
+	"destroyForce":	50000,
 	"maxDropDistance":	10,
 	"maxStrands":	3,
-	"walkSpeed":	1.5,
-	"climbSpeed":	0.00999999977648258,
+	"walkSpeed":	5,
+	"climbSpeed":	0.016,
 	"speedVariance":	0.20000000298023224,
 	"antiGravFactor":	0,
 	"isAntiGravAttached":	false,
 	"isAntiGravUnattached":	false,
-	"dampening":	0.2,
+	"dampening":	0,
 	"isEditable":	true,
 	"isDraggable":	true,
 	"isDetachable":	true,
 	"diesOnDetach":	false,
 	"isInvulnerable":	false,
-	"isInvulnerableToLava":	false,
 	"isStickyAttached":	true,
 	"isStickyUnattached":	false,
-	"attachToSameTypeOnly":	false,
+	"attachToSameTypeOnly":	true,
 	"isGrumpy":	false,
 	"isStatic":	false,
 	"isStaticWhenSleeping":	false,
-	"selectionMarkerRadius":	0.40000000596046448,
+	"selectionMarkerRadius":	0.50000000596046448,
 	"attachedMaginSS":	20,
 	"unattachedMarginSS":	40,
-	"health":	50,
+	"health":	20,
 	"blinkColor":	{
-		"color":	4285422113
+		"color":	4281691173
 	},
-	"jumpMultiplierMin":	0,
-	"jumpMultiplierMax":	0.300000011920929,
+	"jumpMultiplierMin":	0.40000000596046448,
+	"jumpMultiplierMax":	1.2000000476837158,
 	"collideAttached":	true,
 	"collideWithAttached":	false,
 	"collideWithParticlesAttached":	true,
-	"collisionGroup":	0,
 	"allowAttachmentsWhenStuck":	false,
 	"allowAttachmentsWhenFalling":	false,
 	"motorMaxForce":	5,
-	"isSuckable":	true,
+	"isSuckable":	false,
 	"opensExitUnattached":	false,
 	"affectsAutoboundsAttached":	true,
 	"affectsAutoboundsUnattached":	false,
-	"burnTime":	0,
+	"burnTime":	0.10000000149011612,
 	"detonateForce":	0,
 	"detonateRadius":	0,
 	"detonateKillBalls":	true,
@@ -62,7 +60,7 @@
 	},
 	"autoAttach":	false,
 	"isClimber":	true,
-	"attachedParticleBarrierFactor":	1,
+	"attachedParticleBarrierFactor":	3,
 	"material":	{
 		"materialName":	"balldefault"
 	},
@@ -82,8 +80,8 @@
 	"popDuration":	0,
 	"popDelayMin":	0,
 	"popDelayMax":	0,
-	"hideEyes":	false,
-	"botoxEyesWhenAttached":	true,
+	"hideEyes":	true,
+	"botoxEyesWhenAttached":	false,
 	"isBehindStrands":	false,
 	"wakeOtherBallsAtDistance":	-3.4028234663852886e+38,
 	"spawnType":	{
@@ -103,35 +101,34 @@
 	"useDistantSounds":	true,
 	"canBeRotatedByHand":	false,
 	"stencil":	0,
-	"stencilWhenAttached":	false,
-	"canSuckLiquidExternally":	true,
-	"canSuckLiquidFromPipe":	true,
-	"liquidParticlesPerSecond":	250,
+	"canSuckLiquidExternally":	false,
+	"canSuckLiquidFromPipe":	false,
+	"liquidParticlesPerSecond":	0,
 	"initialBallLiquidAmount":	0,
-	"maxBallLiquidAmount":	100,
-	"maxStrandLiquidAmount":	100,
-	"liquidSinkOffset":	4,
-	"strandSuckLiquidParticlesPerSecond":	250,
+	"maxBallLiquidAmount":	0,
+	"maxStrandLiquidAmount":	0,
+	"liquidSinkOffset":	0,
+	"strandSuckLiquidParticlesPerSecond":	0,
 	"hitVelocityAccumulationLimit":	0,
 	"shadowImageId":	{
-		"imageId":	"IMAGE_BALL_GENERIC_SHADOW1"
+		"imageId":	"IMAGE_BALL_GENERIC_SHADOW0"
 	},
 	"shadowImageIsAdditive":	false,
 	"strandType":	{
 		"strandType":	1
 	},
-	"springConstMin":	7000,
-	"springConstMax":	7000,
-	"strandDampening":	0.0030000000260770321,
-	"maxReplacementStrandLength":	2.75,
-	"maxNormalStrandLength":	3,
-	"minStrandLength":	2,
-	"strandShrinkLength":	1.3999999761581421,
-	"maxStretchForce":	18000,
-	"maxCompressForce":	18000,
-	"strandDensity":	0.10000000149011612,
-	"strandThickness":	0.256700011920929,
-	"strandGrowMultiplier":	2,
+	"springConstMin":	8000,
+	"springConstMax":	8000,
+	"strandDampening":	0.0060000000521540642,
+	"maxReplacementStrandLength":	5.1,
+	"maxNormalStrandLength":	4.2,
+	"minStrandLength":	1.8,
+	"strandShrinkLength":	3.9,
+	"maxStretchForce":	60000,
+	"maxCompressForce":	60000,
+	"strandDensity":	2.70000000149011612,
+	"strandThickness":	0.78,
+	"strandGrowMultiplier":	1,
 	"isSingleStrandAllowed":	true,
 	"allowBallToStrandConversion":	true,
 	"swallowBall":	true,
@@ -139,7 +136,7 @@
 	"isStrandWalkable":	true,
 	"canShrinkStrand":	true,
 	"strandImageId":	{
-		"imageId":	"BALL_SPONGE_STRAND"
+		"imageId":	"IMAGE_BALL_IVY_GIANT_STRAND"
 	},
 	"strandInactiveImageId":	{
 		"imageId":	"IMAGE_BALL_GENERIC_ARM_INACTIVE"
@@ -148,25 +145,25 @@
 		"imageId":	"IMAGE_BALL_GENERIC_ARM_INACTIVE_SHADOW"
 	},
 	"strandIgniteDelay":	0,
-	"strandBurnSpeed":	0,
+	"strandBurnSpeed":	0.05000000074505806,
 	"strandFireParticlesId":	"",
 	"strandBurntImageId":	{
-		"imageId":	"IMAGE_BALL_CONDUIT_STRAND"
+		"imageId":	"IMAGE_BALL_IVY_GIANT_STRAND"
 	},
 	"strandBackgroundImageId":	{
-		"imageId":	"BALL_SPONGE_STRAND_BG"
+		"imageId":	""
 	},
 	"detachStrandImageId":	{
-		"imageId":	"IMAGE_BALL_CONDUIT_STRAND"
+		"imageId":	"IMAGE_BALL_IVY_DSTRAND"
 	},
-	"detachStrandMaxLength":	0.600000023841858,
+	"detachStrandMaxLength":	1.800000023841858,
 	"dragMarkerImageId":	{
 		"imageId":	"IMAGE_BALL_GENERIC_SELECTIONMARKER"
 	},
 	"detachMarkerImageId":	{
 		"imageId":	""
 	},
-	"markerRotSpeed":	-2,
+	"markerRotSpeed":	2,
 	"stainLiquidType":	{
 		"liquidType":	4
 	},
@@ -194,55 +191,14 @@
 			"name":	"body",
 			"images":	[{
 					"imageId":	{
-						"imageId":	"BALL_SPONGE_BODY"
-					},
-					"imageMaskId":	{
-						"imageId":	""
-					}
-				}],
-			"imageBackgroundIds":	[{
-					"imageId":	""
-				}],
-			"layer":	3,
-			"drawWhenAttached":	true,
-			"drawWhenNotAttached":	true,
-			"minX":	0,
-			"maxX":	0,
-			"minY":	0,
-			"maxY":	0,
-			"minRangeX":	0,
-			"maxRangeX":	0,
-			"minRangeY":	0,
-			"maxRangeY":	0,
-			"states":	[],
-			"isActiveWhenUndiscovered":	true,
-			"scale":	1.2000000476837158,
-			"scaleIsRelative":	true,
-			"rotation":	0,
-			"isEye":	false,
-			"pupilImageIds":	[],
-			"pupilInset":	0,
-			"pupilScale":	1.3999999761581421,
-			"isRotating":	true,
-			"stretchMaxSpeed":	16,
-			"stretchParallel":	2,
-			"stretchPerpendicular":	0.5,
-			"color":	{
-				"color":	4294967295
-			},
-			"stretchFactorFromStrandForce":	0
-	}, {
-			"name":	"eye",
-			"images":	[{
-					"imageId":	{
-						"imageId":	"IMAGE_BALL_GENERIC_EYE_GLASS_1"
+						"imageId":	"IMAGE_BALL_IVY_GIANT_BODY"
 					},
 					"imageMaskId":	{
 						"imageId":	""
 					}
 				}],
 			"imageBackgroundIds":	[],
-			"layer":	2,
+			"layer":	1,
 			"drawWhenAttached":	true,
 			"drawWhenNotAttached":	true,
 			"minX":	0,
@@ -262,30 +218,197 @@
 				}, {
 					"ballState":	3
 				}, {
+					"ballState":	5
+				}, {
+					"ballState":	7
+				}, {
+					"ballState":	8
+				}, {
+					"ballState":	9
+				}, {
+					"ballState":	10
+				}, {
+					"ballState":	11
+				}, {
+					"ballState":	12
+				}, {
+					"ballState":	15
+				}],
+			"isActiveWhenUndiscovered":	true,
+			"scale":	1,
+			"scaleIsRelative":	true,
+			"rotation":	0,
+			"isEye":	false,
+			"pupilImageIds":	[],
+			"pupilInset":	0,
+			"isRotating":	false,
+			"stretchMaxSpeed":	48,
+			"stretchParallel":	2,
+			"stretchPerpendicular":	0.5,
+			"color":	{
+				"color":	4294967295
+			},
+			"stretchFactorFromStrandForce":	0
+		}, {
+			"name":	"bodyAttached",
+			"images":	[{
+					"imageId":	{
+						"imageId":	"IMAGE_BALL_IVY_GIANT_BODYATTACHED"
+					},
+					"imageMaskId":	{
+						"imageId":	""
+					}
+				}],
+			"imageBackgroundIds":	[],
+			"layer":	1,
+			"drawWhenAttached":	true,
+			"drawWhenNotAttached":	true,
+			"minX":	0,
+			"maxX":	0,
+			"minY":	0,
+			"maxY":	0,
+			"minRangeX":	0,
+			"maxRangeX":	0,
+			"minRangeY":	0,
+			"maxRangeY":	0,
+			"states":	[{
+					"ballState":	4
+				}],
+			"isActiveWhenUndiscovered":	false,
+			"scale":	1,
+			"scaleIsRelative":	true,
+			"rotation":	0,
+			"isEye":	false,
+			"pupilImageIds":	[],
+			"pupilInset":	0,
+			"isRotating":	false,
+			"stretchMaxSpeed":	48,
+			"stretchParallel":	2,
+			"stretchPerpendicular":	0.5,
+			"color":	{
+				"color":	4294967295
+			},
+			"stretchFactorFromStrandForce":	0
+		}, {
+			"name":	"lefteye",
+			"images":	[{
+					"imageId":	{
+						"imageId":	"IMAGE_BALL_IVY_EYEL"
+					},
+					"imageMaskId":	{
+						"imageId":	""
+					}
+				}],
+			"imageBackgroundIds":	[],
+			"layer":	2,
+			"drawWhenAttached":	true,
+			"drawWhenNotAttached":	true,
+			"minX":	-0.345,
+			"maxX":	-0.315,
+			"minY":	0,
+			"maxY":	0.210000000298023224,
+			"minRangeX":	0,
+			"maxRangeX":	0,
+			"minRangeY":	0,
+			"maxRangeY":	0,
+			"states":	[{
+					"ballState":	0
+				}, {
+					"ballState":	1
+				}, {
+					"ballState":	2
+				}, {
+					"ballState":	3
+				}, {
 					"ballState":	4
 				}, {
 					"ballState":	5
 				}, {
 					"ballState":	7
 				}, {
+					"ballState":	8
+				}, {
+					"ballState":	9
+				}, {
+					"ballState":	10
+				}, {
 					"ballState":	12
 				}, {
 					"ballState":	15
-				}, {
-					"ballState":	4
-				}, {
-					"ballState":	9
 				}],
 			"isActiveWhenUndiscovered":	false,
-			"scale":	0.0015,
+			"scale":	0.005757,
 			"scaleIsRelative":	false,
 			"rotation":	0,
 			"isEye":	true,
 			"pupilImageIds":	[{
-					"imageId":	"IMAGE_BALL_GENERIC_PUPIL1"
+					"imageId":	"IMAGE_BALL_IVY_PUPIL"
 				}],
-			"pupilInset":	37.5,
-			"pupilScale":	1.3999999761581421,
+			"pupilInset":	43.700000762939453,
+			"isRotating":	true,
+			"stretchMaxSpeed":	-1,
+			"stretchParallel":	-1,
+			"stretchPerpendicular":	0,
+			"color":	{
+				"color":	4294967295
+			},
+			"stretchFactorFromStrandForce":	0
+		}, {
+			"name":	"righteye",
+			"images":	[{
+					"imageId":	{
+						"imageId":	"IMAGE_BALL_IVY_EYER"
+					},
+					"imageMaskId":	{
+						"imageId":	""
+					}
+				}],
+			"imageBackgroundIds":	[],
+			"layer":	2,
+			"drawWhenAttached":	true,
+			"drawWhenNotAttached":	true,
+			"minX":	0.315,
+			"maxX":	0.345,
+			"minY":	0,
+			"maxY":	0.210000000298023224,
+			"minRangeX":	0,
+			"maxRangeX":	0,
+			"minRangeY":	0,
+			"maxRangeY":	0,
+			"states":	[{
+					"ballState":	0
+				}, {
+					"ballState":	1
+				}, {
+					"ballState":	2
+				}, {
+					"ballState":	3
+				}, {
+					"ballState":	4
+				}, {
+					"ballState":	5
+				}, {
+					"ballState":	7
+				}, {
+					"ballState":	8
+				}, {
+					"ballState":	9
+				}, {
+					"ballState":	10
+				}, {
+					"ballState":	12
+				}, {
+					"ballState":	15
+				}],
+			"isActiveWhenUndiscovered":	false,
+			"scale":	0.005757,
+			"scaleIsRelative":	false,
+			"rotation":	0,
+			"isEye":	true,
+			"pupilImageIds":	[{
+					"imageId":	"IMAGE_BALL_IVY_PUPIL"
+				}],
+			"pupilInset":	43.700000762939453,
 			"isRotating":	true,
 			"stretchMaxSpeed":	-1,
 			"stretchParallel":	-1,
@@ -309,9 +432,8 @@
 					"type":	{
 						"type":	1
 					},
-					"localSpace":	true,
 					"frequency":	2,
-					"amplitude":	0.10000000149011612,
+					"amplitude":	0.0010000000474974513,
 					"phaseShift":	0
 				}, {
 					"parts":	[{
@@ -323,9 +445,8 @@
 					"type":	{
 						"type":	1
 					},
-					"localSpace":	true,
 					"frequency":	2,
-					"amplitude":	0.10000000149011612,
+					"amplitude":	0.0010000000474974513,
 					"phaseShift":	0.5
 				}, {
 					"parts":	[{
@@ -337,7 +458,6 @@
 					"type":	{
 						"type":	0
 					},
-					"localSpace":	true,
 					"frequency":	2,
 					"amplitude":	0.019999999552965164,
 					"phaseShift":	0
@@ -353,7 +473,6 @@
 					"type":	{
 						"type":	0
 					},
-					"localSpace":	true,
 					"frequency":	2,
 					"amplitude":	0.019999999552965164,
 					"phaseShift":	0
@@ -367,7 +486,6 @@
 					"type":	{
 						"type":	0
 					},
-					"localSpace":	true,
 					"frequency":	2,
 					"amplitude":	0.00499999988824129,
 					"phaseShift":	0
@@ -381,17 +499,14 @@
 					"type":	{
 						"type":	0
 					},
-					"localSpace":	true,
 					"frequency":	2,
 					"amplitude":	0.00499999988824129,
 					"phaseShift":	0.5
 				}],
 			"states":	[{
 					"ballState":	0
-				}, {
-					"ballState":	2
 				}],
-			"frequenceyVarianceMagnitude":	1.2000000476837158,
+			"frequenceyVarianceMagnitude":	0.800000011920929,
 			"amplitudeVarianceMagnitude":	0.0010000000474974513,
 			"phaseShiftVarianceMagnitude":	0
 		}, {
@@ -405,283 +520,8 @@
 					"type":	{
 						"type":	1
 					},
-					"localSpace":	true,
-					"frequency":	1,
-					"amplitude":	0.029999999329447746,
-					"phaseShift":	0
-				}, {
-					"parts":	[{
-							"partName":	"body"
-						}],
-					"axis":	{
-						"axis":	1
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	1,
-					"amplitude":	0.029999999329447746,
-					"phaseShift":	0.5
-				}, {
-					"parts":	[{
-							"partName":	"hilite1"
-						}, {
-							"partName":	"hilite2"
-						}],
-					"axis":	{
-						"axis":	0
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	1,
-					"amplitude":	0.029999999329447746,
-					"phaseShift":	0
-				}, {
-					"parts":	[{
-							"partName":	"hilite1"
-						}, {
-							"partName":	"hilite2"
-						}],
-					"axis":	{
-						"axis":	1
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	1,
-					"amplitude":	0.029999999329447746,
-					"phaseShift":	0.5
-				}],
-			"states":	[{
-					"ballState":	4
-				}],
-			"frequenceyVarianceMagnitude":	0.5,
-			"amplitudeVarianceMagnitude":	0.00999999977648258,
-			"phaseShiftVarianceMagnitude":	0
-		}, {
-			"partAnimations":	[{
-					"parts":	[{
-							"partName":	"body"
-						}],
-					"axis":	{
-						"axis":	0
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	3,
-					"amplitude":	0.20000000298023224,
-					"phaseShift":	0
-				}, {
-					"parts":	[{
-							"partName":	"body"
-						}],
-					"axis":	{
-						"axis":	1
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	3,
-					"amplitude":	0.20000000298023224,
-					"phaseShift":	0
-				}, {
-					"parts":	[{
-							"partName":	"hilite1"
-						}, {
-							"partName":	"hilite2"
-						}],
-					"axis":	{
-						"axis":	0
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	3,
-					"amplitude":	0.20000000298023224,
-					"phaseShift":	0
-				}, {
-					"parts":	[{
-							"partName":	"hilite1"
-						}, {
-							"partName":	"hilite2"
-						}],
-					"axis":	{
-						"axis":	1
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	3,
-					"amplitude":	0.20000000298023224,
-					"phaseShift":	0.5
-				}],
-			"states":	[{
-					"ballState":	17
-				}],
-			"frequenceyVarianceMagnitude":	0.5,
-			"amplitudeVarianceMagnitude":	0.00999999977648258,
-			"phaseShiftVarianceMagnitude":	0
-		}, {
-			"partAnimations":	[{
-					"parts":	[{
-							"partName":	"body"
-						}],
-					"axis":	{
-						"axis":	0
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	3,
-					"amplitude":	0.20000000298023224,
-					"phaseShift":	0
-				}, {
-					"parts":	[{
-							"partName":	"body"
-						}],
-					"axis":	{
-						"axis":	1
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	3,
-					"amplitude":	0.20000000298023224,
-					"phaseShift":	0
-				}, {
-					"parts":	[{
-							"partName":	"hilite1"
-						}, {
-							"partName":	"hilite2"
-						}],
-					"axis":	{
-						"axis":	0
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	3,
-					"amplitude":	0.20000000298023224,
-					"phaseShift":	0
-				}, {
-					"parts":	[{
-							"partName":	"hilite1"
-						}, {
-							"partName":	"hilite2"
-						}],
-					"axis":	{
-						"axis":	1
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	3,
-					"amplitude":	0.20000000298023224,
-					"phaseShift":	0
-				}],
-			"states":	[],
-			"frequenceyVarianceMagnitude":	0.300000011920929,
-			"amplitudeVarianceMagnitude":	0.00999999977648258,
-			"phaseShiftVarianceMagnitude":	0
-		}, {
-			"partAnimations":	[{
-					"parts":	[{
-							"partName":	"body"
-						}],
-					"axis":	{
-						"axis":	0
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	1,
-					"amplitude":	0.20000000298023224,
-					"phaseShift":	0
-				}, {
-					"parts":	[{
-							"partName":	"body"
-						}],
-					"axis":	{
-						"axis":	1
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
-					"frequency":	1,
-					"amplitude":	0.20000000298023224,
-					"phaseShift":	0.33000001311302185
-				}],
-			"states":	[{
-					"ballState":	3
-				}],
-			"frequenceyVarianceMagnitude":	1.5,
-			"amplitudeVarianceMagnitude":	0.05000000074505806,
-			"phaseShiftVarianceMagnitude":	0
-		}, {
-			"partAnimations":	[{
-					"parts":	[{
-							"partName":	"righteye"
-						}],
-					"axis":	{
-						"axis":	0
-					},
-					"type":	{
-						"type":	0
-					},
-					"localSpace":	true,
-					"frequency":	1,
-					"amplitude":	-0.00999999977648258,
-					"phaseShift":	0
-				}, {
-					"parts":	[{
-							"partName":	"lefteye"
-						}],
-					"axis":	{
-						"axis":	0
-					},
-					"type":	{
-						"type":	0
-					},
-					"localSpace":	true,
-					"frequency":	1,
-					"amplitude":	0.00999999977648258,
-					"phaseShift":	0
-				}],
-			"states":	[{
-					"ballState":	3
-				}],
-			"frequenceyVarianceMagnitude":	1.5,
-			"amplitudeVarianceMagnitude":	0.00499999988824129,
-			"phaseShiftVarianceMagnitude":	0
-		}, {
-			"partAnimations":	[{
-					"parts":	[{
-							"partName":	"body"
-						}],
-					"axis":	{
-						"axis":	0
-					},
-					"type":	{
-						"type":	1
-					},
-					"localSpace":	true,
 					"frequency":	2,
-					"amplitude":	0.10000000149011612,
+					"amplitude":	0.0010000000474974513,
 					"phaseShift":	0
 				}, {
 					"parts":	[{
@@ -693,9 +533,8 @@
 					"type":	{
 						"type":	1
 					},
-					"localSpace":	true,
 					"frequency":	2,
-					"amplitude":	0.10000000149011612,
+					"amplitude":	0.0010000000474974513,
 					"phaseShift":	0.5
 				}, {
 					"parts":	[{
@@ -707,7 +546,6 @@
 					"type":	{
 						"type":	0
 					},
-					"localSpace":	true,
 					"frequency":	2,
 					"amplitude":	0.019999999552965164,
 					"phaseShift":	0
@@ -723,7 +561,6 @@
 					"type":	{
 						"type":	0
 					},
-					"localSpace":	true,
 					"frequency":	2,
 					"amplitude":	0.019999999552965164,
 					"phaseShift":	0
@@ -737,7 +574,6 @@
 					"type":	{
 						"type":	0
 					},
-					"localSpace":	true,
 					"frequency":	2,
 					"amplitude":	0.00499999988824129,
 					"phaseShift":	0
@@ -751,7 +587,6 @@
 					"type":	{
 						"type":	0
 					},
-					"localSpace":	true,
 					"frequency":	2,
 					"amplitude":	0.00499999988824129,
 					"phaseShift":	0.5
@@ -759,7 +594,7 @@
 			"states":	[{
 					"ballState":	1
 				}],
-			"frequenceyVarianceMagnitude":	1.2000000476837158,
+			"frequenceyVarianceMagnitude":	0.800000011920929,
 			"amplitudeVarianceMagnitude":	0.0010000000474974513,
 			"phaseShiftVarianceMagnitude":	0
 		}, {
@@ -773,9 +608,8 @@
 					"type":	{
 						"type":	1
 					},
-					"localSpace":	true,
 					"frequency":	1,
-					"amplitude":	0.00060000002849847078,
+					"amplitude":	0.00050000002374872565,
 					"phaseShift":	0
 				}, {
 					"parts":	[{
@@ -787,124 +621,63 @@
 					"type":	{
 						"type":	1
 					},
-					"localSpace":	true,
 					"frequency":	1,
-					"amplitude":	0.00060000002849847078,
-					"phaseShift":	0.5
-				}, {
-					"parts":	[{
-							"partName":	"righteye"
-						}],
-					"axis":	{
-						"axis":	0
-					},
-					"type":	{
-						"type":	0
-					},
-					"localSpace":	true,
-					"frequency":	1,
-					"amplitude":	0.0020000000949949026,
+					"amplitude":	0.00050000002374872565,
 					"phaseShift":	0
-				}, {
-					"parts":	[{
-							"partName":	"lefteye"
-						}],
-					"axis":	{
-						"axis":	0
-					},
-					"type":	{
-						"type":	0
-					},
-					"localSpace":	true,
-					"frequency":	1,
-					"amplitude":	0.0020000000949949026,
-					"phaseShift":	0.5
 				}],
 			"states":	[{
-					"ballState":	12
+					"ballState":	3
 				}],
 			"frequenceyVarianceMagnitude":	0.300000011920929,
-			"amplitudeVarianceMagnitude":	0.000199999994947575,
-			"phaseShiftVarianceMagnitude":	0
-		}, {
-			"partAnimations":	[{
-					"parts":	[{
-							"partName":	"body"
-						}, {
-							"partName":	"lefteye"
-						}, {
-							"partName":	"righteye"
-						}],
-					"axis":	{
-						"axis":	1
-					},
-					"type":	{
-						"type":	0
-					},
-					"localSpace":	true,
-					"frequency":	0.40000000596046448,
-					"amplitude":	0.029999999329447746,
-					"phaseShift":	0
-				}],
-			"states":	[{
-					"ballState":	12
-				}],
-			"frequenceyVarianceMagnitude":	0.10000000149011612,
-			"amplitudeVarianceMagnitude":	0.00999999977648258,
+			"amplitudeVarianceMagnitude":	0.00030000001424923539,
 			"phaseShiftVarianceMagnitude":	0
 		}],
 	"splatImageIds":	[{
-			"imageId":	"BALL_SPONGE_SPLAT1"
+			"imageId":	"IMAGE_BALL_IVY_SPLAT1"
 		}, {
-			"imageId":	"BALL_SPONGE_SPLAT2"
+			"imageId":	"IMAGE_BALL_IVY_SPLAT2"
 		}],
 	"soundEvents":	[{
 			"soundIds":	[{
-					"soundId":	"SOUND_BALL_GENERIC_GRUMBLE"
+					"soundId":	"SOUND_BALL_IVY_CHIRP01"
+				}, {
+					"soundId":	"SOUND_BALL_IVY_CHIRP02"
+				}, {
+					"soundId":	"SOUND_BALL_IVY_CHIRP03"
+				}, {
+					"soundId":	"SOUND_BALL_IVY_CHIRP04"
+				}, {
+					"soundId":	"SOUND_BALL_IVY_CHIRP05"
 				}],
 			"soundEvent":	{
 				"soundEvent":	0
 			}
 		}, {
 			"soundIds":	[{
-					"soundId":	"SOUND_BALL_GENERIC_GRUMBLE"
+					"soundId":	"SOUND_BALL_IVY_CHIRP01"
+				}, {
+					"soundId":	"SOUND_BALL_IVY_CHIRP02"
+				}, {
+					"soundId":	"SOUND_BALL_IVY_CHIRP03"
+				}, {
+					"soundId":	"SOUND_BALL_IVY_CHIRP04"
+				}, {
+					"soundId":	"SOUND_BALL_IVY_CHIRP05"
 				}],
 			"soundEvent":	{
 				"soundEvent":	1
 			}
 		}, {
 			"soundIds":	[{
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK01"
+					"soundId":	"SOUND_BALL_IVY_CHIRP01"
 				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK02"
+					"soundId":	"SOUND_BALL_IVY_CHIRP02"
 				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK03"
+					"soundId":	"SOUND_BALL_IVY_CHIRP03"
 				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK04"
+					"soundId":	"SOUND_BALL_IVY_CHIRP04"
 				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK05"
-				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK06"
-				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK07"
-				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK08"
-				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK09"
-				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK10"
-				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK11"
-				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK12"
-				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK13"
-				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK14"
-				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK15"
-				}, {
-					"soundId":	"SOUND_BALL_COMMON_SQUEAK16"
+					"soundId":	"SOUND_BALL_IVY_CHIRP05"
 				}],
 			"soundEvent":	{
 				"soundEvent":	2
@@ -962,6 +735,33 @@
 			}
 		}, {
 			"soundIds":	[{
+					"soundId":	"SOUND_BALL_GENERIC_DETACHING1"
+				}],
+			"soundEvent":	{
+				"soundEvent":	6
+			}
+		}, {
+			"soundIds":	[{
+					"soundId":	"SOUND_BALL_GENERIC_ATTACH01"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_ATTACH02"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_ATTACH03"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_DETACHED1"
+				}],
+			"soundEvent":	{
+				"soundEvent":	7
+			}
+		}, {
+			"soundIds":	[{
+					"soundId":	"SOUND_BALL_GENERIC_SNAP1"
+				}],
+			"soundEvent":	{
+				"soundEvent":	8
+			}
+		}, {
+			"soundIds":	[{
 					"soundId":	"SOUND_BALL_GENERIC_DEATH"
 				}],
 			"soundEvent":	{
@@ -971,9 +771,18 @@
 	"flashAnimation":	{
 		"flashAnimationId":	""
 	},
-	"flashAnimationPreLiquidLayerTextureIndices":	[],
 	"stateScales":	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
 	"particleEffects":	[{
+			"particleEffectId":	"fireBallBurn",
+			"particleEffectV2Id":	{
+				"uuid":	""
+			},
+			"states":	[],
+			"sleeping":	false,
+			"onFire":	false,
+			"thruster":	false,
+			"depth":	-9.99999974737875e-05
+		}, {
 			"particleEffectId":	"sleepyZzz",
 			"particleEffectV2Id":	{
 				"uuid":	""
@@ -994,7 +803,6 @@
 	},
 	"isLauncher":	false,
 	"canBeSuckedByLauncher":	true,
-	"inputPipeForceVariation":	0.10000000149011612,
 	"whenAttachedRenderOnTop":	false,
 	"renderInPlayMode":	true,
 	"canActOnBalls":	true,
@@ -1024,8 +832,6 @@
 	"strandShatterFragmentSize":	0.15000000596046448,
 	"unwalkableTime":	3,
 	"dynamicLightingFactor":	0,
-	"attachedDynamicLightingFactor":	0,
-	"undiscoveredDynamicLightingFactor":	0,
 	"shadow":	true,
 	"neededLighting":	0,
 	"sortOffset":	0,
@@ -1044,12 +850,12 @@
 	"zoomFactorAttached":	0,
 	"zoomFactorUnattached":	0,
 	"zoomSpeed":	2.5,
-	"liquidParticlesRadiusScale":	0.5,
+	"liquidParticlesRadiusScale":	1,
 	"structureFillingLayers":	[],
 	"ropeOffsetRadiusScale":	0,
 	"ropeStiffness":	-1,
 	"ropeDamping":	-1,
 	"editorButtonImage": {
-		"imageId":	"IMAGE_EDITOR_UI_BALLSPONGE"
+		"imageId": "IMAGE_BALL_IVY_GIANT_BODY"
 	}
 }

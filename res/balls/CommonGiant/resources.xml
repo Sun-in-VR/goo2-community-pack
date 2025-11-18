@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<ResourceManifest>
+
+  <Resources id="ball_CommonGiant">
+
+    <SetDefaults path="res/balls/CommonGiant/" idprefix="IMAGE_BALL_COMMON_GIANT_" />
+
+    <Image id="BODY" path="body" />
+    <Image id="STRAND" path="stranddark" />
+
+  </Resources>
+
+</ResourceManifest>
