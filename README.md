@@ -11,6 +11,9 @@ Community driven assets pack for World of Goo 2.
 6. Merge the downloaded `res` folder into the one that you extracted from the game. You can do this by moving the downloaded `res` folder into the `World of Goo 2/game` folder. When asked, chose to replace all files.
 7. You should be good to go!
 
+### IMPORTANT NOTE
+To use or to play custom levels using Custom Goo Balls, you will need to install Darxoon's FistyLoader as well! [Find the installer here,](https://github.com/Darxoon/FistyLoader) and follow the install instructions for your OS.
+
 **Click this image to see a video of the installation after downloading and extracting the files:**
 [![Video of the installation process](https://img.youtube.com/vi/ievhS4xmzjM/0.jpg)](https://youtu.be/ievhS4xmzjM)
 
