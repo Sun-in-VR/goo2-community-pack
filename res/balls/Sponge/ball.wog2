@@ -110,7 +110,7 @@
 	"initialBallLiquidAmount":	0,
 	"maxBallLiquidAmount":	100,
 	"maxStrandLiquidAmount":	100,
-	"liquidSinkOffset":	4,
+	"liquidSinkOffset":	-1,
 	"strandSuckLiquidParticlesPerSecond":	250,
 	"hitVelocityAccumulationLimit":	0,
 	"shadowImageId":	{
