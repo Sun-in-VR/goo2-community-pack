@@ -399,6 +399,8 @@
 		<Image id="DJM_STONEARCHES4" path="djm334/StoneArches4"  />
 		<Image id="DJM_ANUBIS" path="djm334/Anubis"  />
 		<Image id="DJM_COGRUINS" path="djm334/CogRuins"  />
+		<Image id="DJM_DESTROYEDROBOTARM" path="djm334/DestroyedRobotArm"  />
+		<Image id="DJM_TREEGREEN_NEW" path="djm334/TreeGreen_New"  />
 				<!-- Assets provided by 3GuB -->
 		<Image id="LEVER" path="3GuB/lever"/>
 		<Image id="LEVER_2" path="3GuB/lever_2"/>
