@@ -1,0 +1,711 @@
+{
+	"name":	"BerryProduct",
+	"width":	0.25,
+	"height":	0.25,
+	"shape":	{
+		"ballShape":	0
+	},
+	"sizeVariance":	0.085000000894069672,
+	"mass":	0.6600000262260437,
+	"towerMass":	0.05000000074505806,
+	"dragMass":	0.6600000262260437,
+	"destroyForce":	-1,
+	"maxDropDistance":	10,
+	"maxStrands":	2,
+	"walkSpeed":	2.5,
+	"climbSpeed":	0.00999999977648258,
+	"speedVariance":	0.20000000298023224,
+	"antiGravFactor":	0,
+	"isAntiGravAttached":	false,
+	"isAntiGravUnattached":	false,
+	"dampening":	0,
+	"isEditable":	true,
+	"isDraggable":	false,
+	"isDetachable":	false,
+	"diesOnDetach":	false,
+	"isInvulnerable":	false,
+	"isStickyAttached":	false,
+	"isStickyUnattached":	false,
+	"attachToSameTypeOnly":	false,
+	"isGrumpy":	true,
+	"isStatic":	false,
+	"isStaticWhenSleeping":	false,
+	"health":	20,
+	"blinkColor":	{
+		"color":	0
+	},
+	"jumpMultiplierMin":	0,
+	"jumpMultiplierMax":	0,
+	"collideAttached":	false,
+	"collideWithAttached":	false,
+	"collideWithParticlesAttached":	true,
+	"allowAttachmentsWhenStuck":	false,
+	"allowAttachmentsWhenFalling":	false,
+	"motorMaxForce":	5,
+	"isSuckable":	true,
+	"affectsAutoboundsAttached":	true,
+	"affectsAutoboundsUnattached":	true,
+	"burnTime":	0.10000000149011612,
+	"detonateForce":	0,
+	"detonateRadius":	0,
+	"detonateParticleEffect":	{
+		"uuid":	""
+	},
+	"autoAttach":	false,
+	"isClimber":	true,
+	"attachedParticleBarrierFactor":	1,
+	"material":	{
+		"materialName":	"balldefault"
+	},
+	"contains":	[],
+	"popSoundId":	{
+		"soundId":	""
+	},
+	"popParticlesId":	"",
+	"fireworksParticleEffect":	{
+		"uuid":	""
+	},
+	"trailEffectId":	"",
+	"trailParticleEffect":	{
+		"uuid":	""
+	},
+	"trailEffectEnabled":	false,
+	"popDuration":	0,
+	"popDelayMin":	0,
+	"popDelayMax":	0,
+	"hideEyes":	true,
+	"isBehindStrands":	false,
+	"wakeOtherBallsAtDistance":	0.5,
+	"spawnType":	{
+		"ballType":	0
+	},
+	"decay":	-1,
+	"flingForceFactor":	0,
+	"flingStrandMaxLength":	0,
+	"autoDisable":	false,
+	"isStacking":	false,
+	"maxDragForce":	3.4028234663852886e+38,
+	"dragDampeningFactor":	0.600000023841858,
+	"alwaysLookAtMouse":	false,
+	"hingeDrag":	false,
+	"maxAttachSpeed":	10,
+	"jumpOnWakeup":	false,
+	"thrust":	0,
+	"useDistantSounds":	true,
+	"canBeRotatedByHand":	false,
+	"stencil":	0,
+	"canSuckLiquidExternally":	false,
+	"canSuckLiquidFromPipe":	false,
+	"liquidParticlesPerSecond":	0,
+	"initialBallLiquidAmount":	25,
+	"maxBallLiquidAmount":	25,
+	"maxStrandLiquidAmount":	0,
+	"liquidSinkOffset":	0,
+	"strandSuckLiquidParticlesPerSecond":	0,
+	"hitVelocityAccumulationLimit":	0,
+	"shadowImageId":	{
+		"imageId":	"IMAGE_BALL_GENERIC_SHADOW0"
+	},
+	"shadowImageIsAdditive":	false,
+	"strandType":	{
+		"strandType":	2
+	},
+	"springConstMin":	9000,
+	"springConstMax":	9000,
+	"strandDampening":	0.05000000074505806,
+	"maxReplacementStrandLength":	1.5,
+	"maxNormalStrandLength":	1,
+	"minStrandLength":	1,
+	"strandShrinkLength":	1,
+	"maxStretchForce":	1000,
+	"maxCompressForce":	1000,
+	"strandDensity":	5,
+	"strandThickness":	0.239999994635582,
+	"strandGrowMultiplier":	1,
+	"isSingleStrandAllowed":	true,
+	"allowBallToStrandConversion":	true,
+	"useStrandConnect":	true,
+	"isStrandWalkable":	true,
+	"canShrinkStrand":	true,
+	"strandImageId":	{
+		"imageId":	"IMAGE_BALL_GOOPRODUCT_STRAND"
+	},
+	"strandInactiveImageId":	{
+		"imageId":	"IMAGE_BALL_GOOPRODUCT_STRAND"
+	},
+	"strandInactiveOverlayImageId":	{
+		"imageId":	"IMAGE_BALL_GENERIC_ARM_INACTIVE_SHADOW"
+	},
+	"strandIgniteDelay":	0,
+	"strandBurnSpeed":	0.05000000074505806,
+	"strandFireParticlesId":	"",
+	"strandBurntImageId":	{
+		"imageId":	"IMAGE_BALL_GOOPRODUCT_STRAND"
+	},
+	"strandBackgroundImageId":	{
+		"imageId":	""
+	},
+	"detachStrandImageId":	{
+		"imageId":	""
+	},
+	"detachStrandMaxLength":	-431602080,
+	"dragMarkerImageId":	{
+		"imageId":	""
+	},
+	"detachMarkerImageId":	{
+		"imageId":	""
+	},
+	"markerRotSpeed":	2.2000000476837158,
+	"stainLiquidType":	{
+		"liquidType":	0
+	},
+	"deselectAttenuationFunc":	{
+		"frames":	[1.2999999523162842, 0.899999976158142, 1.1000000238418579, 1],
+		"totalLength":	0.239999994635582
+	},
+	"selectAttenuationFunc":	{
+		"frames":	[1.6000000238418579, 1.3500000238418579],
+		"totalLength":	0.20000000298023224
+	},
+	"dropAttenuationFunc":	{
+		"frames":	[1.5, 1.2000000476837158, 1.1000000238418579, 1],
+		"totalLength":	0.300000011920929
+	},
+	"dragAttenuationFunc":	{
+		"frames":	[1.8500000238418579, 1.25, 1],
+		"totalLength":	0.20000000298023224
+	},
+	"spawnAttenuationFunc":	{
+		"frames":	[0.5, 0.899999976158142, 1],
+		"totalLength":	0.20000000298023224
+	},
+	"ballParts":	[{
+			"name":	"goop1",
+			"images":	[{
+					"imageId":	{
+						"imageId":	"IMAGE_BALL_BERRYPRODUCT_GOOP"
+					},
+					"imageMaskId":	{
+						"imageId":	""
+					}
+				}],
+			"imageBackgroundIds":	[],
+			"layer":	0,
+			"minX":	-0.039999999105930328,
+			"maxX":	0.039999999105930328,
+			"minY":	-0.039999999105930328,
+			"maxY":	0.039999999105930328,
+			"minRangeX":	0,
+			"maxRangeX":	0,
+			"minRangeY":	0,
+			"maxRangeY":	0,
+			"states":	[],
+			"isActiveWhenUndiscovered":	true,
+			"scale":	1.1799999475479126,
+			"scaleIsRelative":	true,
+			"rotation":	0,
+			"isEye":	false,
+			"pupilImageIds":	[],
+			"pupilInset":	0,
+			"isRotating":	true,
+			"stretchMaxSpeed":	16,
+			"stretchParallel":	2,
+			"stretchPerpendicular":	0.5,
+			"stretchFactorFromStrandForce":	0
+		}, {
+			"name":	"goop2",
+			"images":	[{
+					"imageId":	{
+						"imageId":	"IMAGE_BALL_BERRYPRODUCT_GOOP"
+					},
+					"imageMaskId":	{
+						"imageId":	""
+					}
+				}],
+			"imageBackgroundIds":	[],
+			"layer":	0,
+			"minX":	-0.039999999105930328,
+			"maxX":	0.039999999105930328,
+			"minY":	-0.039999999105930328,
+			"maxY":	0.039999999105930328,
+			"minRangeX":	0,
+			"maxRangeX":	0,
+			"minRangeY":	0,
+			"maxRangeY":	0,
+			"states":	[],
+			"isActiveWhenUndiscovered":	true,
+			"scale":	1.1799999475479126,
+			"scaleIsRelative":	true,
+			"rotation":	0,
+			"isEye":	false,
+			"pupilImageIds":	[],
+			"pupilInset":	0,
+			"isRotating":	true,
+			"stretchMaxSpeed":	16,
+			"stretchParallel":	2,
+			"stretchPerpendicular":	0.5,
+			"stretchFactorFromStrandForce":	0
+		}, {
+			"name":	"body",
+			"images":	[{
+					"imageId":	{
+						"imageId":	"IMAGE_BALL_BERRYPRODUCT_BODY"
+					},
+					"imageMaskId":	{
+						"imageId":	""
+					}
+				}],
+			"imageBackgroundIds":	[],
+			"layer":	1,
+			"minX":	0,
+			"maxX":	0,
+			"minY":	0,
+			"maxY":	0,
+			"minRangeX":	0,
+			"maxRangeX":	0,
+			"minRangeY":	0,
+			"maxRangeY":	0,
+			"states":	[],
+			"isActiveWhenUndiscovered":	true,
+			"scale":	1.1799999475479126,
+			"scaleIsRelative":	true,
+			"rotation":	1,
+			"isEye":	false,
+			"pupilImageIds":	[],
+			"pupilInset":	0,
+			"isRotating":	true,
+			"stretchMaxSpeed":	16,
+			"stretchParallel":	2,
+			"stretchPerpendicular":	0.5,
+			"stretchFactorFromStrandForce":	0
+		}, {
+			"name":	"hilite1",
+			"images":	[{
+					"imageId":	{
+						"imageId":	"IMAGE_BALL_GENERIC_HILITE1"
+					},
+					"imageMaskId":	{
+						"imageId":	""
+					}
+				}],
+			"imageBackgroundIds":	[],
+			"layer":	2,
+			"minX":	-0.05000000074505806,
+			"maxX":	0,
+			"minY":	0.0599999986588955,
+			"maxY":	0.10000000149011612,
+			"minRangeX":	0,
+			"maxRangeX":	0,
+			"minRangeY":	0,
+			"maxRangeY":	0,
+			"states":	[],
+			"isActiveWhenUndiscovered":	true,
+			"scale":	0.0016,
+			"scaleIsRelative":	false,
+			"rotation":	0,
+			"isEye":	false,
+			"pupilImageIds":	[],
+			"pupilInset":	0,
+			"isRotating":	false,
+			"stretchMaxSpeed":	-1,
+			"stretchParallel":	-1,
+			"stretchPerpendicular":	0,
+			"stretchFactorFromStrandForce":	0
+		}, {
+			"name":	"hilite2",
+			"images":	[{
+					"imageId":	{
+						"imageId":	"IMAGE_BALL_GENERIC_HILITE2"
+					},
+					"imageMaskId":	{
+						"imageId":	""
+					}
+				}],
+			"imageBackgroundIds":	[],
+			"layer":	2,
+			"minX":	-0.10000000149011612,
+			"maxX":	-0.0599999986588955,
+			"minY":	0,
+			"maxY":	0.05000000074505806,
+			"minRangeX":	0,
+			"maxRangeX":	0,
+			"minRangeY":	0,
+			"maxRangeY":	0,
+			"states":	[],
+			"isActiveWhenUndiscovered":	true,
+			"scale":	0.0016,
+			"scaleIsRelative":	false,
+			"rotation":	0,
+			"isEye":	false,
+			"pupilImageIds":	[],
+			"pupilInset":	0,
+			"isRotating":	false,
+			"stretchMaxSpeed":	-1,
+			"stretchParallel":	-1,
+			"stretchPerpendicular":	0,
+			"stretchFactorFromStrandForce":	0
+		}],
+	"bodyPart":	{
+		"partName":	"body"
+	},
+	"stateAnimations":	[{
+			"partAnimations":	[{
+					"parts":	[{
+							"partName":	"body"
+						}, {
+							"partName":	"hilite1"
+						}, {
+							"partName":	"hilite2"
+						}],
+					"axis":	{
+						"axis":	0
+					},
+					"type":	{
+						"type":	1
+					},
+					"frequency":	1,
+					"amplitude":	0.0010000000474974513,
+					"phaseShift":	0
+				}, {
+					"parts":	[{
+							"partName":	"body"
+						}, {
+							"partName":	"hilite1"
+						}, {
+							"partName":	"hilite2"
+						}],
+					"axis":	{
+						"axis":	1
+					},
+					"type":	{
+						"type":	1
+					},
+					"frequency":	1,
+					"amplitude":	0.0010000000474974513,
+					"phaseShift":	0.5
+				}, {
+					"parts":	[{
+							"partName":	"body"
+						}],
+					"axis":	{
+						"axis":	1
+					},
+					"type":	{
+						"type":	0
+					},
+					"frequency":	1,
+					"amplitude":	0.019999999552965164,
+					"phaseShift":	0
+				}, {
+					"parts":	[{
+							"partName":	"hilite1"
+						}, {
+							"partName":	"hilite2"
+						}],
+					"axis":	{
+						"axis":	1
+					},
+					"type":	{
+						"type":	0
+					},
+					"frequency":	1,
+					"amplitude":	-0.019999999552965164,
+					"phaseShift":	0.5
+				}, {
+					"parts":	[{
+							"partName":	"goop1"
+						}, {
+							"partName":	"goop2"
+						}],
+					"axis":	{
+						"axis":	0
+					},
+					"type":	{
+						"type":	1
+					},
+					"frequency":	1,
+					"amplitude":	0.0010000000474974513,
+					"phaseShift":	0.300000011920929
+				}, {
+					"parts":	[{
+							"partName":	"goop1"
+						}, {
+							"partName":	"goop2"
+						}],
+					"axis":	{
+						"axis":	1
+					},
+					"type":	{
+						"type":	1
+					},
+					"frequency":	1,
+					"amplitude":	0.0010000000474974513,
+					"phaseShift":	0.800000011920929
+				}],
+			"states":	[{
+					"ballState":	0
+				}],
+			"frequenceyVarianceMagnitude":	0.20000000298023224,
+			"amplitudeVarianceMagnitude":	0.0010000000474974513,
+			"phaseShiftVarianceMagnitude":	0
+		}, {
+			"partAnimations":	[{
+					"parts":	[{
+							"partName":	"body"
+						}, {
+							"partName":	"hilite1"
+						}, {
+							"partName":	"hilite2"
+						}],
+					"axis":	{
+						"axis":	0
+					},
+					"type":	{
+						"type":	1
+					},
+					"frequency":	2,
+					"amplitude":	0.0010000000474974513,
+					"phaseShift":	0
+				}, {
+					"parts":	[{
+							"partName":	"body"
+						}, {
+							"partName":	"hilite1"
+						}, {
+							"partName":	"hilite2"
+						}],
+					"axis":	{
+						"axis":	1
+					},
+					"type":	{
+						"type":	1
+					},
+					"frequency":	2,
+					"amplitude":	0.0010000000474974513,
+					"phaseShift":	0.5
+				}, {
+					"parts":	[{
+							"partName":	"body"
+						}],
+					"axis":	{
+						"axis":	1
+					},
+					"type":	{
+						"type":	0
+					},
+					"frequency":	2,
+					"amplitude":	0.019999999552965164,
+					"phaseShift":	0
+				}, {
+					"parts":	[{
+							"partName":	"hilite1"
+						}, {
+							"partName":	"hilite2"
+						}],
+					"axis":	{
+						"axis":	1
+					},
+					"type":	{
+						"type":	0
+					},
+					"frequency":	2,
+					"amplitude":	-0.019999999552965164,
+					"phaseShift":	0.5
+				}, {
+					"parts":	[{
+							"partName":	"goop1"
+						}, {
+							"partName":	"goop2"
+						}],
+					"axis":	{
+						"axis":	0
+					},
+					"type":	{
+						"type":	1
+					},
+					"frequency":	2,
+					"amplitude":	0.0010000000474974513,
+					"phaseShift":	0.300000011920929
+				}, {
+					"parts":	[{
+							"partName":	"goop1"
+						}, {
+							"partName":	"goop2"
+						}],
+					"axis":	{
+						"axis":	1
+					},
+					"type":	{
+						"type":	1
+					},
+					"frequency":	2,
+					"amplitude":	0.0010000000474974513,
+					"phaseShift":	0.800000011920929
+				}],
+			"states":	[{
+					"ballState":	1
+				}],
+			"frequenceyVarianceMagnitude":	0.800000011920929,
+			"amplitudeVarianceMagnitude":	0.0010000000474974513,
+			"phaseShiftVarianceMagnitude":	0
+		}],
+	"splatImageIds":	[{
+			"imageId":	"IMAGE_BALL_GOOPRODUCT_SPLAT1"
+		}, {
+			"imageId":	"IMAGE_BALL_GOOPRODUCT_SPLAT2"
+		}],
+	"soundEvents":	[{
+			"soundIds":	[{
+					"soundId":	"SOUND_BALL_GENERIC_GLEE"
+				}],
+			"soundEvent":	{
+				"soundEvent":	0
+			}
+		}, {
+			"soundIds":	[{
+					"soundId":	"SOUND_BALL_GENERIC_GLEE"
+				}],
+			"soundEvent":	{
+				"soundEvent":	1
+			}
+		}, {
+			"soundIds":	[{
+					"soundId":	"SOUND_BALL_GENERIC_PICKUP1"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_PICKUP2"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_PICKUP3"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_PICKUP4"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_PICKUP5"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_PICKUP6"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_PICKUP7"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_PICKUP8"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_PICKUP9"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_PICKUP10"
+				}],
+			"soundEvent":	{
+				"soundEvent":	2
+			}
+		}, {
+			"soundIds":	[{
+					"soundId":	"SOUND_BALL_GENERIC_STICK1"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_STICK2"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_STICK3"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_STICK4"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_STICK5"
+				}, {
+					"soundId":	"SOUND_BALL_GENERIC_STICK6"
+				}],
+			"soundEvent":	{
+				"soundEvent":	4
+			}
+		}, {
+			"soundIds":	[{
+					"soundId":	"SOUND_BALL_GENERIC_DETACHING1"
+				}],
+			"soundEvent":	{
+				"soundEvent":	6
+			}
+		}, {
+			"soundIds":	[{
+					"soundId":	"SOUND_BALL_GENERIC_DETACHED1"
+				}],
+			"soundEvent":	{
+				"soundEvent":	7
+			}
+		}, {
+			"soundIds":	[{
+					"soundId":	"SOUND_BALL_GENERIC_SNAP1"
+				}],
+			"soundEvent":	{
+				"soundEvent":	8
+			}
+		}, {
+			"soundIds":	[{
+					"soundId":	"SOUND_BALL_GENERIC_DEATH"
+				}],
+			"soundEvent":	{
+				"soundEvent":	9
+			}
+		}],
+	"flashAnimation":	{
+		"flashAnimationId":	""
+	},
+	"stateScales":	[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+	"particleEffects":	[{
+			"particleEffectId":	"sleepyZzz",
+			"states":	[],
+			"sleeping":	true,
+			"onFire":	false,
+			"thruster":	false,
+			"depth":	9.99999974737875e-05
+		}],
+	"stableFluidsDensityFactor":	{
+		"color":	0
+	},
+	"stableFluidsMinTrailVelocity":	-1,
+	"stableFluidsDensityRange":	{
+		"x":	0,
+		"y":	0
+	},
+	"isLauncher":	false,
+	"canBeSuckedByLauncher":	false,
+	"whenAttachedRenderOnTop":	false,
+	"renderInPlayMode":	true,
+	"canActOnBalls":	true,
+	"lighting":	true,
+	"popSpawnItems":	[],
+	"popSpawnItemProbability":	0,
+	"popSpawnItemCountRange":	{
+		"x":	1,
+		"y":	1
+	},
+	"popSpawnItemRadiusRange":	{
+		"x":	0,
+		"y":	1
+	},
+	"popSpawnItemScaleRange":	{
+		"x":	1,
+		"y":	1
+	},
+	"strandShatterItem":	{
+		"uuid":	""
+	},
+	"strandShatterItemProbability":	0.25,
+	"strandShatterParticleEffect":	{
+		"uuid":	""
+	},
+	"strandShatterParticleEffectProbability":	0.75,
+	"strandShatterFragmentSize":	0.15000000596046448,
+	"unwalkableTime":	3,
+	"dynamicLightingFactor":	0,
+	"shadow":	true,
+	"neededLighting":	0,
+	"sortOffset":	0,
+	"canPinToJelly":	false,
+	"popOnUnpinFromJelly":	false,
+	"canStrandCutJelly":	true,
+	"renderInJellyBackground":	true,
+	"thrusterStableFluidsImage":	{
+		"imageId":	""
+	},
+	"markerColor":	{
+		"color":	4294967295
+	},
+	"zoomFactorAttached":	0,
+	"zoomFactorUnattached":	0,
+	"editorButtonImage": {
+		"imageId": "IMAGE_EDITOR_UI_BALLBERRYPRODUCT"
+	}
+}
