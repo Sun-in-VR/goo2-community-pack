@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<ResourceManifest>
+
+  <Resources id="ball_BerryProduct">
+
+    <!-- Unique Sounds -->
+    <SetDefaults path="res/balls/GooProduct/" idprefix="SOUND_BALL_GOOPRODUCT_" />
+    
+    <SetDefaults path="res/balls/BerryProduct/" idprefix="IMAGE_BALL_BERRYPRODUCT_" />
+    
+    <Image id="BODY" path="body" />
+    <Image id="GOOP" path="goop" />
+    
+    <SetDefaults path="res/balls/BerryProduct/" idprefix="IMAGE_EDITOR_UI_BALL" />
+    
+    <Image id="BERRYPRODUCT" path="editor_button_berryproduct"/>
+
+  </Resources>
+
+</ResourceManifest>
