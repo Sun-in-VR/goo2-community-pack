@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<ResourceManifest>
+
+  <Resources id="ball_Berry">
+  
+    <!-- Unique Sounds -->
+    <SetDefaults path="res/balls/Common/" idprefix="SOUND_BALL_COMMON_" />
+
+    <Sound id="SQUEAK01" path="batsqueak01"/>
+    <Sound id="SQUEAK02" path="batsqueak02"/>
+    <Sound id="SQUEAK03" path="batsqueak03"/>
+    <Sound id="SQUEAK04" path="batsqueak04"/>
+    <Sound id="SQUEAK05" path="batsqueak05"/>
+    <Sound id="SQUEAK06" path="batsqueak06"/>
+    <Sound id="SQUEAK07" path="batsqueak07"/>
+    <Sound id="SQUEAK08" path="batsqueak08"/>
+    <Sound id="SQUEAK09" path="batsqueak09"/>
+    <Sound id="SQUEAK10" path="batsqueak10"/>
+    <Sound id="SQUEAK11" path="batsqueak11"/>
+    <Sound id="SQUEAK12" path="batsqueak12"/>
+    <Sound id="SQUEAK13" path="batsqueak13"/>
+    <Sound id="SQUEAK14" path="batsqueak14"/>
+    <Sound id="SQUEAK15" path="batsqueak15"/>
+    <Sound id="SQUEAK16" path="batsqueak16"/>
+    
+    <SetDefaults path="res/balls/Berry/" idprefix="IMAGE_BALL_BERRY_" />
+
+    <Image id="BODY" path="body" />
+    <Image id="STRAND" path="strand" />
+    
+    <SetDefaults path="res/balls/Berry/" idprefix="IMAGE_EDITOR_UI_BALL" />
+    
+    <Image id="BERRY" path="editor_button_berry"/>
+
+  </Resources>
+
+</ResourceManifest>
