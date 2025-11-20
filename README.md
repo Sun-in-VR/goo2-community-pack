@@ -32,3 +32,4 @@ Community driven assets pack for World of Goo 2.
 - spikey goo: Traffic sign items, provided Rejuvenation excerpt, Road Blocks terrains
 - Xowerr: Midnight Rocks, Hills Classic, and Rocks Holes 2 Terrains, recreated Fireworks environment and items
 - FreakZillA8: BallonEye Reskin
+- Darxoon: Berry, TreeRoot, CommonNoLauncher, and BerryProduct balls
