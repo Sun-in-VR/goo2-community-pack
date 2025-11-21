@@ -89,6 +89,7 @@
 		<!-- Assets provided by djm334 -->
 		<Image id="RED_ROCKTOP" path="djm334/Red_RockTop"  />
 		<Image id="RED_ROCKS" path="djm334/Red_Rocks"  />
+		<Image id="TERRAIN_BONEDARK" path="djm334/Terrain_BoneDark"  />
 		<!-- Assets provided by Xowerr -->
 		<Image id="STONE_HOLES2" path="Xowerr/Stone_Holes2"  />
 		<Image id="MIDNIGHTROCKS" path="Xowerr/MidnightRocks"  />
