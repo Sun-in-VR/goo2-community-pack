@@ -1,0 +1,300 @@
+{
+	"items":	[{
+			"name":	"Djm334/More boulders",
+			"uuid":	"Djm_NewBoulders",
+			"type":	1,
+			"category":	"misc",
+			"layer":	2,
+			"minDepth":	0,
+			"maxDepth":	0,
+			"sortOffset":	0,
+			"radiusOverride":	0,
+			"canRotate":	true,
+			"uniformScale":	true,
+			"canBeCopied":	true,
+			"variations":	true,
+			"useLighting":	true,
+			"castShadow":	true,
+			"checkVisibility":	true,
+			"color":	4294967295,
+			"animationName":	"",
+			"animationAlias":	"",
+			"animationSpeed":	1,
+			"animationInNormalizedTime":	0.5,
+			"animationPlayNormalizedTimeRange":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalPosition":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalScale":	{
+				"x":	1,
+				"y":	1
+			},
+			"animationRotation":	0,
+			"userValue1":	0,
+			"userValue2":	0,
+			"snapObjectIndex":	0,
+			"destroyForce":	60,
+			"objects":	[{
+					"name":	"IMAGE_ITEM_DJM_FROGBOULDER",
+					"randomizationGroup":	1,
+					"position":	{
+						"x":	0.029886066913604736,
+						"y":	0.0299072265625
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.40000000596046448,
+						"y":	0.40000000596046448
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0,
+						"y":	0
+					},
+					"body":	{
+						"id":	"",
+						"type":	1,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	true,
+						"materialName":	"rock",
+						"tags":	"",
+						"geoms":	[{
+								"type":	1,
+								"width":	0,
+								"height":	0,
+								"radius":	280,
+								"density":	1,
+								"offset":	{
+									"x":	0,
+									"y":	-7.5
+								},
+								"rotation":	0,
+								"normal":	{
+									"x":	0,
+									"y":	1
+								},
+								"isSensor":	false,
+								"friction":	-1,
+								"bounciness":	-1,
+								"points":	[]
+							}],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+			}, {
+					"name":	"IMAGE_ITEM_DJM_GIANTSKULL",
+					"randomizationGroup":	1,
+					"position":	{
+						"x":	0.029886066913604736,
+						"y":	0.0299072265625
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.40000000596046448,
+						"y":	0.40000000596046448
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0,
+						"y":	0
+					},
+					"body":	{
+						"id":	"",
+						"type":	1,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	true,
+						"materialName":	"rock",
+						"tags":	"",
+						"geoms":	[{
+								"type":	1,
+								"width":	0,
+								"height":	0,
+								"radius":	319.99996948242188,
+								"density":	1,
+								"offset":	{
+									"x":	-2.6840286254882812,
+									"y":	-13.430176734924316
+								},
+								"rotation":	0,
+								"normal":	{
+									"x":	0,
+									"y":	1
+								},
+								"isSensor":	false,
+								"friction":	-1,
+								"bounciness":	-1,
+								"points":	[]
+							}],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}, {
+					"name":	"IMAGE_ITEM_DJM_AMBERBOULDER",
+					"randomizationGroup":	1,
+					"position":	{
+						"x":	0.029886066913604736,
+						"y":	0.0299072265625
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.40000000596046448,
+						"y":	0.40000000596046448
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0,
+						"y":	0
+					},
+					"body":	{
+						"id":	"",
+						"type":	1,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	true,
+						"materialName":	"rock",
+						"tags":	"",
+						"geoms":	[{
+								"type":	1,
+								"width":	0,
+								"height":	0,
+								"radius":	319.99996948242188,
+								"density":	1,
+								"offset":	{
+									"x":	-2.6840286254882812,
+									"y":	-13.430176734924316
+								},
+								"rotation":	0,
+								"normal":	{
+									"x":	0,
+									"y":	1
+								},
+								"isSensor":	false,
+								"friction":	-1,
+								"bounciness":	-1,
+								"points":	[]
+							}],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}],
+			"alternates":	[],
+			"userVariables":	[],
+			"snapPoints":	[],
+			"limits":	{
+				"minScale":	0.10000000149011612,
+				"maxScale":	2
+			},
+			"sound":	{
+				"collisionSounds":	[{
+						"materials":	[],
+						"contactSound":	{
+							"soundId":	"SOUND_GLOBAL_BOULDER_COLLIDE"
+						},
+						"contactParticleEffect":	{
+							"uuid":	"babd0f18-819c-411c-a4c9-4a6e6f4f8aad"
+						},
+						"minContactVelocity":	2,
+						"maxContactVelocity":	4,
+						"contactProbability":	1
+					}],
+				"minCollisionCosine":	0.699999988079071,
+				"collisionTimeout":	0.5,
+				"collisionLoopSound":	{
+					"soundId":	"SOUND_GLOBAL_BOULDER_LOOP"
+				},
+				"minCollisionLoopAngularVelocity":	0.10000000149011612,
+				"maxCollisionLoopAngularVelocity":	0.5,
+				"collisionLoopBlendSpeed":	0.10000000149011612
+			}
+		}]
+}

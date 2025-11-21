@@ -1,0 +1,428 @@
+{
+	"items":	[{
+			"name":	"Djm/Orange Vine",
+			"uuid":	"Djm_VineOrange",
+			"type":	18,
+			"category":	"Misc",
+			"layer":	1,
+			"minDepth":	-500,
+			"maxDepth":	120,
+			"sortOffset":	0,
+			"radiusOverride":	1.5,
+			"canRotate":	true,
+			"uniformScale":	false,
+			"canBeCopied":	true,
+			"canTriggerEndOfLevel":	false,
+			"variations":	false,
+			"useLighting":	true,
+			"castShadow":	true,
+			"checkVisibility":	true,
+			"color":	4294967295,
+			"animationName":	"",
+			"animationAlias":	"",
+			"animationSpeed":	1,
+			"animationInNormalizedTime":	0.5,
+			"animationPlayNormalizedTimeRange":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalPosition":	{
+				"x":	0,
+				"y":	0
+			},
+			"animationLocalScale":	{
+				"x":	1,
+				"y":	1
+			},
+			"animationRotation":	0,
+			"userValue1":	-0.5,
+			"userValue2":	0.5,
+			"snapObjectIndex":	0,
+			"destroyForce":	-1,
+			"objects":	[{
+					"name":	"IMAGE_ITEM_DJM_VINESTRAIGHTORANGE",
+					"randomizationGroup":	0,
+					"position":	{
+						"x":	0,
+						"y":	1.862645149230957e-09
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.509999990463257,
+						"y":	1
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0,
+						"y":	0
+					},
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[{
+							"position":	{
+								"x":	-120,
+								"y":	0
+							},
+							"type":	1,
+							"rotation":	0,
+							"radius":	10,
+							"userValue":	0
+						}, {
+							"position":	{
+								"x":	120,
+								"y":	0
+							},
+							"type":	1,
+							"rotation":	0,
+							"radius":	10,
+							"userValue":	0
+						}]
+				}, {
+					"name":	"IMAGE_ITEM_DJM_VINELEAFSORANGE",
+					"randomizationGroup":	0,
+					"position":	{
+						"x":	-1,
+						"y":	-0.300000011920929
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.10000000149011612,
+						"y":	0.10000000149011612
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0,
+						"y":	0
+					},
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}, {
+					"name":	"IMAGE_ITEM_DJM_VINELEAFSORANGE2",
+					"randomizationGroup":	0,
+					"position":	{
+						"x":	-0.33300000429153442,
+						"y":	-0.300000011920929
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.10000000149011612,
+						"y":	0.10000000149011612
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0,
+						"y":	0
+					},
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}, {
+					"name":	"IMAGE_ITEM_DJM_VINELEAFSORANGE3",
+					"randomizationGroup":	0,
+					"position":	{
+						"x":	0.33300000429153442,
+						"y":	-0.300000011920929
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.10000000149011612,
+						"y":	0.10000000149011612
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0,
+						"y":	0
+					},
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}, {
+					"name":	"IMAGE_ITEM_DJM_VINELEAFSORANGE3",
+					"randomizationGroup":	0,
+					"position":	{
+						"x":	1,
+						"y":	-0.300000011920929
+					},
+					"rotation":	0,
+					"scale":	{
+						"x":	0.15000000596046448,
+						"y":	0.15000000596046448
+					},
+					"color":	4294967295,
+					"depthOffset":	0,
+					"sortOffset":	0,
+					"imageBlendingType":	2,
+					"pivot":	{
+						"x":	0.5,
+						"y":	0.5
+					},
+					"rotationSpeed":	0,
+					"invisible":	false,
+					"clickable":	false,
+					"stableFluidsDensityFactor":	0,
+					"dynamicLightingFactor":	0,
+					"flipHorizontal":	false,
+					"flipVertical":	false,
+					"ignoreScale":	false,
+					"shaderFactor":	1,
+					"enableWind":	false,
+					"windFactor":	{
+						"x":	0,
+						"y":	0
+					},
+					"body":	{
+						"id":	"",
+						"type":	0,
+						"pos":	{
+							"x":	0,
+							"y":	0
+						},
+						"rotation":	0,
+						"collisionEnabled":	false,
+						"materialName":	"generic",
+						"tags":	"",
+						"geoms":	[],
+						"categoryBits":	0
+					},
+					"colorFx":	{
+						"enabled":	false,
+						"brightness":	0,
+						"contrast":	0,
+						"exposure":	0,
+						"saturation":	0
+					},
+					"particleEffects":	[],
+					"points":	[]
+				}],
+			"alternates":	[],
+			"userVariables":	[{
+					"name":	"Probability",
+					"defaultValue":	1,
+					"minValue":	0,
+					"maxValue":	1,
+					"orderIndex":	0,
+					"enabled":	true,
+					"type":	0,
+					"stringValue":	""
+				}, {
+					"name":	"Stiffness",
+					"defaultValue":	0.20000000298023224,
+					"minValue":	0.00999999977648258,
+					"maxValue":	0.99900001287460327,
+					"orderIndex":	1,
+					"enabled":	true,
+					"type":	0,
+					"stringValue":	""
+				}, {
+					"name":	"Randomize",
+					"defaultValue":	1,
+					"minValue":	0,
+					"maxValue":	1,
+					"orderIndex":	2,
+					"enabled":	true,
+					"type":	0,
+					"stringValue":	""
+				}, {
+					"name":	"Direction",
+					"defaultValue":	0,
+					"minValue":	0,
+					"maxValue":	1,
+					"orderIndex":	3,
+					"enabled":	true,
+					"type":	0,
+					"stringValue":	""
+				}, {
+					"name":	"Divisor",
+					"defaultValue":	1,
+					"minValue":	1,
+					"maxValue":	10,
+					"orderIndex":	4,
+					"enabled":	true,
+					"type":	1,
+					"stringValue":	""
+				}, {
+					"name":	"Fixed Left",
+					"defaultValue":	0,
+					"minValue":	0,
+					"maxValue":	0,
+					"orderIndex":	5,
+					"enabled":	true,
+					"type":	2,
+					"stringValue":	""
+				}, {
+					"name":	"Fixed Right",
+					"defaultValue":	0,
+					"minValue":	0,
+					"maxValue":	0,
+					"orderIndex":	6,
+					"enabled":	true,
+					"type":	2,
+					"stringValue":	""
+				}],
+			"snapPoints":	[],
+			"limits":	{
+				"minScale":	0.10000000149011612,
+				"maxScale":	10
+			},
+			"sound":	{
+				"collisionSounds":	[],
+				"minCollisionCosine":	0.699999988079071,
+				"collisionTimeout":	0.5,
+				"collisionLoopSound":	{
+					"soundId":	""
+				},
+				"minCollisionLoopAngularVelocity":	0.10000000149011612,
+				"maxCollisionLoopAngularVelocity":	0.5,
+				"collisionLoopBlendSpeed":	0.10000000149011612
+			}
+		}]
+}
