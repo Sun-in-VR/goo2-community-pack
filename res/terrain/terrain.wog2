@@ -24762,9 +24762,9 @@
 					"ignoreEdgeAttribute":	0,
 					"genericProbability":	0
 				}]
-		}, {
-			"uuid":	"53f3f873-c2a1-41a7-9237-1a5473aaabf4",
-			"name":	"Mossy_Rock_East",
+			}, {
+			"uuid":	"0f3a5c8e-edc9-44da-a37a-d55111f82837",
+			"name":	"DarkDirt_Moss",
 			"goolfHitSound":	{
 				"soundId":	""
 			},
@@ -24782,7 +24782,7 @@
 					}, {
 						"curvatureFactor":	{
 							"x":	0.5,
-							"y":	0.800000011920929
+							"y":	0.5
 						}
 					}, {
 						"curvatureFactor":	{
@@ -24798,23 +24798,23 @@
 			},
 			"baseSettings":	{
 				"canBeStained":	true,
-				"metersToUv":	2,
-				"cliffDecorationValue":	0.5,
+				"metersToUv":	7.3000001907348633,
+				"cliffDecorationValue":	1,
 				"lowPoly":	true,
-				"lowPolyNormalBlend":	1,
-				"lowPolyNormalBlendFixZ":	0.75,
+				"lowPolyNormalBlend":	0.119999997317791,
+				"lowPolyNormalBlendFixZ":	0.300000011920929,
 				"fixSubdivisionLevelIndex":	1,
-				"mesh3DWrapFactor":	0.15000000596046448,
-				"boundaryNormalScale":	1.2000000476837158,
+				"mesh3DWrapFactor":	0.20000000298023224,
+				"boundaryNormalScale":	2,
 				"renderMeshEdgeNormalOffset":	0.019999999552965164,
 				"image":	{
-					"imageId":	"IMAGE_TERRAIN_GREEN_PANNEL_EAST"
+					"imageId":	"IMAGE_TERRAIN_YELLOW_DIRT"
 				},
 				"overlayImage":	{
-					"imageId":	"IMAGE_TERRAIN_EMPTY"
+					"imageId":	""
 				},
 				"material":	{
-					"materialName":	"terrain_metal"
+					"materialName":	"terrain_dirt"
 				},
 				"shaderType":	{
 					"value":	0
@@ -24851,8 +24851,8 @@
 					"_laserV":	0,
 					"stainVScale":	1,
 					"_bloomFactor":	0,
-					"_overlayScale":	1,
-					"_overlayAlpha":	0.15000000596046448,
+					"_overlayScale":	1.1230000257492065,
+					"_overlayAlpha":	0.25,
 					"_group":	0,
 					"_lightingSettings":	{
 						"x":	0,
@@ -24885,7 +24885,7 @@
 				"collisionHeightOffset":	-0.019999999552965164,
 				"collisionHeightScale":	0.600000023841858,
 				"image":	{
-					"imageId":	"IMAGE_TERRAIN_MOSS"
+					"imageId":	"IMAGE_TERRAIN_MOSS_GREEN"
 				},
 				"shadowImage":	{
 					"imageId":	"IMAGE_TERRAIN_MOSS_SHADOW"
@@ -24960,16 +24960,16 @@
 			},
 			"edgeSettings":	{
 				"topAngle":	{
-					"x":	25,
-					"y":	180
+					"x":	-60,
+					"y":	60
 				},
 				"cliffAngle":	{
-					"x":	-100,
+					"x":	78,
 					"y":	180
 				},
 				"underSideAngle":	{
-					"x":	45,
-					"y":	-45
+					"x":	-45,
+					"y":	45
 				}
 			},
 			"destructionSettings":	{
@@ -25106,76 +25106,6 @@
 					"genericProbability":	0
 				}, {
 					"type":	{
-						"value":	9
-					},
-					"images":	[{
-							"imageId":	"IMAGE_DECORATION_NIBBLE1"
-						}, {
-							"imageId":	"IMAGE_DECORATION_NIBBLE2"
-						}],
-					"selectionWeight":	1,
-					"scaleStart":	{
-						"x":	0,
-						"y":	0
-					},
-					"scaleEnd":	{
-						"x":	0.10000000149011612,
-						"y":	0.10000000149011612
-					},
-					"scaleDelay":	{
-						"x":	0.10000000149011612,
-						"y":	0.5
-					},
-					"scaleDuration":	{
-						"x":	0.20000000298023224,
-						"y":	0.40000000596046448
-					},
-					"tPos":	{
-						"x":	0,
-						"y":	1
-					},
-					"tPosMaxAngleDifference":	-180,
-					"yOffset":	{
-						"x":	-0.035000000149011612,
-						"y":	-0.10000000149011612
-					},
-					"angleLimit1":	{
-						"x":	52,
-						"y":	128
-					},
-					"angleLimit2":	{
-						"x":	-128,
-						"y":	-52
-					},
-					"rotationRange":	{
-						"x":	-360,
-						"y":	360
-					},
-					"alpha":	{
-						"x":	1,
-						"y":	1
-					},
-					"anchor":	{
-						"x":	0,
-						"y":	-0.05000000074505806
-					},
-					"followEdgeFactor":	1,
-					"stainLiquidType":	{
-						"liquidType":	4
-					},
-					"stainFactor":	-1,
-					"windFactor":	0,
-					"fitWidthFactor":	0,
-					"density":	0.10499999672174454,
-					"order":	{
-						"value":	0
-					},
-					"sortOffset":	1,
-					"group":	-1,
-					"ignoreEdgeAttribute":	1,
-					"genericProbability":	0
-				}, {
-					"type":	{
 						"value":	1
 					},
 					"images":	[{
@@ -25187,20 +25117,20 @@
 						}],
 					"selectionWeight":	1,
 					"scaleStart":	{
+						"x":	0.40000000596046448,
+						"y":	0.600000023841858
+					},
+					"scaleEnd":	{
+						"x":	0.40000000596046448,
+						"y":	0.5
+					},
+					"scaleDelay":	{
 						"x":	0,
 						"y":	0
 					},
-					"scaleEnd":	{
-						"x":	0.300000011920929,
-						"y":	0.40000000596046448
-					},
-					"scaleDelay":	{
-						"x":	0.10000000149011612,
-						"y":	0.5
-					},
 					"scaleDuration":	{
-						"x":	0.20000000298023224,
-						"y":	0.40000000596046448
+						"x":	0.5,
+						"y":	0.5
 					},
 					"tPos":	{
 						"x":	0,
@@ -25208,8 +25138,8 @@
 					},
 					"tPosMaxAngleDifference":	-180,
 					"yOffset":	{
-						"x":	-0.0900000035762787,
-						"y":	-0.070000000298023224
+						"x":	0.05000000074505806,
+						"y":	0.10000000149011612
 					},
 					"angleLimit1":	{
 						"x":	-360,
@@ -25229,7 +25159,7 @@
 					},
 					"anchor":	{
 						"x":	0.5,
-						"y":	0.34999999403953552
+						"y":	0.600000023841858
 					},
 					"followEdgeFactor":	1,
 					"stainLiquidType":	{
@@ -25238,18 +25168,18 @@
 					"stainFactor":	-1,
 					"windFactor":	1,
 					"fitWidthFactor":	0.33300000429153442,
-					"density":	0.10000000149011612,
+					"density":	0.15000000596046448,
 					"order":	{
-						"value":	4
+						"value":	3
 					},
-					"sortOffset":	0,
+					"sortOffset":	222,
 					"group":	-1,
 					"ignoreEdgeAttribute":	0,
 					"genericProbability":	0
 				}]
 		}, {
-			"uuid":	"b332fa42-e686-45cb-b196-ef4181d47784",
-			"name":	"Mossy_Rock_South",
+			"uuid":	"f67c57bf-5969-4b3f-889b-9825119b1e0a",
+			"name":	"BlackBone",
 			"goolfHitSound":	{
 				"soundId":	""
 			},
@@ -25293,13 +25223,13 @@
 				"boundaryNormalScale":	1.2000000476837158,
 				"renderMeshEdgeNormalOffset":	0.019999999552965164,
 				"image":	{
-					"imageId":	"IMAGE_TERRAIN_GREEN_PANNEL_SOUTH"
+					"imageId":	"IMAGE_TERRAIN_TERRAIN_BONEDARK"
 				},
 				"overlayImage":	{
 					"imageId":	"IMAGE_TERRAIN_EMPTY"
 				},
 				"material":	{
-					"materialName":	"terrain_metal"
+					"materialName":	"terrain_dirt"
 				},
 				"shaderType":	{
 					"value":	0
@@ -25361,7 +25291,7 @@
 			},
 			"topSettings":	{
 				"canBeStained":	true,
-				"height":	0.75,
+				"height":	0.600000023841858,
 				"heightOffset":	-0.10499999672174454,
 				"endDistance":	0.300000011920929,
 				"endPower":	0.5,
@@ -25370,10 +25300,10 @@
 				"collisionHeightOffset":	-0.019999999552965164,
 				"collisionHeightScale":	0.600000023841858,
 				"image":	{
-					"imageId":	"IMAGE_TERRAIN_MOSS"
+					"imageId":	"IMAGE_TERRAIN_STONEY_GRASS_STONE"
 				},
 				"shadowImage":	{
-					"imageId":	"IMAGE_TERRAIN_MOSS_SHADOW"
+					"imageId":	"IMAGE_TERRAIN_GRASS_SHADOW"
 				},
 				"material":	{
 					"materialName":	"terrain_grass"
@@ -25445,16 +25375,16 @@
 			},
 			"edgeSettings":	{
 				"topAngle":	{
-					"x":	-260,
-					"y":	-120
+					"x":	-80,
+					"y":	80
 				},
 				"cliffAngle":	{
-					"x":	-100,
+					"x":	78,
 					"y":	180
 				},
 				"underSideAngle":	{
-					"x":	45,
-					"y":	-45
+					"x":	-45,
+					"y":	45
 				}
 			},
 			"destructionSettings":	{
@@ -25664,11 +25594,15 @@
 						"value":	1
 					},
 					"images":	[{
-							"imageId":	"IMAGE_DECORATION_TUFT_GREEN1"
+							"imageId":	"IMAGE_DECORATION_BROWN_GRASS1"
 						}, {
-							"imageId":	"IMAGE_DECORATION_TUFT_GREEN2"
+							"imageId":	"IMAGE_DECORATION_BROWN_GRASS2"
 						}, {
-							"imageId":	"IMAGE_DECORATION_TUFT_GREEN3"
+							"imageId":	"IMAGE_DECORATION_BROWN_GRASS3"
+						}, {
+							"imageId":	"IMAGE_DECORATION_BROWN_GRASS4"
+						}, {
+							"imageId":	"IMAGE_DECORATION_BROWN_GRASS5"
 						}],
 					"selectionWeight":	1,
 					"scaleStart":	{
@@ -25731,429 +25665,18 @@
 					"group":	-1,
 					"ignoreEdgeAttribute":	0,
 					"genericProbability":	0
-				}]
-		}, {
-			"uuid":	"987006aa-4996-466e-8fe7-08a29d43f272",
-			"name":	"Mossy_Rock_West",
-			"goolfHitSound":	{
-				"soundId":	""
-			},
-			"edgeTypesSettings":	{
-				"edgeTypeSettings":	[{
-						"curvatureFactor":	{
-							"x":	0.10000000149011612,
-							"y":	0.300000011920929
-						}
-					}, {
-						"curvatureFactor":	{
-							"x":	0.10000000149011612,
-							"y":	0.300000011920929
-						}
-					}, {
-						"curvatureFactor":	{
-							"x":	0.5,
-							"y":	0.800000011920929
-						}
-					}, {
-						"curvatureFactor":	{
-							"x":	0.10000000149011612,
-							"y":	0.300000011920929
-						}
-					}, {
-						"curvatureFactor":	{
-							"x":	0.10000000149011612,
-							"y":	0.300000011920929
-						}
-					}]
-			},
-			"baseSettings":	{
-				"canBeStained":	true,
-				"metersToUv":	2,
-				"cliffDecorationValue":	0.5,
-				"lowPoly":	true,
-				"lowPolyNormalBlend":	1,
-				"lowPolyNormalBlendFixZ":	0.75,
-				"fixSubdivisionLevelIndex":	1,
-				"mesh3DWrapFactor":	0.15000000596046448,
-				"boundaryNormalScale":	1.2000000476837158,
-				"renderMeshEdgeNormalOffset":	0.019999999552965164,
-				"image":	{
-					"imageId":	"IMAGE_TERRAIN_GREEN_PANNEL_WEST"
-				},
-				"overlayImage":	{
-					"imageId":	"IMAGE_TERRAIN_EMPTY"
-				},
-				"material":	{
-					"materialName":	"terrain_metal"
-				},
-				"shaderType":	{
-					"value":	0
-				},
-				"baseShaderUniforms":	{
-					"_stainFactorScale":	0.33300000429153442,
-					"_stainStartOffset":	0.300000011920929,
-					"_staintStepStart":	0.20000000298023224,
-					"_staintStepEnd":	0,
-					"_staintStartScale":	0.10000000149011612,
-					"_stainHeightOffset":	0.10000000149011612,
-					"_stainHeightStartOffset":	1,
-					"_stainUScale":	1,
-					"_stainRandomOffset1":	{
-						"x":	1.2412350177764893,
-						"y":	1.1475600004196167,
-						"z":	1.3125100135803223,
-						"w":	1.4214099645614624
-					},
-					"_stainRandomOffset2":	{
-						"x":	9.4123516082763672,
-						"y":	9.17655944824219,
-						"z":	9.3165397644042969,
-						"w":	9.25364017486572
-					},
-					"_stainRandomOffset3":	{
-						"x":	4.1245126724243164,
-						"y":	4.6546449661254883,
-						"z":	4.2546000480651855,
-						"w":	4.85462999343872
-					},
-					"_alpha":	1,
-					"_laserU":	0,
-					"_laserV":	0,
-					"stainVScale":	1,
-					"_bloomFactor":	0,
-					"_overlayScale":	1,
-					"_overlayAlpha":	0.15000000596046448,
-					"_group":	0,
-					"_lightingSettings":	{
-						"x":	0,
-						"y":	0,
-						"z":	0,
-						"w":	0
-					},
-					"_stainBlend":	{
-						"x":	0.800000011920929,
-						"y":	1,
-						"z":	1,
-						"w":	1
-					},
-					"_gradientStartEnd_ZW":	{
-						"x":	0.75,
-						"y":	1,
-						"z":	0,
-						"w":	0
-					}
-				}
-			},
-			"topSettings":	{
-				"canBeStained":	true,
-				"height":	0.75,
-				"heightOffset":	-0.10499999672174454,
-				"endDistance":	0.300000011920929,
-				"endPower":	0.5,
-				"endOverhangDistance":	0.10000000149011612,
-				"collisionEdgeOffset":	0.02500000037252903,
-				"collisionHeightOffset":	-0.019999999552965164,
-				"collisionHeightScale":	0.600000023841858,
-				"image":	{
-					"imageId":	"IMAGE_TERRAIN_MOSS"
-				},
-				"shadowImage":	{
-					"imageId":	"IMAGE_TERRAIN_MOSS_SHADOW"
-				},
-				"material":	{
-					"materialName":	"terrain_grass"
-				},
-				"shaderType":	{
-					"value":	3
-				},
-				"topShaderUniforms":	{
-					"_stainFactorScale":	0.33300000429153442,
-					"_stainStartOffset":	0.300000011920929,
-					"_staintStepStart":	0.20000000298023224,
-					"_staintStepEnd":	0,
-					"_staintStartScale":	0.10000000149011612,
-					"_stainHeightOffset":	0.10000000149011612,
-					"_stainHeightStartOffset":	1,
-					"_stainUScale":	3,
-					"_stainVScale":	2,
-					"_alpha":	1,
-					"unused1":	0,
-					"unused2":	0,
-					"_stainRandomOffset1":	{
-						"x":	1.2412350177764893,
-						"y":	1.1475600004196167,
-						"z":	1.3125100135803223,
-						"w":	1.4214099645614624
-					},
-					"_stainRandomOffset2":	{
-						"x":	9.4123516082763672,
-						"y":	9.17655944824219,
-						"z":	9.3165397644042969,
-						"w":	9.25364017486572
-					},
-					"_stainRandomOffset3":	{
-						"x":	4.1245126724243164,
-						"y":	4.6546449661254883,
-						"z":	4.2546000480651855,
-						"w":	4.85462999343872
-					},
-					"edgeUvCenter":	{
-						"x":	0,
-						"y":	0.300000011920929
-					},
-					"_edgeUvSize":	0.34999999403953552,
-					"_alphaThreshold":	0.0040000001899898052,
-					"_stainBlend":	{
-						"x":	0.800000011920929,
-						"y":	1,
-						"z":	1,
-						"w":	1
-					},
-					"_colorR":	1,
-					"_colorG":	1,
-					"_colorB":	1,
-					"_bloomFactor":	0,
-					"unusedVector9":	{
-						"x":	0,
-						"y":	0,
-						"z":	0,
-						"w":	0
-					}
-				}
-			},
-			"deadlySettings":	{
-				"material":	{
-					"materialName":	"terrain_deadly"
-				},
-				"collisionHeight":	0.15000000596046448,
-				"edgeCollisionHeight":	0.10000000149011612
-			},
-			"edgeSettings":	{
-				"topAngle":	{
-					"x":	-180,
-					"y":	0
-				},
-				"cliffAngle":	{
-					"x":	-100,
-					"y":	180
-				},
-				"underSideAngle":	{
-					"x":	45,
-					"y":	-45
-				}
-			},
-			"destructionSettings":	{
-				"enabled":	true,
-				"particleEffect":	{
-					"uuid":	"c81a8e00-d07e-4eb5-bded-18747f3316c9"
-				},
-				"spawnItem":	{
-					"uuid":	"bb72d063-89b1-402c-9411-ed681870a817"
-				},
-				"cameraShakeTime":	{
-					"x":	0.25,
-					"y":	0.449999988079071
-				},
-				"cameraShakeFrequency":	{
-					"x":	10,
-					"y":	15
-				},
-				"cameraShakeStrength":	{
-					"x":	5,
-					"y":	8
-				},
-				"stableFluidsDensityFactor":	{
-					"x":	0,
-					"y":	1,
-					"z":	0,
-					"w":	0
-				}
-			},
-			"godRaySettings":	{
-				"probability":	0,
-				"lightAngleLimit":	0.800000011920929,
-				"edgeAngleLimit":	0.5,
-				"minLighting":	0.990000009536743
-			},
-			"laserSettings":	{
-				"enabled":	false,
-				"base":	false,
-				"top":	true,
-				"baseAdditive":	false,
-				"topAdditive":	false,
-				"count":	30,
-				"timeScale":	1,
-				"waveScale":	2,
-				"moveTimeScale":	4,
-				"gravityScale":	4.9999998736893758e-05,
-				"rotationStep":	0.00050000002374872565,
-				"scaleStep":	0.0024999999441206455,
-				"positionStep":	4.9999998736893758e-05,
-				"innerGravityScale":	0.00499999988824129,
-				"centerFactor":	0.33300000429153442,
-				"gradientStart":	{
-					"color":	4294967295
-				},
-				"gradientEnd":	{
-					"color":	4294967295
-				}
-			},
-			"decorations":	[{
+				}, {
 					"type":	{
-						"value":	8
-					},
-					"images":	[{
-							"imageId":	"IMAGE_DECORATION_SPIKE1"
-						}, {
-							"imageId":	"IMAGE_DECORATION_SPIKE2"
-						}, {
-							"imageId":	"IMAGE_DECORATION_SPIKE3"
-						}, {
-							"imageId":	"IMAGE_DECORATION_SPIKE4"
-						}, {
-							"imageId":	"IMAGE_DECORATION_SPIKE5"
-						}],
-					"selectionWeight":	1,
-					"scaleStart":	{
-						"x":	0,
-						"y":	0
-					},
-					"scaleEnd":	{
-						"x":	0.300000011920929,
-						"y":	0.5
-					},
-					"scaleDelay":	{
-						"x":	0.20000000298023224,
-						"y":	0.300000011920929
-					},
-					"scaleDuration":	{
-						"x":	0.600000023841858,
-						"y":	1
-					},
-					"tPos":	{
-						"x":	0,
-						"y":	1
-					},
-					"tPosMaxAngleDifference":	-180,
-					"yOffset":	{
-						"x":	0,
-						"y":	0
-					},
-					"angleLimit1":	{
-						"x":	-360,
-						"y":	360
-					},
-					"angleLimit2":	{
-						"x":	-360,
-						"y":	360
-					},
-					"rotationRange":	{
-						"x":	-360,
-						"y":	360
-					},
-					"alpha":	{
-						"x":	1,
-						"y":	1
-					},
-					"anchor":	{
-						"x":	0.5,
-						"y":	0.33300000429153442
-					},
-					"followEdgeFactor":	1,
-					"stainLiquidType":	{
-						"liquidType":	4
-					},
-					"stainFactor":	-1,
-					"windFactor":	0,
-					"fitWidthFactor":	0.10000000149011612,
-					"density":	0.600000023841858,
-					"order":	{
 						"value":	2
 					},
-					"sortOffset":	0,
-					"group":	-1,
-					"ignoreEdgeAttribute":	0,
-					"genericProbability":	0
-				}, {
-					"type":	{
-						"value":	9
-					},
 					"images":	[{
-							"imageId":	"IMAGE_DECORATION_NIBBLE1"
+							"imageId":	"IMAGE_DECORATION_BROWN_BACK_GRASS1"
 						}, {
-							"imageId":	"IMAGE_DECORATION_NIBBLE2"
-						}],
-					"selectionWeight":	1,
-					"scaleStart":	{
-						"x":	0,
-						"y":	0
-					},
-					"scaleEnd":	{
-						"x":	0.10000000149011612,
-						"y":	0.10000000149011612
-					},
-					"scaleDelay":	{
-						"x":	0.10000000149011612,
-						"y":	0.5
-					},
-					"scaleDuration":	{
-						"x":	0.20000000298023224,
-						"y":	0.40000000596046448
-					},
-					"tPos":	{
-						"x":	0,
-						"y":	1
-					},
-					"tPosMaxAngleDifference":	-180,
-					"yOffset":	{
-						"x":	-0.035000000149011612,
-						"y":	-0.10000000149011612
-					},
-					"angleLimit1":	{
-						"x":	52,
-						"y":	128
-					},
-					"angleLimit2":	{
-						"x":	-128,
-						"y":	-52
-					},
-					"rotationRange":	{
-						"x":	-360,
-						"y":	360
-					},
-					"alpha":	{
-						"x":	1,
-						"y":	1
-					},
-					"anchor":	{
-						"x":	0,
-						"y":	-0.05000000074505806
-					},
-					"followEdgeFactor":	1,
-					"stainLiquidType":	{
-						"liquidType":	4
-					},
-					"stainFactor":	-1,
-					"windFactor":	0,
-					"fitWidthFactor":	0,
-					"density":	0.10499999672174454,
-					"order":	{
-						"value":	0
-					},
-					"sortOffset":	1,
-					"group":	-1,
-					"ignoreEdgeAttribute":	1,
-					"genericProbability":	0
-				}, {
-					"type":	{
-						"value":	1
-					},
-					"images":	[{
-							"imageId":	"IMAGE_DECORATION_TUFT_GREEN1"
+							"imageId":	"IMAGE_DECORATION_BROWN_BACK_GRASS2"
 						}, {
-							"imageId":	"IMAGE_DECORATION_TUFT_GREEN2"
+							"imageId":	"IMAGE_DECORATION_BROWN_BACK_GRASS3"
 						}, {
-							"imageId":	"IMAGE_DECORATION_TUFT_GREEN3"
+							"imageId":	"IMAGE_DECORATION_BROWN_BACK_GRASS4"
 						}],
 					"selectionWeight":	1,
 					"scaleStart":	{
@@ -26178,8 +25701,8 @@
 					},
 					"tPosMaxAngleDifference":	-180,
 					"yOffset":	{
-						"x":	-0.0900000035762787,
-						"y":	-0.070000000298023224
+						"x":	0,
+						"y":	0
 					},
 					"angleLimit1":	{
 						"x":	-360,
@@ -26199,18 +25722,18 @@
 					},
 					"anchor":	{
 						"x":	0.5,
-						"y":	0.34999999403953552
+						"y":	0.600000023841858
 					},
 					"followEdgeFactor":	1,
 					"stainLiquidType":	{
 						"liquidType":	4
 					},
 					"stainFactor":	-1,
-					"windFactor":	1,
+					"windFactor":	0.75,
 					"fitWidthFactor":	0.33300000429153442,
-					"density":	0.10000000149011612,
+					"density":	0,
 					"order":	{
-						"value":	4
+						"value":	2
 					},
 					"sortOffset":	0,
 					"group":	-1,
