@@ -401,6 +401,13 @@
 		<Image id="DJM_COGRUINS" path="djm334/CogRuins"  />
 		<Image id="DJM_DESTROYEDROBOTARM" path="djm334/DestroyedRobotArm"  />
 		<Image id="DJM_TREEGREEN_NEW" path="djm334/TreeGreen_New"  />
+		<Image id="DJM_AMBERBOULDER" path="djm334/AmberBoulder"  />
+		<Image id="DJM_GIANTSKULL" path="djm334/GiantSkull"  />
+		<Image id="DJM_FROGBOULDER" path="djm334/FrogBoulder"  />
+		<Image id="DJM_VINESTRAIGHTORANGE" path="djm334/VineStraightOrange"  />
+		<Image id="DJM_VINELEAFSORANGE" path="djm334/VineLeafsOrange"  />
+		<Image id="DJM_VINELEAFSORANGE2" path="djm334/VineLeafsOrange2"  />
+		<Image id="DJM_VINELEAFSORANGE3" path="djm334/VineLeafsOrange3"  />
 				<!-- Assets provided by 3GuB -->
 		<Image id="LEVER" path="3GuB/lever"/>
 		<Image id="LEVER_2" path="3GuB/lever_2"/>
