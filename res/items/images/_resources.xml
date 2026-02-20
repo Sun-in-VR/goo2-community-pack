@@ -940,6 +940,8 @@
 		<Image id="BUILDINGS" path="Corporation/buildings"  />
 		<Image id="BROKENGEAR" path="Xowerr/BrokenGear"  />
 		<Image id="FIREBALL" path="Xowerr/Fireball"  />
+		<Image id="OWS_STRUCTURES" path="Xowerr/structures"  />
+
 		<!-- Assets provided by FreakZillA8 -->
 		<Image id="LIGHTSOURCE_WHITE" path="LightSource/WHITE"/>
 		<Image id="LIGHTSOURCE_RED" path="LightSource/RED"/>
