@@ -109,6 +109,8 @@
 		<Image id="NEWSKIES" path="NewSkies"  />
 		<Image id="OWS_BG" path="OtherWorldSkies/bg"  />
 		<Image id="OWS_OVERLAY" path="OtherWorldSkies/overlay_screen"  />
+		<Image id="THUNDER" path="Thunder/thunder"  />
+		<Image id="THUNDER_OVERLAY" path="Thunder/thunder_overlay"  />
 		<!-- Assets by 3GuB -->
 		<Image id="ISLANDMAP1_BG_BLACKWHITE" path="3GuB/IslandMap1_BG_blackwhite"  />
 	</Resources>
