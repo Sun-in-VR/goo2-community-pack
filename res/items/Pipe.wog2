@@ -38,7 +38,7 @@
 			"snapObjectIndex":	0,
 			"destroyForce":	-1,
 			"objects":	[{
-					"name":	"IMAGE_ITEM_PIPE",
+					"name":	"IMAGE_ITEM_A_PIPE",
 					"randomizationGroup":	1,
 					"position":	{
 						"x":	0,

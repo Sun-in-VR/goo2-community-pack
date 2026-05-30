@@ -941,7 +941,7 @@
 		<Image id="BROKENGEAR" path="Xowerr/BrokenGear"  />
 		<Image id="FIREBALL" path="Xowerr/Fireball"  />
 		<Image id="OWS_STRUCTURES" path="Xowerr/structures"  />
-		<Image id="PIPE" path="Xowerr/Pipe"  />
+		<Image id="A_PIPE" path="Xowerr/Pipe"  />
 		<Image id="PIPE_FG" path="Xowerr/Pipe_FG"  />
 		<Image id="PIPE_BG" path="Xowerr/Pipe_BG"  />
 
